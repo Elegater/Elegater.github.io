@@ -54,7 +54,8 @@
                         data: "imageName",
                         render: function (data, type, row, meta) {
                             return '<img src="./Pics/' + data + '"/>'
-                        }
+                        },
+                        orderable: false
                     },
                     { data: "rank" },
                     { data: "apexName" },
@@ -74,7 +75,8 @@
                             else {
                                 return "<span>No video available</span>"
                             }
-                        }
+                        },
+                        orderable: false
                     }
                 ]
             })
