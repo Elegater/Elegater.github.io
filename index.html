@@ -19,11 +19,15 @@
     <!-- DataTables.js -->
     <link rel="stylesheet" href="./Lib/DataTablesJS/datatables.min.css">
     <script src="./Lib/DataTablesJS/datatables.min.js"></script>
+    <link rel="stylesheet" href="./Lib/Buttons-1.5.4/css/buttons.dataTables.min.css">
+    <script src="./Lib/Buttons-1.5.4/js/dataTables.buttons.min.js"></script>
+
 
     <style>
-        body{
+        body {
             background-color: rgb(230, 230, 230);
         }
+
         thead {
             background-color: rgb(0, 101, 189);
             color: white;
@@ -37,7 +41,7 @@
             width: 120px;
         }
 
-        p{
+        p {
             font-weight: 425;
         }
     </style>
@@ -45,8 +49,17 @@
     <script>
         $(document).ready(function () {
 
-            $("#apexTable").dataTable({
+            var table = $("#apexTable").dataTable({
                 data: apexes,
+                dom: "flrtip",
+                buttons: [
+                    {
+                        text: "Reset",
+                        action: function (e, dt, node, config) {
+                            
+                        }
+                    }
+                ],
                 columns: [
                     { data: "id" },
                     { data: "ship" },
@@ -88,6 +101,15 @@
             });
 
             $("input[type=search]")[0].focus();
+
+            $("input[type=search]").after('&nbsp;&nbsp;<button type="button" id="reset">Reset</button>')
+
+            $("#reset").click(function(){
+                $("input[type=search]").val("").trigger("input");
+                // console.log(table);
+                // table.api().draw();
+            })
+
         })
 
     </script>
