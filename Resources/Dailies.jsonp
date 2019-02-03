@@ -1,0 +1,50 @@
+dailies = [
+    {
+        map:"Gau Prime",
+        type:"Shield Laser"
+    },
+    {
+        map:"Zhey Auna",
+        type:"Hull"
+    },
+    {
+        map:"Arcology CQ-6",
+        type:"Armor Bullet Hell"
+    },
+    {
+        map:"Prometheus Array",
+        type:"General Shield"
+    },
+    {
+        map:"Blight, Sector [3,84]",
+        type:"Armor Blight"
+    },
+    {
+        map:"Ceres Major",
+        type:"Armor Bullet Hell"
+    },
+    {
+        map:"Gau Prime",
+        type:"General Shield"
+    },
+    {
+        map:"Zhey Auna",
+        type:"Armor Bullet Hell"
+    },
+    {
+        map:"Arcology CQ-6",
+        type:"Shield Laser"
+    },
+    {
+        map:"Prometheus Array",
+        type:"Hull"
+    },
+    {
+        map:"Ceres Major",
+        type:"General Shield"
+    },
+    {
+        map:"Blight, Sector [3,84]",
+        type:"Armor Blight"
+    }
+]

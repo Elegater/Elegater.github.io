@@ -1,0 +1,3 @@
+#changeLogTable>tr, #changeLogTable>tr>td{
+    border: 1px solid black;
+}

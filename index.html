@@ -11,6 +11,9 @@
     <!-- Importing apex datasource -->
     <script src="./Resources/Apexes.jsonp"></script>
 
+    <!-- Importing dailies datasource -->
+    <script src="./Resources/Dailies.jsonp"></script>
+
     <!-- Bootstrap 4 (popper included) + jQuery -->
     <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
     <script src="./Bootstrap/jquery-3.3.1.min.js"></script>
@@ -19,9 +22,13 @@
     <!-- DataTables.js -->
     <link rel="stylesheet" href="./Lib/DataTablesJS/datatables.min.css">
     <script src="./Lib/DataTablesJS/datatables.min.js"></script>
-    <link rel="stylesheet" href="./Lib/Buttons-1.5.4/css/buttons.dataTables.min.css">
-    <script src="./Lib/Buttons-1.5.4/js/dataTables.buttons.min.js"></script>
 
+    <!-- iziModal -->
+    <link rel="stylesheet" href="./Lib/iziModal-master/css/iziModal.min.css">
+    <script src="./Lib/iziModal-master/js/iziModal.min.js"></script>
+
+    <!-- momentJS -->
+    <script src="./Lib/momentJS/moment.min.js"></script>
 
     <style>
         body {
@@ -44,74 +51,27 @@
         p {
             font-weight: 425;
         }
+
+        .feature{
+            font-weight: bold;
+        }
     </style>
+
+    <!-- Importing CSS for features -->
+    <link rel="stylesheet" href="./Styles/ChangeLog.css">
+    <link rel="stylesheet" href="./Styles/DailiesTracker.css">
+
+    <!-- Importing scripts for features -->
+    <script src="./Scripts/DataTablesSetup.js"></script>
+    <script src="./Scripts/ChangeLogSetup.js"></script>
+    <script src="./Scripts/DailiesTrackerSetup.js"></script>
 
     <script>
         $(document).ready(function () {
-
-            var table = $("#apexTable").dataTable({
-                data: apexes,
-                dom: "flrtip",
-                buttons: [
-                    {
-                        text: "Reset",
-                        action: function (e, dt, node, config) {
-                            
-                        }
-                    }
-                ],
-                columns: [
-                    { data: "id" },
-                    { data: "ship" },
-                    {
-                        data: "imageName",
-                        render: function (data, type, row, meta) {
-                            return '<img src="./Pics/' + data + '"/>'
-                        },
-                        orderable: false
-                    },
-                    { data: "rank" },
-                    { data: "apexName" },
-                    { data: "type" },
-                    { data: "description", searchable: false },
-                    { data: "cost" },
-                    { data: "dps" },
-                    { data: "mainType" },
-                    { data: "aura" },
-                    { data: "zen" },
-                    {
-                        data: "video",
-                        render: function (data, type, row, meta) {
-                            if (data !== "") {
-                                return "<a href='" + data + "'>Video</a>"
-                            }
-                            else {
-                                return "<span>No video available</span>"
-                            }
-                        },
-                        orderable: false
-                    }
-                ]
-            })
-
-            $('#apexTable').on('page.dt', function () {
-                $('html, body').animate({
-                    scrollTop: $('#apexTable').offset().top
-                }, 200);
-            });
-
-            $("input[type=search]")[0].focus();
-
-            $("input[type=search]").after('&nbsp;&nbsp;<button type="button" id="reset">Reset</button>')
-
-            $("#reset").click(function(){
-                $("input[type=search]").val("").trigger("input");
-                // console.log(table);
-                // table.api().draw();
-            })
-
+            dtSetup();
+            changeLogSetup();
+            dailiesTrackerSetup();
         })
-
     </script>
 </head>
 
@@ -131,6 +91,11 @@
             descending order are possible).</p>
 
         <p>Feel free to send any feedback you have to <a href="mailto:p2elegater@gmail.com">p2elegater@gmail.com</a>!</p>
+
+        <h3>
+            Misc Features: <button type="button" id="changeLogButton" class="btn btn-link feature">Change Log</button>
+            <button type="button" id="dailyMission" class="btn btn-link feature">Daily Mission</button>
+        </h3>
 
         <div>
             <table id="apexTable" class="table table-striped table-primary">
@@ -153,6 +118,115 @@
                 </thead>
             </table>
         </div>
+    </div>
+
+
+    <!-- Holding modal content down here -->
+
+    <!-- Change log modal -->
+    <div id="changeLog" style="display: none;">
+        <!-- <h2>Change log</h2> -->
+        <table id="changeLogTable" class="table-bordered">
+            <tr class="changeRow">
+                <th style="width:90px">Date</th>
+                <th>Changes</th>
+            </tr>
+            <tr class="changeRow">
+                <td>3 Feb 2019</td>
+                <td>
+                    <ul>
+                        <li>Added change log</li>
+                        <li>Added daily mission tracker</li>
+                    </ul>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Dailies modal -->
+    <div id="dailies" style="display: none;">
+        <span style="font-weight:500">Times displayed are in your local time</span>
+        <table class="table-striped">
+            <tr class="dailyRow" style="background-color: aliceblue;">
+                <th>Mission No.</th>
+                <th>Start Date/Time</th>
+                <th>Map</th>
+                <th>Mission Type</th>
+            </tr>
+            <tr class="dailyRow" id="dailyRow1" style="background-color: rgb(83, 83, 255); color:white;">
+                <td id="dailyNo1"></td>
+                <td id="dailyDate1"></td>
+                <td id="dailyMap1"></td>
+                <td id="dailyType1"></td>
+            </tr>
+            <tr class="dailyRow" id="dailyRow2">
+                <td id="dailyNo2"></td>
+                <td id="dailyDate2"></td>
+                <td id="dailyMap2"></td>
+                <td id="dailyType2"></td>
+            </tr>
+            <tr class="dailyRow" id="dailyRow3">
+                <td id="dailyNo3"></td>
+                <td id="dailyDate3"></td>
+                <td id="dailyMap3"></td>
+                <td id="dailyType3"></td>
+            </tr>
+            <tr class="dailyRow" id="dailyRow4">
+                <td id="dailyNo4"></td>
+                <td id="dailyDate4"></td>
+                <td id="dailyMap4"></td>
+                <td id="dailyType4"></td>
+            </tr>
+            <tr class="dailyRow" id="dailyRow5">
+                <td id="dailyNo5"></td>
+                <td id="dailyDate5"></td>
+                <td id="dailyMap5"></td>
+                <td id="dailyType5"></td>
+            </tr>
+            <tr class="dailyRow" id="dailyRow6">
+                <td id="dailyNo6"></td>
+                <td id="dailyDate6"></td>
+                <td id="dailyMap6"></td>
+                <td id="dailyType6"></td>
+            </tr>
+            <tr class="dailyRow" id="dailyRow7">
+                <td id="dailyNo7"></td>
+                <td id="dailyDate7"></td>
+                <td id="dailyMap7"></td>
+                <td id="dailyType7"></td>
+            </tr>
+            <tr class="dailyRow" id="dailyRow8">
+                <td id="dailyNo8"></td>
+                <td id="dailyDate8"></td>
+                <td id="dailyMap8"></td>
+                <td id="dailyType8"></td>
+            </tr>
+            <tr class="dailyRow" id="dailyRow9">
+                <td id="dailyNo9"></td>
+                <td id="dailyDate9"></td>
+                <td id="dailyMap9"></td>
+                <td id="dailyType9"></td>
+            </tr>
+            <tr class="dailyRow" id="dailyRow10">
+                <td id="dailyNo10"></td>
+                <td id="dailyDate10"></td>
+                <td id="dailyMap10"></td>
+                <td id="dailyType10"></td>
+            </tr>
+            <tr class="dailyRow" id="dailyRow11">
+                <td id="dailyNo11"></td>
+                <td id="dailyDate11"></td>
+                <td id="dailyMap11"></td>
+                <td id="dailyType11"></td>
+            </tr>
+            <tr class="dailyRow" id="dailyRow12">
+                <td id="dailyNo12"></td>
+                <td id="dailyDate12"></td>
+                <td id="dailyMap12"></td>
+                <td id="dailyType12"></td>
+            </tr>
+        </table>
     </div>
 </body>
 <!-- App Creator: Elegater -->
