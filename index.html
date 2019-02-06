@@ -60,17 +60,20 @@
     <!-- Importing CSS for features -->
     <link rel="stylesheet" href="./Styles/ChangeLog.css">
     <link rel="stylesheet" href="./Styles/DailiesTracker.css">
+    <link rel="stylesheet" href="./Styles/OtherResources.css">
 
     <!-- Importing scripts for features -->
     <script src="./Scripts/DataTablesSetup.js"></script>
     <script src="./Scripts/ChangeLogSetup.js"></script>
     <script src="./Scripts/DailiesTrackerSetup.js"></script>
+    <script src="./Scripts/OtherResourcesSetup.js"></script>
 
     <script>
         $(document).ready(function () {
             dtSetup();
             changeLogSetup();
             dailiesTrackerSetup();
+            otherResourcesSetup();
         })
     </script>
 </head>
@@ -98,6 +101,7 @@
             <br>
             Misc Features:
             <button type="button" id="dailyMission" class="btn btn-link feature">Daily Mission</button>
+            <button type="button" id="otherResources" class="btn btn-link feature">Other Useful Resources</button>
         </h3>
 
         <div>
@@ -140,6 +144,7 @@
                     <ul>
                         <li>Updated descriptions for various apexes with details</li>
                         <li>Updated some video links with videos that better demonstrate the apex's use</li>
+                        <li>Added a section for links to other useful resources</li>
                     </ul>
                 </td>
             </tr>
@@ -239,6 +244,15 @@
                 <td id="dailyType12"></td>
             </tr>
         </table>
+    </div>
+
+    <div id="otherResourcesModal">
+        <ul>
+            <li>
+                <a href="https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704">FBI Light Rock's Guide to
+                    Everything about Phoenix 2</a>
+            </li>
+        </ul>
     </div>
 </body>
 <!-- App Creator: Elegater -->
