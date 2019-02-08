@@ -22,6 +22,8 @@
     <!-- DataTables.js -->
     <link rel="stylesheet" href="./Lib/DataTablesJS/datatables.min.css">
     <script src="./Lib/DataTablesJS/datatables.min.js"></script>
+    <link rel="stylesheet" href="./Lib/Responsive-2.2.2/css/responsive.dataTables.min.css">
+    <script src="./Lib/Responsive-2.2.2/js/dataTables.responsive.min.js"></script>
 
     <!-- iziModal -->
     <link rel="stylesheet" href="./Lib/iziModal-master/css/iziModal.min.css">
@@ -55,6 +57,11 @@
         .feature{
             font-weight: bold;
         }
+
+        .instructions{
+            font-size: 13pt;
+            font-weight:bold;
+        }
     </style>
 
     <!-- Importing CSS for features -->
@@ -70,7 +77,20 @@
 
     <script>
         $(document).ready(function () {
-            dtSetup();
+            var smallScreen = false;
+            var fullYes = window.location.search.includes("full=yes");
+            if ($(window).width() < 1200 && !fullYes) {
+                smallScreen = true;
+            }
+
+            if(fullYes){
+                $(".fullTableScreen").show();
+            }
+            else{
+                $(".defaultTableScreen").show();
+            }
+
+            dtSetup(smallScreen);
             changeLogSetup();
             dailiesTrackerSetup();
             otherResourcesSetup();
@@ -89,12 +109,20 @@
         <p>Credits to <b>Network2501</b> for collating the data for apexes, which can be found at <a href="https://docs.google.com/spreadsheets/d/1DlV0VH3Ie9XjwNgcf9iozsR2szHOeFrnhljCPdxYTQg/edit#gid=0">this
                 Google Sheets</a><br>and <b>FBI Light Rock</b> for all the pictures</p>
 
-        <p style="font-size: 13pt; font-weight:bold;">Instructions: You can search for text in any column using the
+        <p class="instructions">Instructions: You can search for text in any column using the
             search bar (except for descriptions). Click on a column header to sort by that column (both ascending and
             descending order are possible).</p>
 
-        <p>Feel free to send any feedback you have to <a href="mailto:p2elegater@gmail.com">p2elegater@gmail.com</a>!</p>
+        <p class="instructions defaultTableScreen" style="display: none">On smaller screens, some columns may be cut out. Click on the ship name to expand a row to view the hidden columns.</p>
+        <p class="instructions defaultTableScreen" style="display: none">Alternatively, if you'd like to get the full table regardless of screen size, go to <a id="fullSizeLink" href="https://elegater.github.io?full=yes">https://elegater.github.io?full=yes</a> instead (it's a slightly different URL that you can bookmark to access the full size table by default)</p>
 
+        <p class="instructions fullTableScreen" style="display: none">You are currently viewing the version of the page with the table displaying all columns regardless of screen size (which will not entirely fit into smaller screens).</p>
+        <p class="instructions fullTableScreen" style="display: none">If you'd like to view the version that is more compatible for smaller screens, go to <a id="defaultSizeLink" href="https://elegater.github.io/">https://elegater.github.io/</a> instead (it's a slightly different URL that you can bookmark to access the mobile-compatible version by default)</p>
+
+        <p>Feel free to send any feedback you have to <a href="https://docs.google.com/forms/d/e/1FAIpQLSfnedPI92nDOeK1UIH8HbEgwPTMehESflgWjPartcpLRVIkJw/viewform?usp=sf_link">this Google Form</a>!</p>
+
+        
+        <span style="color:red; font-weight: bold">The page is now mobile-compatible!!</span>
         <h3>
             <span class="badge badge-info">Updated 6 Feb 2019</span>
             <button type="button" id="changeLogButton" class="btn btn-link feature">Change Log</button>
@@ -105,17 +133,17 @@
         </h3>
 
         <div>
-            <table id="apexTable" class="table table-striped table-primary">
+            <table id="apexTable" class="table table-striped table-primary" style="width:100%">
                 <thead>
                     <tr>
-                        <th>ID</th>
-                        <th>Ship</th>
+                        <th>Ship (Rank)</th>
                         <th>Image</th>
                         <th>Rank</th>
                         <th>Apex Name</th>
                         <th>Apex Type</th>
                         <th>Description</th>
                         <th>Cost</th>
+                        <th>Ship ID</th>
                         <th>DPS</th>
                         <th>Main Weapon Type</th>
                         <th>Aura</th>
@@ -139,12 +167,22 @@
                 <th>Changes</th>
             </tr>
             <tr class="changeRow">
+                <td>8 Fed 2019</td>
+                <td>
+                    <ul>
+                        <li>
+                            <p class="changeContent">Mobile Compatibility: The table now fits nicely on smaller screens (of any size). The columns that don't fit will be hidden in an expandable area (accessed by clicking on the ship name).</p>
+                            <p class="changeContent">In the event that you still want to access the full size table regardless of screen size, you can use <a href="https://elegater.github.io?full=yes">this link</a> instead (same as the one mentioned in the instructions section).</p></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr class="changeRow">
                 <td>6 Feb 2019</td>
                 <td>
                     <ul>
-                        <li>Updated descriptions for various apexes with details</li>
-                        <li>Updated some video links with videos that better demonstrate the apex's use</li>
-                        <li>Added a section for links to other useful resources</li>
+                        <li class="changeContent">Updated descriptions for various apexes with details</li>
+                        <li class="changeContent">Updated some video links with videos that better demonstrate the apex's use</li>
+                        <li class="changeContent">Added a section for links to other useful resources</li>
                     </ul>
                 </td>
             </tr>
@@ -152,8 +190,8 @@
                 <td>3 Feb 2019</td>
                 <td>
                     <ul>
-                        <li>Added change log</li>
-                        <li>Added daily mission tracker</li>
+                        <li class="changeContent">Added change log</li>
+                        <li class="changeContent">Added daily mission tracker</li>
                     </ul>
 
                 </td>
@@ -248,7 +286,7 @@
 
     <div id="otherResourcesModal">
         <ul>
-            <li>
+            <li class="resourceItem">
                 <a href="https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704">FBI Light Rock's Guide to
                     Everything about Phoenix 2</a>
             </li>

@@ -1,30 +1,55 @@
-function dtSetup() {
+function dtSetup(smallScreen) {
+    var table = buildDatatable(smallScreen);
+
+    // Auto scroll to top of table when changing page
+    $('#apexTable').on('page.dt', function () {
+        $('html, body').animate({
+            scrollTop: $('#apexTable').offset().top
+        }, 200);
+    });
+
+    // Auto focus on search box as soon as page loads
+    $("input[type=search]")[0].focus();
+    // Resets viewport position at top of screen after focusing on search box when loading in
+    $("body")[0].scrollIntoView();
+
+    // Adds the reset button beside the search box (not possible to achieve the intended outcome with datatables' options)
+    $("input[type=search]").after('&nbsp;&nbsp;<button type="button" id="reset">Reset</button>')
+
+    // Click event for reset button, empties the search box and triggers datatable to load
+    $("#reset").click(function () {
+        $("input[type=search]").val("").trigger("input");
+    })
+}
+
+function buildDatatable(smallScreen) {
     var table = $("#apexTable").dataTable({
         data: apexes,
         dom: "flrtip",
-        buttons: [
-            {
-                text: "Reset",
-                action: function (e, dt, node, config) {
-
-                }
-            }
-        ],
+        order: [7, "asc"],
         columns: [
-            { data: "id" },
-            { data: "ship" },
+            {
+                data: "ship",
+                render: function (data, type, row, meta){
+                    // console.log(row);
+                    return "<span>" + row.ship + " (" + row.rank + ")</span>";
+                },
+                responsivePriority: 1
+            },
             {
                 data: "imageName",
                 render: function (data, type, row, meta) {
                     return '<img src="./Pics/' + data + '"/>'
                 },
-                orderable: false
+                orderable: false,
+                responsivePriority: 2
             },
             { data: "rank" },
             { data: "apexName" },
             { data: "type" },
             { data: "description", searchable: false },
             { data: "cost" },
+            { data: "id" },
             { data: "dps" },
             { data: "mainType" },
             { data: "aura" },
@@ -39,26 +64,12 @@ function dtSetup() {
                         return "<span>No video available</span>"
                     }
                 },
-                orderable: false
+                orderable: false,
+                responsivePriority: 3
             }
-        ]
-    })
-
-    // Auto scroll to top of table when changing page
-    $('#apexTable').on('page.dt', function () {
-        $('html, body').animate({
-            scrollTop: $('#apexTable').offset().top
-        }, 200);
+        ],
+        responsive: smallScreen
     });
 
-    // Auto focus on search box as soon as page loads
-    $("input[type=search]")[0].focus();
-
-    // Adds the reset button beside the search box (not possible to achieve the intended outcome with datatables' options)
-    $("input[type=search]").after('&nbsp;&nbsp;<button type="button" id="reset">Reset</button>')
-
-    // Click event for reset button, empties the search box and triggers datatable to load
-    $("#reset").click(function () {
-        $("input[type=search]").val("").trigger("input");
-    })
+    return table;
 }
