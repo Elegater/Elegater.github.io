@@ -3,9 +3,7 @@ function dtSetup(smallScreen) {
 
     // Auto scroll to top of table when changing page
     $('#apexTable').on('page.dt', function () {
-        $('html, body').animate({
-            scrollTop: $('#apexTable').offset().top
-        }, 200);
+        scrollToTable();
     });
 
     // Auto focus on search box as soon as page loads
@@ -14,11 +12,22 @@ function dtSetup(smallScreen) {
     $("body")[0].scrollIntoView();
 
     // Adds the reset button beside the search box (not possible to achieve the intended outcome with datatables' options)
-    $("input[type=search]").after('&nbsp;&nbsp;<button type="button" id="reset">Reset</button>')
+    var searchBox = $("input[type=search]");
+    searchBox
+    .after('&nbsp;&nbsp;<button type="button" id="reset">Reset</button>')
+    .on("keypress", function(e){
+        if(e.keyCode === 13){
+            searchBox.blur();
+            scrollToTable();
+        }
+    });
 
     // Click event for reset button, empties the search box and triggers datatable to load
     $("#reset").click(function () {
-        $("input[type=search]").val("").trigger("input");
+        searchBox
+        .val("")
+        .trigger("input")
+        .focus();
     })
 }
 
@@ -72,4 +81,10 @@ function buildDatatable(smallScreen) {
     });
 
     return table;
+}
+
+function scrollToTable(){
+    $('html, body').animate({
+        scrollTop: $('#apexTable').offset().top
+    }, 200);
 }
