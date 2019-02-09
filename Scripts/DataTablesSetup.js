@@ -41,14 +41,14 @@ function buildDatatable(smallScreen) {
                 data: "ship",
                 render: function (data, type, row, meta){
                     // console.log(row);
-                    return "<span>" + row.ship + " (" + row.rank + ")</span>";
+                    return "<span>" + row.ship + "<br>(" + row.rank + ")</span>";
                 },
                 responsivePriority: 1
             },
             {
                 data: "imageName",
                 render: function (data, type, row, meta) {
-                    return '<img src="./Pics/' + data + '"/>'
+                    return '<img class="apexImg" src="./Pics/' + data + '"/>'
                 },
                 orderable: false,
                 responsivePriority: 2
