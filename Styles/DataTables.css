@@ -4,5 +4,6 @@ thead {
 }
 
 .apexImg{
-    width: 120px;    
+    max-width: 150px;
+    max-height: 180px;
 }

@@ -35,7 +35,7 @@ function buildDatatable(smallScreen) {
     var table = $("#apexTable").dataTable({
         data: apexes,
         dom: "flrtip",
-        order: [7, "asc"],
+        order: [6, "asc"],
         columns: [
             {
                 data: "ship",
@@ -48,12 +48,12 @@ function buildDatatable(smallScreen) {
             {
                 data: "imageName",
                 render: function (data, type, row, meta) {
-                    return '<img class="apexImg" src="./Pics/' + data + '"/>'
+                    return '<div style="text-align: center; width:150px;"><img class="apexImg" src="./Pics/' + data + '"/></div>'
                 },
                 orderable: false,
                 responsivePriority: 2
             },
-            { data: "rank" },
+            // { data: "rank" },
             { data: "apexName" },
             { data: "type" },
             { data: "description", searchable: false },
