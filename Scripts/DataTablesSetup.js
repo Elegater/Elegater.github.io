@@ -40,7 +40,6 @@ function buildDatatable(smallScreen) {
             {
                 data: "ship",
                 render: function (data, type, row, meta){
-                    // console.log(row);
                     return "<span>" + row.ship + "<br>(" + row.rank + ")</span>";
                 },
                 responsivePriority: 1
@@ -48,12 +47,11 @@ function buildDatatable(smallScreen) {
             {
                 data: "imageName",
                 render: function (data, type, row, meta) {
-                    return '<div style="text-align: center; width:150px;"><img class="apexImg" src="./Pics/' + data + '"/></div>'
+                    return '<div style="text-align: center; width:140px;"><img class="apexImg" src="./Pics/' + data + '"/></div>'
                 },
                 orderable: false,
                 responsivePriority: 2
             },
-            // { data: "rank" },
             { data: "apexName" },
             { data: "type" },
             { data: "description", searchable: false },
