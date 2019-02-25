@@ -11,14 +11,14 @@ function dailiesTrackerSetup() {
         $("#dailies").iziModal("open");
     });
 
-    updateTable();
+    updateDailyTable();
 
     $(document).on('opening', '#dailies', function (e) {
-        updateTable();
+        updateDailyTable();
     })
 }
 
-function updateTable() {
+function updateDailyTable() {
     // Setting up dailies listing
     var baseDate = moment.utc([2019, 0, 21, 0]);   // Setting base date on the first element in the dailies array (GP, Laser)
     var currentDateTime = moment.utc();

@@ -1,4 +1,4 @@
-.dailyRow>td, .dailyRow>th{
+.specRow>td, .specRow>th{
     padding: 5px 5px 5px 5px;
     font-weight: bold;
     font-size:10pt;

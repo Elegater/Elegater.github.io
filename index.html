@@ -15,6 +15,9 @@
     <!-- Importing dailies datasource -->
     <script src="./Resources/Dailies.jsonp"></script>
 
+    <!-- Importing specialists datasource -->
+    <script src="./Resources/Specialists.jsonp"></script>
+
     <!-- Bootstrap 4 (popper included) + jQuery -->
     <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
     <script src="./Bootstrap/jquery-3.3.1.min.js"></script>
@@ -61,12 +64,14 @@
     <link rel="stylesheet" href="./Styles/ChangeLog.css">
     <link rel="stylesheet" href="./Styles/DailiesTracker.css">
     <link rel="stylesheet" href="./Styles/OtherResources.css">
+    <link rel="stylesheet" href="./Styles/SpecialistsTracker.css">
 
     <!-- Importing scripts for features -->
     <script src="./Scripts/DataTablesSetup.js"></script>
     <script src="./Scripts/ChangeLogSetup.js"></script>
     <script src="./Scripts/DailiesTrackerSetup.js"></script>
     <script src="./Scripts/OtherResourcesSetup.js"></script>
+    <script src="./Scripts/SpecialistTrackerSetup.js"></script>
 
     <script>
         $(document).ready(function () {
@@ -87,6 +92,7 @@
             changeLogSetup();
             dailiesTrackerSetup();
             otherResourcesSetup();
+            specialistsTrackerSetup();
         })
     </script>
 </head>
@@ -114,13 +120,14 @@
         <p>Feel free to send any feedback you have to <a href="https://docs.google.com/forms/d/e/1FAIpQLSfnedPI92nDOeK1UIH8HbEgwPTMehESflgWjPartcpLRVIkJw/viewform?usp=sf_link">this Google Form</a>!</p>
 
         
-        <span style="color:red; font-weight: bold">Pressing Enter / Return in the search box now scrolls you to the table.</span>
+        <span style="color:red; font-weight: bold">Added specialist mission tracker to Misc Features!</span>
         <h3>
-            <span class="badge badge-info">Updated 21 Feb 2019</span>
+            <span class="badge badge-info">Updated 25 Feb 2019</span>
             <button type="button" id="changeLogButton" class="btn btn-link feature">Change Log</button>
             <br>
             Misc Features:
             <button type="button" id="dailyMission" class="btn btn-link feature">Daily Mission</button>
+            <button type="button" id="specialistMission" class="btn btn-link feature">Specialist Mission</button>
             <button type="button" id="otherResources" class="btn btn-link feature">Other Useful Resources</button>
         </h3>
 
@@ -130,7 +137,6 @@
                     <tr>
                         <th>Ship (Rank)</th>
                         <th>Image</th>
-                        <!-- <th>Rank</th> -->
                         <th>Apex Name</th>
                         <th>Apex Type</th>
                         <th>Description</th>
@@ -157,6 +163,14 @@
             <tr class="changeRow">
                 <th style="width:90px">Date</th>
                 <th>Changes</th>
+            </tr>
+            <tr class="changeRow">
+                <td>25 Feb 2019</td>
+                <td>
+                    <ul>
+                        <li>Added specialist mission tracker.</li>
+                    </ul>
+                </td>
             </tr>
             <tr class="changeRow">
                 <td>
@@ -218,7 +232,7 @@
                 <th>Mission No.</th>
                 <th>Start Date/Time</th>
                 <th>Map</th>
-                <th>Mission Type</th>
+                <th>Invader Type</th>
             </tr>
             <tr class="dailyRow" id="dailyRow1" style="background-color: rgb(83, 83, 255); color:white;">
                 <td id="dailyNo1"></td>
@@ -291,6 +305,60 @@
                 <td id="dailyDate12"></td>
                 <td id="dailyMap12"></td>
                 <td id="dailyType12"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="specialists" style="display: none;">
+        <span style="font-weight:500">Times displayed are in your local time</span>
+        <table class="table-striped">
+            <tr class="dailyRow" style="background-color: aliceblue;">
+                <th>Mission No.</th>
+                <th>Start Date/Time</th>
+                <th>Map (Invader Type)</th>
+                <th>Specialist Type</th>
+            </tr>
+            <tr class="specRow" id="specRow1">
+                <td id="specNo1"></td>
+                <td id="specDate1"></td>
+                <td id="specMapType1"></td>
+                <td id="specMissionType1"></td>
+            </tr>
+            <tr class="specRow" id="specRow2">
+                <td id="specNo2"></td>
+                <td id="specDate2"></td>
+                <td id="specMapType2"></td>
+                <td id="specMissionType2"></td>
+            </tr>
+            <tr class="specRow" id="specRow3">
+                <td id="specNo3"></td>
+                <td id="specDate3"></td>
+                <td id="specMapType3"></td>
+                <td id="specMissionType3"></td>
+            </tr>
+            <tr class="specRow" id="specRow4">
+                <td id="specNo4"></td>
+                <td id="specDate4"></td>
+                <td id="specMapType4"></td>
+                <td id="specMissionType4"></td>
+            </tr>
+            <tr class="specRow" id="specRow5">
+                <td id="specNo5"></td>
+                <td id="specDate5"></td>
+                <td id="specMapType5"></td>
+                <td id="specMissionType5"></td>
+            </tr>
+            <tr class="specRow" id="specRow6">
+                <td id="specNo6"></td>
+                <td id="specDate6"></td>
+                <td id="specMapType6"></td>
+                <td id="specMissionType6"></td>
+            </tr>
+            <tr class="specRow" id="specRow7">
+                <td id="specNo7"></td>
+                <td id="specDate7"></td>
+                <td id="specMapType7"></td>
+                <td id="specMissionType7"></td>
             </tr>
         </table>
     </div>

@@ -7,3 +7,11 @@ thead {
     max-width: 140px;
     max-height: 180px;
 }
+
+.dtr-title{
+    font-weight: bold;
+}
+
+.dtr-data{
+    font-weight: 450;
+}

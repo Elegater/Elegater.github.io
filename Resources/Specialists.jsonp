@@ -1,0 +1,23 @@
+specialists = [
+    {
+        mapType: "Blight, Sector [3,84] (Armor Blight)"
+    },
+    {
+        mapType: "Arcology CQ-6 (Armor)"
+    },
+    {
+        mapType: "Gau Prime (Shield)"
+    },
+    {
+        mapType: "Zhey Auna (Hull)"
+    },
+    {
+        mapType: "Gau Prime (Shield)"
+    },
+    {
+        mapType: "Prometheus Array (Shield)"
+    },
+    {
+        mapType: "Ceres Major (Armor)"
+    }
+]
