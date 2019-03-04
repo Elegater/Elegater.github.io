@@ -2,7 +2,7 @@
     position: fixed;
     z-index: 9;
     right: 20px;
-    bottom: 10px;
+    bottom: 50px;
     font-weight: bold;
     border: 3px solid green;
 }
