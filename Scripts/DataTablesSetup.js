@@ -11,9 +11,12 @@ function dtSetup(smallScreen) {
     // Resets viewport position to top of screen after focusing on search box when loading in
     $("body")[0].scrollIntoView();
 
+    // Giving the DataTables search box an id so it can be easily found elsewhere
+    $("input[type=search]").attr("id", "searchBox");
+
     // Adds the reset button beside the search box (not possible to achieve the intended outcome with datatables' options)
     // Adds event handler to scroll to the table when pressing enter / return in the search box
-    var searchBox = $("input[type=search]");
+    var searchBox = $("#searchBox");
     searchBox
         .after('&nbsp;&nbsp;<button type="button" id="reset">Reset</button>')
         .on("keypress", function (e) {

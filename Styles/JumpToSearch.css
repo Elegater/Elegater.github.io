@@ -1,0 +1,8 @@
+#jumpToSearch{
+    position: fixed;
+    z-index: 9;
+    right: 20px;
+    bottom: 10px;
+    font-weight: bold;
+    border: 3px solid green;
+}

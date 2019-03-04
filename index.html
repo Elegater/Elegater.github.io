@@ -65,6 +65,7 @@
     <link rel="stylesheet" href="./Styles/DailiesTracker.css">
     <link rel="stylesheet" href="./Styles/OtherResources.css">
     <link rel="stylesheet" href="./Styles/SpecialistsTracker.css">
+    <link rel="stylesheet" href="./Styles/JumpToSearch.css">
 
     <!-- Importing scripts for features -->
     <script src="./Scripts/DataTablesSetup.js"></script>
@@ -72,6 +73,7 @@
     <script src="./Scripts/DailiesTrackerSetup.js"></script>
     <script src="./Scripts/OtherResourcesSetup.js"></script>
     <script src="./Scripts/SpecialistTrackerSetup.js"></script>
+    <script src="./Scripts/JumpToSearchSetup.js"></script>
 
     <script>
         $(document).ready(function () {
@@ -93,6 +95,7 @@
             dailiesTrackerSetup();
             otherResourcesSetup();
             specialistsTrackerSetup();
+            jumpToSearchSetup();
         })
     </script>
 </head>
@@ -120,9 +123,9 @@
         <p>Feel free to send any feedback you have to <a href="https://docs.google.com/forms/d/e/1FAIpQLSfnedPI92nDOeK1UIH8HbEgwPTMehESflgWjPartcpLRVIkJw/viewform?usp=sf_link">this Google Form</a>!</p>
 
         
-        <span style="color:red; font-weight: bold">Added specialist mission tracker to Misc Features!</span>
+        <span style="color:red; font-weight: bold">Added a button to jump to the search box from anywhere on the page!</span>
         <h3>
-            <span class="badge badge-info">Updated 25 Feb 2019</span>
+            <span class="badge badge-info">Updated 5 Mar 2019</span>
             <button type="button" id="changeLogButton" class="btn btn-link feature">Change Log</button>
             <br>
             Misc Features:
@@ -130,6 +133,8 @@
             <button type="button" id="specialistMission" class="btn btn-link feature">Specialist Mission</button>
             <button type="button" id="otherResources" class="btn btn-link feature">Other Useful Resources</button>
         </h3>
+
+        <button class="btn btn-info" id="jumpToSearch">Jump to Search</button>
 
         <div>
             <table id="apexTable" class="table table-primary table-striped" style="width:100%">
@@ -155,74 +160,6 @@
 
 
     <!-- Holding modal content down here -->
-
-    <!-- Change log modal -->
-    <div id="changeLog" style="display: none;">
-        <!-- <h2>Change log</h2> -->
-        <table id="changeLogTable" class="table-bordered">
-            <tr class="changeRow">
-                <th style="width:90px">Date</th>
-                <th>Changes</th>
-            </tr>
-            <tr class="changeRow">
-                <td>25 Feb 2019</td>
-                <td>
-                    <ul>
-                        <li>Added specialist mission tracker.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr class="changeRow">
-                <td>
-                    21 Feb 2019
-                </td>
-                <td>
-                    <ul>
-                        <li>Updated ship images to higher quality ones.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr class="changeRow">
-                <td>9 Feb 2019</td>
-                <td>
-                    <ul>
-                        <li class="changeContent">Improved search box functionality. Pressing Enter / Return while typing in the search box will now automatically scroll you to the table. Pressing the reset button will automatically focus on the search box.</li>
-                        <li class="changeContent">Fixed some typos.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr class="changeRow">
-                <td>8 Feb 2019</td>
-                <td>
-                    <ul>
-                        <li>
-                            <p class="changeContent">Mobile Compatibility: The table now fits nicely on smaller screens (of any size). The columns that don't fit will be hidden in an expandable area (accessed by clicking on the ship name).</p>
-                            <p class="changeContent">In the event that you still want to access the full size table regardless of screen size, you can use <a href="https://elegater.github.io?full=yes">this link</a> instead (same as the one mentioned in the instructions section).</p></li>
-                    </ul>
-                </td>
-            </tr>
-            <tr class="changeRow">
-                <td>6 Feb 2019</td>
-                <td>
-                    <ul>
-                        <li class="changeContent">Updated descriptions for various apexes with details</li>
-                        <li class="changeContent">Updated some video links with videos that better demonstrate the apex's use</li>
-                        <li class="changeContent">Added a section for links to other useful resources</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr class="changeRow">
-                <td>3 Feb 2019</td>
-                <td>
-                    <ul>
-                        <li class="changeContent">Added change log</li>
-                        <li class="changeContent">Added daily mission tracker</li>
-                    </ul>
-
-                </td>
-            </tr>
-        </table>
-    </div>
 
     <!-- Dailies modal -->
     <div id="dailies" style="display: none;">
@@ -376,6 +313,82 @@
                 <a href="https://discord.gg/YP5KcFc"><img class="icon" src="./Resources/Discord Icon.jpg" alt=""> Invite to the Phoenix 2 Discord Server</a>
             </li>
         </ul>
+    </div>
+
+    <!-- Change log modal -->
+    <div id="changeLog" style="display: none;">
+        <!-- <h2>Change log</h2> -->
+        <table id="changeLogTable" class="table-bordered">
+            <tr>
+                <th style="width:90px">Date</th>
+                <th>Changes</th>
+            </tr>
+            <tr>
+                <td>5 Mar 2019</td>
+                <td>
+                    <ul>
+                        <li class="changeContent">Added a button to jump to search box. This button will stay fixed at the bottom right of the screen, regardless of where you are on the page.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>25 Feb 2019</td>
+                <td>
+                    <ul>
+                        <li class="changeContent">Added specialist mission tracker.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    21 Feb 2019
+                </td>
+                <td>
+                    <ul>
+                        <li class="changeContent">Updated ship images to higher quality ones.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>9 Feb 2019</td>
+                <td>
+                    <ul>
+                        <li class="changeContent">Improved search box functionality. Pressing Enter / Return while typing in the search box will now automatically scroll you to the table. Pressing the reset button will automatically focus on the search box.</li>
+                        <li class="changeContent">Fixed some typos.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>8 Feb 2019</td>
+                <td>
+                    <ul>
+                        <li>
+                            <p class="changeContent">Mobile Compatibility: The table now fits nicely on smaller screens (of any size). The columns that don't fit will be hidden in an expandable area (accessed by clicking on the ship name).</p>
+                            <p class="changeContent">In the event that you still want to access the full size table regardless of screen size, you can use <a href="https://elegater.github.io?full=yes">this link</a> instead (same as the one mentioned in the instructions section).</p>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>6 Feb 2019</td>
+                <td>
+                    <ul>
+                        <li class="changeContent">Updated descriptions for various apexes with details</li>
+                        <li class="changeContent">Updated some video links with videos that better demonstrate the apex's use</li>
+                        <li class="changeContent">Added a section for links to other useful resources</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>3 Feb 2019</td>
+                <td>
+                    <ul>
+                        <li class="changeContent">Added change log</li>
+                        <li class="changeContent">Added daily mission tracker</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
     </div>
 </body>
 <!-- App Creator: Elegater -->
