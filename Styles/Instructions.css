@@ -1,0 +1,13 @@
+.instructions {
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+#instructionsBtn{
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#instructionsCard>.card-header, #hideInstructionsBtnDiv{
+    text-align: center;
+}

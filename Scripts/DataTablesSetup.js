@@ -36,7 +36,7 @@ function dtSetup(smallScreen) {
 }
 
 function buildDatatable(smallScreen) {
-    var resp = smallScreen ?
+    var resp = smallScreen ?   // Likely to be dropped
         true :
         {
             details: {

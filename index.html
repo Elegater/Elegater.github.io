@@ -5,7 +5,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Apex Search (Phoenix 2, iOS)</title>
-    <meta name="description" content="An information source for Phoenix 2, an iOS game. Apex Search is a convenient tool for looking up information on all the Apex forms in Phoenix 2, as well as basic ship information. Links to useful resources are also available.">
+    <meta name="description"
+        content="An information source for Phoenix 2, an iOS game. Apex Search is a convenient tool for looking up information on all the Apex forms in Phoenix 2, as well as basic ship information. Links to useful resources are also available.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="./Resources/ApexIcon.png">
 
@@ -49,13 +50,12 @@
             font-weight: 425;
         }
 
-        .feature{
+        .feature {
             font-weight: bold;
         }
 
-        .instructions{
-            font-size: 13pt;
-            font-weight:bold;
+        .header {
+            text-decoration: underline;
         }
     </style>
 
@@ -66,6 +66,8 @@
     <link rel="stylesheet" href="./Styles/OtherResources.css">
     <link rel="stylesheet" href="./Styles/SpecialistsTracker.css">
     <link rel="stylesheet" href="./Styles/JumpToSearch.css">
+    <link rel="stylesheet" href="./Styles/Instructions.css">
+    <link rel="stylesheet" href="./Styles/PageOptions.css">
 
     <!-- Importing scripts for features -->
     <script src="./Scripts/DataTablesSetup.js"></script>
@@ -74,28 +76,38 @@
     <script src="./Scripts/OtherResourcesSetup.js"></script>
     <script src="./Scripts/SpecialistTrackerSetup.js"></script>
     <script src="./Scripts/JumpToSearchSetup.js"></script>
+    <script src="./Scripts/InstructionsSetup.js"></script>
+    <script src="./Scripts/PageOptionsSetup.js"></script>
 
     <script>
         $(document).ready(function () {
             var smallScreen = false;
-            var fullYes = window.location.search.includes("full=yes");
+            var queryString = window.location.search;
+            var params = new URLSearchParams(queryString);
+
+            // Whether to use responsive DataTables
+            var fullYes = queryString.includes("full=yes");
             if ($(window).width() < 1200 && !fullYes) {
                 smallScreen = true;
             }
 
-            if(fullYes){
+            if (fullYes) {
                 $(".fullTableScreen").show();
             }
-            else{
+            else {
                 $(".defaultTableScreen").show();
             }
+            // Setting position of the Jump to Search button
+            var btnPosition = params.get("btnPosition");
 
             dtSetup(smallScreen);
             changeLogSetup();
             dailiesTrackerSetup();
             otherResourcesSetup();
             specialistsTrackerSetup();
-            jumpToSearchSetup();
+            jumpToSearchSetup(btnPosition);
+            instructionsSetup();
+            pageOptionsSetup();
         })
     </script>
 </head>
@@ -108,25 +120,50 @@
             <img src="./Resources/ApexIcon.png">
         </div>
         <br>
-        <p>Credits to <b>Network2501</b> for collating the data for apexes, which can be found at <a href="https://docs.google.com/spreadsheets/d/1DlV0VH3Ie9XjwNgcf9iozsR2szHOeFrnhljCPdxYTQg/edit#gid=0">this
+        <p>Credits to <b>Network2501</b> for collating the data for apexes, which can be found at <a
+                href="https://docs.google.com/spreadsheets/d/1DlV0VH3Ie9XjwNgcf9iozsR2szHOeFrnhljCPdxYTQg/edit#gid=0">this
                 Google Sheets</a><br>and <b>FBI Light Rock</b> for all the pictures</p>
 
-        <p class="instructions">Instructions: You can search for text in any column using the
-            search bar (except for descriptions), pressing Enter / Return will scroll you to the table. Click on a column header to sort by that column (both ascending and descending order are possible).</p>
+        <h3><span class="badge badge-info">Updated 7 Apr 2019</span></h3>
+        <span style="color:red; font-weight: bold">Added Page Options to allow you to make some changes to how this site
+                works!</span>
 
-        <p class="instructions defaultTableScreen" style="display: none">On smaller screens, some columns may be cut out. Click on the ship name to expand a row to view the hidden columns.</p>
-        <p class="instructions defaultTableScreen" style="display: none">Alternatively, if you'd like to get the full table regardless of screen size, go to <a id="fullSizeLink" href="https://elegater.github.io?full=yes">https://elegater.github.io?full=yes</a> instead (it's a slightly different URL that you can bookmark to access the full size table by default)</p>
+        <p>
+            <div class="card" id="instructionsCard">
+                <div class="card-header">
+                    <button id="instructionsBtn" class="btn btn-link" data-toggle="collapse"
+                        data-target="#instructionsDiv">Instructions</button>
+                </div>
+                <div id="instructionsDiv" class="collapse">
+                    <div class="card-body">
+                        <h5 class="header">General</h5>
+                        <p class="instructions">You can search for text in any column using the search bar (except for
+                            descriptions), pressing Enter / Return will scroll you to the table. Click on a column
+                            header to sort by that column (both ascending and descending order are possible).</p>
 
-        <p class="instructions fullTableScreen" style="display: none">You are currently viewing the version of the page with the table displaying all columns regardless of screen size (which will not entirely fit into smaller screens).</p>
-        <p class="instructions fullTableScreen" style="display: none">If you'd like to view the version that is more compatible for smaller screens, go to <a id="defaultSizeLink" href="https://elegater.github.io/">https://elegater.github.io/</a> instead (it's a slightly different URL that you can bookmark to access the mobile-compatible version by default)</p>
+                        <h5 class="header">Page Options</h5>
+                        <p class="instructions">
+                            There are several changes you can make to how this site works. Click on "Page Options" to
+                            select the feature options you'd like and it will generate a URL that will enable those
+                            options. Bookmark the generated URL to immediately access this page with those options.
+                        </p>
 
-        <p>Feel free to send any feedback you have to <a href="https://docs.google.com/forms/d/e/1FAIpQLSfnedPI92nDOeK1UIH8HbEgwPTMehESflgWjPartcpLRVIkJw/viewform?usp=sf_link">this Google Form</a>!</p>
+                        <div id="hideInstructionsBtnDiv">
+                            <button id="hideInstructionsBtn" class="btn btn-link" data-toggle="collapse"
+                                data-target="#instructionsDiv">Hide Instructions</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </p>
 
         
-        <span style="color:red; font-weight: bold">Added a button to jump to the search box from anywhere on the page!</span>
         <h3>
-            <span class="badge badge-info">Updated 5 Mar 2019</span>
             <button type="button" id="changeLogButton" class="btn btn-link feature">Change Log</button>
+            <button type="button" id="pageOptionsButton" class="btn btn-link feature">Page Options</button>
+            <a class="feature btn btn-link"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfnedPI92nDOeK1UIH8HbEgwPTMehESflgWjPartcpLRVIkJw/viewform?usp=sf_link">Feedback
+                (Google Form)</a>
             <br>
             Misc Features:
             <button type="button" id="dailyMission" class="btn btn-link feature">Daily Mission</button>
@@ -134,7 +171,7 @@
             <button type="button" id="otherResources" class="btn btn-link feature">Other Useful Resources</button>
         </h3>
 
-        <button class="btn btn-info" id="jumpToSearch">Jump to Search</button>
+        <button class="btn btn-info" id="jumpToSearch" style="bottom:50px; right:20px;">Jump to Search</button>
 
         <div>
             <table id="apexTable" class="table table-primary table-striped" style="width:100%">
@@ -160,6 +197,65 @@
 
 
     <!-- Holding modal content down here -->
+
+    <!-- Page Options modal -->
+    <div id="pageOptions" style="display: none;">
+        <p class="instructions">Select options for the following features then click on the button at the bottom to
+            generate a URL that will allow you to use this page with those options. Click on the header to open up a
+            brief description of what the feature means.</p>
+        <div style="text-align: center;">
+            <button id="optionBtnPosBtn" class="btn btn-link" data-toggle="collapse" data-target="#optionBtnPosDiv">
+                <h5 class="header">Jump to Search Button Position</h5>
+            </button>
+        </div>
+        <div id="optionBtnPosDiv" class="collapse option-info">
+            By default, the Jump to Search button will be fixed at the bottom right. This option lets you pick the
+            corner where it will be positioned.
+        </div>
+
+        <div>
+            <input type="radio" name="optionBtnPos" id="optionBtnPosBR" value="" checked="true">
+            <label for="optionBtnPosBR">Bottom Right (Default)</label>
+        </div>
+        <div>
+            <input type="radio" name="optionBtnPos" id="optionBtnPosTR" value="btnPosition=topRight">
+            <label for="optionBtnPosTR">Top Right</label>
+        </div>
+        <div>
+            <input type="radio" name="optionBtnPos" id="optionBtnPosBL" value="btnPosition=bottomLeft">
+            <label for="optionBtnPosBL">Bottom Left</label>
+        </div>
+        <div>
+            <input type="radio" name="optionBtnPos" id="optionBtnPosTL" value="btnPosition=topLeft">
+            <label for="optionBtnPosTL">Top Left</label>
+        </div>
+
+        <div style="text-align: center;">
+            <button id="optionTableDescBtn" class="btn btn-link" data-toggle="collapse"
+                data-target="#optionTableDescDiv">
+                <h5 class="header">Table Display</h5>
+            </button>
+        </div>
+        <div id="optionTableDescDiv" class="collapse option-info">
+            By default, the table's number of displayed columns will vary with screen size. Setting this to Full Table will
+            make it
+            display the entire table regardless of screen size.
+        </div>
+        <div>
+            <input type="radio" name="optionTable" id="optionTableResp" value="" checked="true">
+            <label for="optionTableResp">Mobile-Compatible (Default)</label>
+        </div>
+        <div>
+            <input type="radio" name="optionTable" id="optionTableFull" value="full=yes">
+            <label for="optionTableFull">Full Table</label>
+        </div>
+
+        <h4 class="header">Generated URL</h4>
+        <p style="min-height: 30px; border:1px solid silver;">
+            <a href="" id="builtLink" style="display:none;"></a>
+        </p>
+        <button class="btn btn-primary" id="btnBuildLink">Build URL</button>
+    </div>
 
     <!-- Dailies modal -->
     <div id="dailies" style="display: none;">
@@ -307,12 +403,18 @@
                     Everything about Phoenix 2</a>
             </li>
             <li class="resourceItem">
-                <a href="https://www.reddit.com/r/Phoenix_2/"><img class="icon" src="./Resources/Reddit Icon.jpg" alt=""> Phoenix 2 Subreddit</a>
+                <a href="https://www.reddit.com/r/Phoenix_2/"><img class="icon" src="./Resources/Reddit Icon.jpg"
+                        alt=""> Phoenix 2 Subreddit</a>
             </li>
             <li class="resourceItem">
-                <a href="https://discord.gg/YP5KcFc"><img class="icon" src="./Resources/Discord Icon.jpg" alt=""> Invite to the Phoenix 2 Discord Server</a>
+                <a href="https://discord.gg/YP5KcFc"><img class="icon" src="./Resources/Discord Icon.jpg" alt=""> Invite
+                    to the Phoenix 2 Discord Server</a>
             </li>
         </ul>
+    </div>
+
+    <div id="linkBuilderModal" style="display: none;">
+
     </div>
 
     <!-- Change log modal -->
@@ -324,10 +426,23 @@
                 <th>Changes</th>
             </tr>
             <tr>
+                <td>7 Apr 2019</td>
+                <td>
+                    <ul>
+                        <li class="changeContent">Added Page Options for selecting feature options on this page. Use it
+                            to build a URL which you can bookmark to directly access your desired features for this
+                            page.</li>
+                        <li class="changeContent">Updated information and video links for many apexes.</li>
+                        <li class="changeContent">Collapsed instructions into an expandable box to reduce page clutter.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
                 <td>5 Mar 2019</td>
                 <td>
                     <ul>
-                        <li class="changeContent">Added a button to jump to search box. This button will stay fixed at the bottom right of the screen, regardless of where you are on the page.</li>
+                        <li class="changeContent">Added a button to jump to search box. This button will stay fixed at
+                            the bottom right of the screen, regardless of where you are on the page.</li>
                     </ul>
                 </td>
             </tr>
@@ -353,7 +468,9 @@
                 <td>9 Feb 2019</td>
                 <td>
                     <ul>
-                        <li class="changeContent">Improved search box functionality. Pressing Enter / Return while typing in the search box will now automatically scroll you to the table. Pressing the reset button will automatically focus on the search box.</li>
+                        <li class="changeContent">Improved search box functionality. Pressing Enter / Return while
+                            typing in the search box will now automatically scroll you to the table. Pressing the reset
+                            button will automatically focus on the search box.</li>
                         <li class="changeContent">Fixed some typos.</li>
                     </ul>
                 </td>
@@ -363,8 +480,13 @@
                 <td>
                     <ul>
                         <li>
-                            <p class="changeContent">Mobile Compatibility: The table now fits nicely on smaller screens (of any size). The columns that don't fit will be hidden in an expandable area (accessed by clicking on the ship name).</p>
-                            <p class="changeContent">In the event that you still want to access the full size table regardless of screen size, you can use <a href="https://elegater.github.io?full=yes">this link</a> instead (same as the one mentioned in the instructions section).</p>
+                            <p class="changeContent">Mobile Compatibility: The table now fits nicely on smaller screens
+                                (of any size). The columns that don't fit will be hidden in an expandable area (accessed
+                                by clicking on the ship name).</p>
+                            <p class="changeContent">In the event that you still want to access the full size table
+                                regardless of screen size, you can use <a
+                                    href="https://elegater.github.io?full=yes">this link</a> instead (same as the one
+                                mentioned in the instructions section).</p>
                         </li>
                     </ul>
                 </td>
@@ -374,7 +496,8 @@
                 <td>
                     <ul>
                         <li class="changeContent">Updated descriptions for various apexes with details</li>
-                        <li class="changeContent">Updated some video links with videos that better demonstrate the apex's use</li>
+                        <li class="changeContent">Updated some video links with videos that better demonstrate the
+                            apex's use</li>
                         <li class="changeContent">Added a section for links to other useful resources</li>
                     </ul>
                 </td>
