@@ -6,6 +6,7 @@
 #instructionsBtn{
     font-size: 14pt;
     font-weight: bold;
+    width: 100%;
 }
 
 #instructionsCard>.card-header, #hideInstructionsBtnDiv{
