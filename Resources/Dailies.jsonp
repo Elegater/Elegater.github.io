@@ -1,13 +1,5 @@
 dailies = [
     {
-        map:"Gau Prime",
-        type:"Shield Laser"
-    },
-    {
-        map:"Zhey Auna",
-        type:"Hull"
-    },
-    {
         map:"Arcology CQ-6",
         type:"Armor Bullet Hell"
     },
@@ -46,5 +38,13 @@ dailies = [
     {
         map:"Blight, Sector [3,84]",
         type:"Armor Blight"
+    },
+    {
+        map:"Gau Prime",
+        type:"Shield Laser"
+    },
+    {
+        map:"Zhey Auna",
+        type:"Hull"
     }
 ]
