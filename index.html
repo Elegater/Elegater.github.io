@@ -259,11 +259,12 @@
 
     <!-- Dailies modal -->
     <div id="dailies" style="display: none;">
-        <span style="font-weight:500">Times displayed are in your local time</span>
+        <span style="font-weight:500">Dates and times displayed are in your local time</span>
+        <p style="font-weight:500">Reset time: <span id="resetTimeDaily"></span> (Your local time)</p>
         <table class="table-striped">
             <tr class="dailyRow" style="background-color: aliceblue;">
                 <th>Mission No.</th>
-                <th>Start Date/Time</th>
+                <th>Date</th>
                 <th>Map</th>
                 <th>Invader Type</th>
             </tr>
@@ -339,15 +340,28 @@
                 <td id="dailyMap12"></td>
                 <td id="dailyType12"></td>
             </tr>
+            <tr class="dailyRow" id="dailyRow13">
+                <td id="dailyNo13"></td>
+                <td id="dailyDate13"></td>
+                <td id="dailyMap13"></td>
+                <td id="dailyType13"></td>
+            </tr>
+            <tr class="dailyRow" id="dailyRow14">
+                <td id="dailyNo14"></td>
+                <td id="dailyDate14"></td>
+                <td id="dailyMap14"></td>
+                <td id="dailyType14"></td>
+            </tr>
         </table>
     </div>
 
     <div id="specialists" style="display: none;">
-        <span style="font-weight:500">Times displayed are in your local time</span>
+        <span style="font-weight:500">Dates and times displayed are in your local time</span>
+        <p style="font-weight:500">Reset time: <span id="resetTimeSpec"></span> (Your local time)</p>
         <table class="table-striped">
             <tr class="dailyRow" style="background-color: aliceblue;">
                 <th>Mission No.</th>
-                <th>Start Date/Time</th>
+                <th>Date</th>
                 <th>Map (Invader Type)</th>
                 <th>Specialist Type</th>
             </tr>

@@ -30,6 +30,10 @@ function updateDailyTable() {
         dailiesImport.push(dailiesImport.shift());
     }
 
+    // Setting reset time
+    var resetTime = moment.utc().startOf("date").local().format("h:mm A");
+    $("#resetTimeDaily").html(resetTime);
+
     // Calculating mission numbers to display
     var baseMissionNo = 1234;
     var todayMissionNo = baseMissionNo + daysSinceBase;
@@ -38,7 +42,7 @@ function updateDailyTable() {
         var row = i + 1;
         var rowDate = moment.utc().startOf("date").local().add(i, "days");
         $("#dailyNo" + row).html("#" + (todayMissionNo + i));
-        $("#dailyDate" + row).html(rowDate.format("D MMM h:mmA"));
+        $("#dailyDate" + row).html(rowDate.format("D MMM"));
         $("#dailyMap" + row).html(dailiesImport[i].map);
         $("#dailyType" + row).html(dailiesImport[i].type);
     }

@@ -1,35 +1,43 @@
 dailies = [
     {
         map:"Arcology CQ-6",
-        type:"Armor Bullet Hell"
+        type:"Armor Shuriken / MIRV"
     },
     {
         map:"Prometheus Array",
         type:"General Shield"
     },
     {
+        map:"Dovacoon Forge",
+        type:"Hull Doomerang"
+    },
+    {
         map:"Blight, Sector [3,84]",
-        type:"Armor Blight"
+        type:"Armor General"
     },
     {
         map:"Ceres Major",
-        type:"Armor Bullet Hell"
+        type:"Armor Shuriken / MIRV"
     },
     {
         map:"Gau Prime",
-        type:"General Shield"
+        type:"Shield General"
     },
     {
         map:"Zhey Auna",
-        type:"Armor Bullet Hell"
+        type:"Armor Shuriken / MIRV"
+    },
+    {
+        map:"Prometheus Array",
+        type:"Hull Laser"
     },
     {
         map:"Arcology CQ-6",
         type:"Shield Laser"
     },
     {
-        map:"Prometheus Array",
-        type:"Hull"
+        map:"Dovacoon Forge",
+        type:"Armor Doomerang"
     },
     {
         map:"Ceres Major",
@@ -37,7 +45,7 @@ dailies = [
     },
     {
         map:"Blight, Sector [3,84]",
-        type:"Armor Blight"
+        type:"Hull Laser"
     },
     {
         map:"Gau Prime",
@@ -45,6 +53,6 @@ dailies = [
     },
     {
         map:"Zhey Auna",
-        type:"Hull"
+        type:"Hull Laser"
     }
 ]

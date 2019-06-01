@@ -34,6 +34,10 @@ function updateSpecialistTable(){
     for(var k = 0; k < missionToPick; k++){
         specialistsImport.push(specialistsImport.shift())
     }
+
+    // Setting reset time
+    var resetTime = moment.utc().startOf("date").local().format("h:mm A");
+    $("#resetTimeSpec").html(resetTime);
     
     // Calculating mission numbers to display
     var baseMissionNo = 326;
@@ -52,7 +56,7 @@ function updateSpecialistTable(){
 
     // Setting up array of mission dates to display
     var missionDates = [
-        currentMissionDate.local().format("D MMM h:mmA")
+        currentMissionDate.local().format("D MMM")
     ];
     // Setting up the adders used to create the array of dates
     var firstAdder = null;
@@ -67,8 +71,8 @@ function updateSpecialistTable(){
     }
     for(var j = 0; j < 3; j++){
         // Odd index elements in the array are either 2 or 5 days (in terms of day of week) after current mission's start date depending on whether current mission is the weekday mission. Even index elements are always the same day of week as current mission date.
-        missionDates.push(currentMissionDate.add(firstAdder, "d").local().format("D MMM h:mmA"));
-        missionDates.push(currentMissionDate.add(secondAdder, "d").local().format("D MMM h:mmA"));
+        missionDates.push(currentMissionDate.add(firstAdder, "d").local().format("D MMM"));
+        missionDates.push(currentMissionDate.add(secondAdder, "d").local().format("D MMM"));
     }
 
     // Working out the specialist type

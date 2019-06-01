@@ -1,6 +1,6 @@
 specialists = [
     {
-        mapType: "Blight, Sector [3,84] (Armor Blight)"
+        mapType: "Blight, Sector [3,84] (Armor General)"
     },
     {
         mapType: "Arcology CQ-6 (Armor)"
