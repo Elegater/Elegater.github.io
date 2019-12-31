@@ -26,12 +26,11 @@ function dtSetup(smallScreen) {
             }
         });
 
+    setUpAdvancedSearch(table);
+
     // Click event for reset button, empties the search box and triggers datatable to load
     $("#reset").click(function () {
-        searchBox
-            .val("")
-            .trigger("input")
-            .focus();
+        resetSearch();
     })
 }
 
@@ -49,10 +48,11 @@ function buildDatatable(smallScreen) {
             }
         };
 
-    var table = $("#apexTable").dataTable({
+    var table = $("#apexTable").DataTable({
         data: apexes,
-        dom: "flrtip",
+        dom: '<"#filterArea"f>lrtip',
         order: [6, "asc"],
+        lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
         columns: [
             {
                 data: "ship",
@@ -94,12 +94,81 @@ function buildDatatable(smallScreen) {
         ],
         responsive: smallScreen
     });
-
+    
     return table;
+}
+
+function setUpAdvancedSearch(table){
+    // Removing float property from the default search box to set up the Advanced Search collapsible
+    $("#apexTable_filter").css("float", "none");
+    $("#filterArea").css("text-align", "right");
+    $("#apexTable_filter").after("<div id='advancedSearch'></div>");
+    $("#advancedSearch").css("text-align", "right");
+    $("#advancedSearch").append('<button id="advancedSearchBtn" class="btn btn-link" data-toggle="collapse" data-target="#advancedSearchOptions" style="font-weight:bold;">Advanced Search</button>');
+    $("#advancedSearch").append("<div class='collapse' id='advancedSearchOptions'></div>");
+
+    // Creating Main Weapon Type drop down list
+    $("#advancedSearchOptions").append("<div style='padding:5px 0px'>Main Type: <select class='advSearch' id='main'></select></div>");
+    $("select#main").append("<option value=''>Any</option>");
+    $("select#main").append("<option value='Armor Piercing'>Armor Piercing</option>");
+    $("select#main").append("<option value='Shield Breaker'>Shield Breaker</option>");
+    $("select#main").append("<option value='High Impact'>High Impact</option>");
+
+    // Creating Aura drop down list
+    $("#advancedSearchOptions").append("<div style='padding:5px 0px'>Aura: <select class='advSearch' id='aura'></select></div>");
+    $("select#aura").append("<option value=''>Any</option>");
+    $("select#aura").append("<option value='Barrier'>Barrier</option>");
+    $("select#aura").append("<option value='Blade Storm'>Blade Storm</option>");
+    $("select#aura").append("<option value='Bullet EMP'>Bullet EMP</option>");
+    $("select#aura").append("<option value='Chrono Field'>Chrono Field</option>");
+    $("select#aura").append("<option value='Goliath Missile'>Goliath Missile</option>");
+    $("select#aura").append("<option value='Ion Cannon'>Ion Cannon</option>");
+    $("select#aura").append("<option value='Laser Storm'>Laser Storm</option>");
+    $("select#aura").append("<option value='Missile Swarm'>Missile Swarm</option>");
+    $("select#aura").append("<option value='Phalanx'>Phalanx</option>");
+    $("select#aura").append("<option value='Point Defense'>Point Defense</option>");
+    $("select#aura").append("<option value='Stun EMP'>Stun EMP</option>");
+    $("select#aura").append("<option value='Vorpal Lance'>Vorpal Lance</option>");
+    
+    // Creating Zen drop down list
+    $("#advancedSearchOptions").append("<div style='padding:5px 0px 10px 0px'>Zen: <select class='advSearch' id='zen'></select><br/></div>");
+    $("select#zen").append("<option value=''>Any</option>");
+    $("select#zen").append("<option value='Focus Lance'>Focus Lance</option>");
+    $("select#zen").append("<option value='Kappa Drive'>Kappa Drive</option>");
+    $("select#zen").append("<option value='Mega Laser'>Mega Laser</option>");
+    $("select#zen").append("<option value='Mega Bomb'>Mega Bomb</option>");
+    $("select#zen").append("<option value='Personal Shield'>Personal Shield</option>");
+    $("select#zen").append("<option value='Reflex EMP'>Reflex EMP</option>");
+    $("select#zen").append("<option value='Teleport'>Teleport</option>");
+    $("select#zen").append("<option value='Tracking Minigun'>Tracking Minigun</option>");
+    $("select#zen").append("<option value='Trinity Teleport'>Trinity Teleport</option>");
+
+    // Setting up the drop down lists' search function
+    $("select.advSearch").change(function(){        
+        table
+        .columns(8)
+        .search($("select#main").val())
+        .columns(9)
+        .search($("select#aura").val())
+        .columns(10)
+        .search($("select#zen").val())
+        .draw();
+    });
 }
 
 function scrollToTable() {
     $('html, body').animate({
         scrollTop: $('#apexTable').offset().top
     }, 200);
+}
+
+function resetSearch(){
+    // Reset advanced search fields
+    $("select.advSearch").val("");
+    $("#apexTable").dataTable().api().columns().search("").draw();
+    // Reset search box
+    $("#searchBox")
+        .val("")
+        .trigger("input")
+        .focus();
 }

@@ -5,10 +5,7 @@ function jumpToSearchSetup(btnPosition) {
             scrollTop: $('#searchBox').offset().top
         }, 200);
 
-        $('#searchBox')
-            .val("")
-            .trigger("input")
-            .focus();
+        resetSearch();    // Function in DataTablesSetup.js
     });
 
     // Setting up button position
