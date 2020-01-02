@@ -131,7 +131,7 @@ function setUpAdvancedSearch(table){
     $("select#aura").append("<option value='Vorpal Lance'>Vorpal Lance</option>");
     
     // Creating Zen drop down list
-    $("#advancedSearchOptions").append("<div style='padding:5px 0px 10px 0px'>Zen: <select class='advSearch' id='zen'></select><br/></div>");
+    $("#advancedSearchOptions").append("<div style='padding:5px 0px'>Zen: <select class='advSearch' id='zen'></select></div>");
     $("select#zen").append("<option value=''>Any</option>");
     $("select#zen").append("<option value='Focus Lance'>Focus Lance</option>");
     $("select#zen").append("<option value='Kappa Drive'>Kappa Drive</option>");
@@ -143,6 +143,20 @@ function setUpAdvancedSearch(table){
     $("select#zen").append("<option value='Tracking Minigun'>Tracking Minigun</option>");
     $("select#zen").append("<option value='Trinity Teleport'>Trinity Teleport</option>");
 
+    // Creating Apex Rank drop down list
+    $("#advancedSearchOptions").append("<div style='padding:5px 0px 10px 0px'>Apex Rank: <select class='advSearch' id='rank'></select><br/></div>");
+    $("select#rank").append("<option value=''>Any</option>");
+    $("select#rank").append("<option value='Alpha'>Alpha</option>");
+    $("select#rank").append("<option value='Beta'>Beta</option>");
+    $("select#rank").append("<option value='Gamma'>Gamma</option>");
+    $("select#rank").append("<option value='Delta'>Delta</option>");
+    $("select#rank").append("<option value='Epsilon'>Epsilon</option>");
+    $("select#rank").append("<option value='Lambda'>Lambda</option>");
+    $("select#rank").append("<option value='Sigma'>Sigma</option>");
+    $("select#rank").append("<option value='Tau'>Tau</option>");
+    $("select#rank").append("<option value='Phi'>Phi</option>");
+    $("select#rank").append("<option value='Omega'>Omega</option>");
+
     // Setting up the drop down lists' search function
     $("select.advSearch").change(function(){        
         table
@@ -152,6 +166,8 @@ function setUpAdvancedSearch(table){
         .search($("select#aura").val())
         .columns(10)
         .search($("select#zen").val())
+        .columns(0)
+        .search($("select#rank").val())
         .draw();
     });
 }
