@@ -32,7 +32,7 @@ dailies = [
     {
         id: 7,
         map:"Prometheus Array",
-        type:"Hull MIRV spam"
+        type:"Hull MIRV spam w/ MIRV sparrows"
     },
     {
         id: 8,
@@ -42,7 +42,7 @@ dailies = [
     {
         id: 9,
         map:"Dovacoon Forge",
-        type:"Hull Doomerang"
+        type:"Hull Doomerang w/ MIRV sparrows"
     },
     {
         id: 10,
