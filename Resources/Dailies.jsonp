@@ -2,106 +2,106 @@ dailies = [
     {
         id: 1,
         map:"Prometheus Array",
-        type:"Shield Doomerang"
+        type:"Shield General"
     },
     {
         id: 2,
         map:"Dovacoon Forge",
-        type:"Armour Doomerang"
+        type:"Armor General/Boomerang"
     },
     {
         id: 3,
         map:"Blight, Sector [3,84]",
-        type:"Armour General-Laser"
+        type:"Armor Laser/Dart"
     },
     {
         id: 4,
         map:"Ceres Major",
-        type:"Shield Doomerang w/ MIRV sparrows"
+        type:"Shield General w/ MIRV sparrows"
     },
     {
         id: 5,
         map:"Gau Prime",
-        type:"Shield General"
+        type:"Shield General/Dart"
     },
     {
         id: 6,
         map:"Zhey Auna",
-        type:"Fake Armour Laser"
+        type:"Armor Pellet/Shuriken/Laser"
     },
     {
         id: 7,
         map:"Prometheus Array",
-        type:"Hull MIRV spam w/ MIRV sparrows"
+        type:"Unprotected MIRV/Shuriken w/ MIRV sparrows"
     },
     {
         id: 8,
         map:"Arcology CQ-6",
-        type:"Shield General"
+        type:"Shield General/Dart"
     },
     {
         id: 9,
         map:"Dovacoon Forge",
-        type:"Hull Doomerang w/ MIRV sparrows"
+        type:"Unprotected General/Boomerang w/ MIRV sparrows"
     },
     {
         id: 10,
         map:"Ceres Major",
-        type:"Armour MIRV spam"
+        type:"Armor MIRV/Shuriken"
     },
     {
         id: 11,
         map:"Blight, Sector [3,84]",
-        type:"Armour Laser"
+        type:"Armor Laser/Pellet"
     },
     {
         id: 12,
         map:"Gau Prime",
-        type:"Shield General-Laser"
+        type:"Shield Laser/Dart"
     },
     {
         id: 13,
         map:"Arcology CQ-6",
-        type:"Fake Armour Laser w/MIRV sparrows"
+        type:"Armor Pellet/Shuriken/Laser w/ MIRV sparrows"
     },
     {
         id: 14,
         map:"Ceres Major",
-        type:"Shield MIRV spam"
+        type:"Shield MIRV/Shuriken"
     },
     {
         id: 15,
         map:"Zhey Auna",
-        type:"Hull Doomerang"
+        type:"Unprotected General/Boomerang"
     },
     {
         id: 16,
         map:"Dovacoon Forge",
-        type:"Armour Doomerang"
+        type:"Armor General/Boomerang"
     },
     {
         id: 17,
         map:"Blight, Sector [3,84]",
-        type:"Hull General-Laser"
+        type:"Unprotected Laser/Dart"
     },
     {
         id: 18,
         map:"Prometheus Array",
-        type:"Fake Shield Laser w/MIRV sparrows"
+        type:"Shield Pellet/Shuriken/Laser w/ MIRV sparrows"
     },
     {
         id: 19,
         map:"Gau Prime",
-        type:"Shield Laser"
+        type:"Shield Laser/Pellet"
     },
     {
         id: 20,
         map:"Zhey Auna",
-        type:"Hull Doomerang"
+        type:"Unprotected General/Boomerang"
     },
     {
         id: 21,
         map:"Arcology CQ-6",
-        type:"Fake Armour Laser w/MIRV sparrows"
+        type:"Armor Pellet/Shuriken/Laser w/ MIRV sparrows"
     }
 ]
