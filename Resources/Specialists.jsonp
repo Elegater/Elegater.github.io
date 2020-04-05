@@ -1,23 +1,23 @@
 specialists = [
     {
-        mapType: "Blight, Sector [3,84] (Armor General/Dart)"
+        mapType: "Blight, Sector [3,84] (Armor General / Dart)"
     },
     {
-        mapType: "Arcology CQ-6 (Armor General/Boomerang)"
+        mapType: "Arcology CQ-6 (Armor General / Boomerang)"
     },
     {
-        mapType: "Gau Prime (Shield General/Dart)"
+        mapType: "Gau Prime (Shield General / Dart)"
     },
     {
-        mapType: "Zhey Auna (Unprotected General/Boomerang)"
+        mapType: "Zhey Auna (Unprotected General / Boomerang)"
     },
     {
-        mapType: "Gau Prime (Shield General/Dart)"
+        mapType: "Gau Prime (Shield General / Dart)"
     },
     {
         mapType: "Prometheus Array (Shield General)"
     },
     {
-        mapType: "Ceres Major (Armor General/Boomerang)"
+        mapType: "Ceres Major (Armor General / Boomerang)"
     }
 ]
