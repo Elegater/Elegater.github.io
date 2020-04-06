@@ -11,6 +11,11 @@ function dailiesTrackerSetup() {
         $("#dailies").iziModal("open");
     });
 
+    var smallScreen = $(window).width() < 800;
+    if(smallScreen){
+        $(".dailyRow>td,.dailyRow>th").css("font-size", "8pt");
+    }
+
     updateDailyTable();
 
     $(document).on('opening', '#dailies', function (e) {

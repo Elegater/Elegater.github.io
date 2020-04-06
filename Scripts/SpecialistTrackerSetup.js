@@ -11,6 +11,11 @@ function specialistsTrackerSetup(){
         $("#specialists").iziModal("open");
     });
 
+    var smallScreen = $(window).width() < 800;
+    if(smallScreen){
+        $(".specRow>td,.specRow>th").css("font-size", "8pt");
+    }
+
     updateSpecialistTable();
 
     $(document).on('opening', '#specialists', function (e) {
