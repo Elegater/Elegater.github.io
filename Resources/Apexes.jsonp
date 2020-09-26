@@ -1895,7 +1895,7 @@ apexes =[
       "rank":"Delta",
       "apexName":"Darkfire Blast",
       "type":"Zen",
-      "description":"The Darkfire shot upon Teleport arrival now deals Blast damage. (Blast damage is Armor Piercing if the darkfire shot hits the cockpit of armored invaders)",
+      "description":"The Darkfire shot upon Teleport arrival now deals Blast damage",
       "cost":"20,000",
       "dps":"31.25",
       "mainType":"Armor Piercing",
