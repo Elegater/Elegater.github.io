@@ -2739,7 +2739,7 @@ apexes =[
       "cost":"25,000",
       "dps":"31.25",
       "mainType":"High Impact",
-      "aura":"Goliath Missle",
+      "aura":"Goliath Missile",
       "zen":"Personal Shield",
       "video":"https://youtu.be/MEobMFpmXjY",
       "imageName":"Centurion Epsilon.png"
@@ -2750,11 +2750,11 @@ apexes =[
       "rank":"Tau",
       "apexName":"Tungsten Warhead",
       "type":"Aura",
-      "description":"The Tungsten Goliath Missle pierces armor and deals more damage",
+      "description":"The Tungsten Goliath Missile pierces armor and deals more damage",
       "cost":"40,000",
       "dps":"31.25",
       "mainType":"High Impact",
-      "aura":"Goliath Missle",
+      "aura":"Goliath Missile",
       "zen":"Personal Shield",
       "video":"https://youtu.be/Hdhsrx-84hA",
       "imageName":"Centurion Tau.png"
@@ -2799,7 +2799,7 @@ apexes =[
       "cost":"30,000",
       "dps":"31.25",
       "mainType":"Armor Piercing",
-      "aura":"Goliath Missle",
+      "aura":"Goliath Missile",
       "zen":"Mega Bomb",
       "video":"",
       "imageName":"Mistral Lambda.png"
@@ -2814,7 +2814,7 @@ apexes =[
       "cost":"40,000",
       "dps":"31.25",
       "mainType":"Armor Piercing",
-      "aura":"Goliath Missle",
+      "aura":"Goliath Missile",
       "zen":"Mega Bomb",
       "video":"",
       "imageName":"Mistral Tau.png"
