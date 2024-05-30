@@ -57,7 +57,7 @@ dailies = [
     {
         id: 12,
         map:"Dovacoon Forge | (Spec) | Blight, Sector[3,84]",
-        type:"Armored, Dart/Boomerang/Pellet | (Spec) | Armored, Laser/Shuriken"
+        type:"Armored, Dart/Boomerang/Pellet | (Spec) | Unprotected, Laser/Shuriken"
     },
     {
         id: 13,
