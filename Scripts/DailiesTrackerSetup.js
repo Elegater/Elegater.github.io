@@ -25,7 +25,7 @@ function dailiesTrackerSetup() {
 
 function updateDailyTable() {
     // Setting up dailies listing
-    var baseDate = moment.utc([2024, 2, 9, 0]);   // Setting base date on the first element in the dailies array. [y, m, d, h]: only m is zero based;
+    var baseDate = moment.utc([2024, 2, 10, 0]);   // Setting base date on the first element in the dailies array. [y, m, d, h]: only m is zero based;
     
     var currentDateTime = moment.utc();
     var daysSinceBase = currentDateTime.diff(baseDate, "days");
@@ -41,7 +41,7 @@ function updateDailyTable() {
     $("#resetTimeDaily").html(resetTime);
 
     // Calculating mission numbers to display
-    var baseMissionNo = 2990;
+    var baseMissionNo = 2961;
     var todayMissionNo = baseMissionNo + daysSinceBase;
 
     for (var i = 0; i < dailies.length; i++) {
