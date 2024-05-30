@@ -41,7 +41,7 @@ function updateDailyTable() {
     $("#resetTimeDaily").html(resetTime);
 
     // Calculating mission numbers to display
-    var baseMissionNo = 2960;
+    var baseMissionNo = 2970;
     var todayMissionNo = baseMissionNo + daysSinceBase;
 
     for (var i = 0; i < dailies.length; i++) {
