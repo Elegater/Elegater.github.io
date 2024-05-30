@@ -26,7 +26,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Bullet EMP",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=q-0tr8bdKBk",
+      "video":"https://www.youtube.com/watch?v=lD8b7m_yPPU",
       "imageName":"Shinova Delta.png"
    },
    {
@@ -41,7 +41,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Stun EMP",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=j1wtEgGUKoI",
+      "video":"https://www.youtube.com/watch?v=fXlh9TlfwBM",
       "imageName":"NC-150 Beta.png"
    },
    {
@@ -56,7 +56,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Stun EMP",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=x3F309JbjdA",
+      "video":"https://www.youtube.com/watch?v=0SvVo1jDSw8",
       "imageName":"NC-150 Gamma.png"
    },
    {
@@ -71,7 +71,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Point Defense",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=FYvUciT_0Rs",
+      "video":"https://www.youtube.com/watch?v=ny2y6jm8L9M",
       "imageName":"Tar'cah Delta.png"
    },
    {
@@ -86,7 +86,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Point Defense",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=CbLA0ufOUR4",
+      "video":"https://www.youtube.com/watch?v=H-gwnH6YcBA",
       "imageName":"Tar'cah Lambda.png"
    },
    {
@@ -101,7 +101,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Bullet EMP",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=jz6fblC-Cy8",
+      "video":"https://www.youtube.com/watch?v=jmjmMtT_7cM",
       "imageName":"Veil Beta.png"
    },
    {
@@ -116,7 +116,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Bullet EMP",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=JkrYy7rGe_o",
+      "video":"https://www.youtube.com/watch?v=0dvZWKuUpwM",
       "imageName":"Veil Sigma.png"
    },
    {
@@ -131,7 +131,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Stun EMP",
       "zen":"Mega Bomb",
-      "video":"https://youtu.be/gCSgQkpscBI",
+      "video":"https://www.youtube.com/watch?v=gCSgQkpscBI",
       "imageName":"Krillou Alpha.png"
    },
    {
@@ -146,7 +146,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Stun EMP",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=f3yWOcqc-HU",
+      "video":"https://www.youtube.com/watch?v=W_V4vtfdoew",
       "imageName":"Krillou Gamma.png"
    },
    {
@@ -161,7 +161,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Bullet EMP",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=imj_aKlevz4",
+      "video":"https://www.youtube.com/watch?v=H7yhh6dmbc8",
       "imageName":"Jericho Alpha.png"
    },
    {
@@ -176,7 +176,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Bullet EMP",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=s7dX3-DtWKs",
+      "video":"https://www.youtube.com/watch?v=WrCRcv4Q5Nw",
       "imageName":"Jericho Gamma.png"
    },
    {
@@ -206,7 +206,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Laser Storm",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=VIuGP-RW3IM",
+      "video":"https://www.youtube.com/watch?v=QBz_a_V2qc0",
       "imageName":"Fujin Sigma.png"
    },
    {
@@ -221,7 +221,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Barrier",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=VeAHX2sgM7I",
+      "video":"https://www.youtube.com/watch?v=dVO3-DI47aw",
       "imageName":"Jn'dur Gamma.png"
    },
    {
@@ -281,7 +281,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Point Defense",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=45DshfgkRv8",
+      "video":"https://www.youtube.com/watch?v=RB5GPfZ0KJc",
       "imageName":"Yoth-hola Beta.png"
    },
    {
@@ -311,7 +311,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Barrier",
       "zen":"Mega Laser",
-      "video":"https://youtu.be/gbrnhPVQAlM",
+      "video":"https://www.youtube.com/watch?v=XX-F3uqVbqk",
       "imageName":"Razor VI Beta.png"
    },
    {
@@ -326,7 +326,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Barrier",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=l84GmbQiZnE",
+      "video":"https://www.youtube.com/watch?v=ynj7ul3b8oc",
       "imageName":"Razor VI Sigma.png"
    },
    {
@@ -356,7 +356,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Stun EMP",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=ro5JaCPW0P8",
+      "video":"https://www.youtube.com/watch?v=AB1ULRrZMzY",
       "imageName":"Mist Star Lambda.png"
    },
    {
@@ -371,7 +371,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Missile Swarm",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=ecRDghg_hAM",
+      "video":"https://www.youtube.com/watch?v=EAEdLzMpZnI",
       "imageName":"Proxymar Beta.png"
    },
    {
@@ -386,7 +386,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Missile Swarm",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=F9pYowLJBXA",
+      "video":"https://www.youtube.com/watch?v=8EE3-wGG15M",
       "imageName":"Proxymar Delta.png"
    },
    {
@@ -416,7 +416,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Stun EMP",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=u3Y8-YVym2E",
+      "video":"https://www.youtube.com/watch?v=Huxoz1YN2BY",
       "imageName":"Oran Delta.png"
    },
    {
@@ -431,7 +431,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Barrier",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=r3LA7soUFMQ",
+      "video":"https://www.youtube.com/watch?v=SusX2pi76uw",
       "imageName":"Kada Veni Alpha.png"
    },
    {
@@ -461,7 +461,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Point Defense",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=aeOUk3-E2CU",
+      "video":"https://www.youtube.com/watch?v=lhnkuFmKKQg",
       "imageName":"Wrackr Alpha.png"
    },
    {
@@ -476,7 +476,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Point Defense",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=RrZcdKyioEA",
+      "video":"https://www.youtube.com/watch?v=i-AT1Db-5Cs",
       "imageName":"Wrackr Epsilon.png"
    },
    {
@@ -491,7 +491,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Missile Swarm",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=XfsURkUBgo4",
+      "video":"https://www.youtube.com/watch?v=ITkiSLEUE4c",
       "imageName":"Trireme Gamma.png"
    },
    {
@@ -506,7 +506,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Missile Swarm",
       "zen":"Teleport",
-      "video":"https://youtu.be/ZAvFwBG80_U",
+      "video":"https://www.youtube.com/watch?v=Ly2ZIv0pxf8",
       "imageName":"Trireme Tau.png"
    },
    {
@@ -536,7 +536,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Stun EMP",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=55RcwZiKFc0",
+      "video":"https://www.youtube.com/watch?v=ZMr9kP7Re7Y",
       "imageName":"Cinnri Tau.png"
    },
    {
@@ -551,7 +551,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Bullet EMP",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=eYbE89QVoJY",
+      "video":"https://www.youtube.com/watch?v=P5ichTPnz2A",
       "imageName":"Phoenix Beta.png"
    },
    {
@@ -566,7 +566,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Bullet EMP",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=lF_X0UNUP7U",
+      "video":"https://www.youtube.com/watch?v=1Owy3CCoOLc",
       "imageName":"Phoenix Delta.png"
    },
    {
@@ -581,7 +581,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Laser Storm",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=fRV2qm5sGTQ",
+      "video":"https://www.youtube.com/watch?v=1OuOoQPXTps",
       "imageName":"Buhloo Gamma.png"
    },
    {
@@ -596,7 +596,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Laser Storm",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=PyUbWERdiIk",
+      "video":"https://www.youtube.com/watch?v=Tff1elVwYGQ",
       "imageName":"Buhloo Epsilon.png"
    },
    {
@@ -626,7 +626,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Stun EMP",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=Rpu4ZWz7_t0",
+      "video":"https://www.youtube.com/watch?v=h9J-DaJLHz4",
       "imageName":"Czar Lambda.png"
    },
    {
@@ -641,7 +641,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Laser Storm",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=scl2emtC0o4",
+      "video":"https://www.youtube.com/watch?v=jfmoJQpJ9x0",
       "imageName":"Havoc Alpha.png"
    },
    {
@@ -656,7 +656,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Laser Storm",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=AdYiKbFAGvU",
+      "video":"https://www.youtube.com/watch?v=rYvy8UEsooA",
       "imageName":"Havoc Gamma.png"
    },
    {
@@ -671,7 +671,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Missile Swarm",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=kk306tLSpTI",
+      "video":"https://www.youtube.com/watch?v=_XJMUN6MXYU",
       "imageName":"Geist Sigma.png"
    },
    {
@@ -686,7 +686,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Missile Swarm",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=k4QJBB1AVSc",
+      "video":"https://www.youtube.com/watch?v=Gt48tp3zHv4",
       "imageName":"Geist Phi.png"
    },
    {
@@ -701,7 +701,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Bullet EMP",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=PKZHewIj580",
+      "video":"https://www.youtube.com/watch?v=F6ZKG5H2-DI",
       "imageName":"Juggernaut Delta.png"
    },
    {
@@ -716,7 +716,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Bullet EMP",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=A-VrGLrxG8U",
+      "video":"https://www.youtube.com/watch?v=z2999DhKRdY",
       "imageName":"Juggernaut Lambda.png"
    },
    {
@@ -731,7 +731,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Barrier",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=IgmTw2og3Kw",
+      "video":"https://www.youtube.com/watch?v=0H_ypEVcflw",
       "imageName":"Tillat'Or Gamma.png"
    },
    {
@@ -746,7 +746,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Barrier",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=UKnq0DrwqXA",
+      "video":"https://www.youtube.com/watch?v=NlrcowV2Jl8",
       "imageName":"Tillat'Or Epsilon.png"
    },
    {
@@ -761,7 +761,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Laser Storm",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=j0wwTzvNikU",
+      "video":"https://www.youtube.com/watch?v=5CXwVSsb5ss",
       "imageName":"Elyon Beta.png"
    },
    {
@@ -776,7 +776,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Laser Storm",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=FgRlRru4vwM",
+      "video":"https://www.youtube.com/watch?v=4wwgK4mTVaU",
       "imageName":"Elyon Lambda.png"
    },
    {
@@ -791,7 +791,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Laser Storm",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=SQZC_Vf7M98",
+      "video":"https://www.youtube.com/watch?v=Ce7gRtJjVgE",
       "imageName":"Ogon Beta.png"
    },
    {
@@ -806,7 +806,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Laser Storm",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=Lh56LFZ451k",
+      "video":"https://www.youtube.com/watch?v=4CnxbrtZcK8",
       "imageName":"Ogon Phi.png"
    },
    {
@@ -836,7 +836,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Point Defense",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=M6rnCEn3S_E",
+      "video":"https://www.youtube.com/watch?v=FpXxeJIje_M",
       "imageName":"Vuxine Gamma.png"
    },
    {
@@ -866,7 +866,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Stun EMP",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=nNZck9seg9U",
+      "video":"https://www.youtube.com/watch?v=FmJuCoU0Uks",
       "imageName":"Photurius Tau.png"
    },
    {
@@ -881,7 +881,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Laser Storm",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=X58-7CgTIeQ",
+      "video":"https://www.youtube.com/watch?v=VLldPxZL7dM",
       "imageName":"Xaniea Lambda.png"
    },
    {
@@ -896,7 +896,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Laser Storm",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=8PMAFh8J2d4",
+      "video":"https://www.youtube.com/watch?v=_HRWvzX3sPI",
       "imageName":"Xaniea Tau.png"
    },
    {
@@ -926,7 +926,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Point Defense",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=JEMEDCnwNF8",
+      "video":"https://www.youtube.com/watch?v=_Uq2R-pCAZg",
       "imageName":"Arietis Lambda.png"
    },
    {
@@ -941,7 +941,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Missile Swarm",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=zCAQZsxN8LE",
+      "video":"https://www.youtube.com/watch?v=KwrdFpKx2Ss",
       "imageName":"Atlas Alpha.png"
    },
    {
@@ -956,7 +956,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Missile Swarm",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=3YOcFawFCvE",
+      "video":"https://www.youtube.com/watch?v=_76y5yxeJNA",
       "imageName":"Atlas Delta.png"
    },
    {
@@ -971,7 +971,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Laser Storm",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=v2zTBruMj-o",
+      "video":"https://www.youtube.com/watch?v=aDtDZniwqlg",
       "imageName":"Essin Alpha.png"
    },
    {
@@ -986,7 +986,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Laser Storm",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=qPIfjjBrHPc",
+      "video":"https://www.youtube.com/watch?v=RkLSs_OnrXY",
       "imageName":"Essin Gamma.png"
    },
    {
@@ -1001,7 +1001,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Missile Swarm",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=JOuDYEptuP0",
+      "video":"https://www.youtube.com/watch?v=H6e1X1G3Sts",
       "imageName":"EX04239 Sigma.png"
    },
    {
@@ -1016,7 +1016,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Missile Swarm",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=LxDSVTKaVBg",
+      "video":"https://www.youtube.com/watch?v=HJVx_62psCM",
       "imageName":"EX04239 Phi.png"
    },
    {
@@ -1031,7 +1031,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Bullet EMP",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=439slHtlT6U",
+      "video":"https://www.youtube.com/watch?v=9PhD9aBrozg",
       "imageName":"Aurora Lambda.png"
    },
    {
@@ -1046,7 +1046,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Bullet EMP",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=Nwg2uumi2WQ",
+      "video":"https://www.youtube.com/watch?v=X86oBvTPObk",
       "imageName":"Aurora Tau.png"
    },
    {
@@ -1061,7 +1061,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Missile Swarm",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=au4WJMs4yUA",
+      "video":"https://www.youtube.com/watch?v=B9CHD4C715A",
       "imageName":"Von Braun Beta.png"
    },
    {
@@ -1076,7 +1076,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Missile Swarm",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=jJfNXYrzsHs",
+      "video":"https://www.youtube.com/watch?v=SC_Y8tTTKMw",
       "imageName":"Von Braun Delta.png"
    },
    {
@@ -1091,7 +1091,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Barrier",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=eCZfVZ2e4Ic",
+      "video":"https://www.youtube.com/watch?v=BjyMc-f3ykc",
       "imageName":"Gorthaur Alpha.png"
    },
    {
@@ -1106,7 +1106,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Barrier",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=Qf_4J_QlSUM",
+      "video":"https://www.youtube.com/watch?v=q80_LnJF6DM",
       "imageName":"Gorthaur Beta.png"
    },
    {
@@ -1121,7 +1121,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Barrier",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=MfIXDncuLls",
+      "video":"https://www.youtube.com/watch?v=UwYL45QKmjg",
       "imageName":"Heechi Beta.png"
    },
    {
@@ -1136,7 +1136,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Barrier",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=Z16mxJQJwRU",
+      "video":"https://www.youtube.com/watch?v=nN5HW3A7vkc",
       "imageName":"Heechi Delta.png"
    },
    {
@@ -1151,7 +1151,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Missile Swarm",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=81UPaImYpKw",
+      "video":"https://www.youtube.com/watch?v=ltOtiqltdkM",
       "imageName":"Prime X Epsilon.png"
    },
    {
@@ -1166,7 +1166,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Missile Swarm",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=VMg6dNumAGA",
+      "video":"https://www.youtube.com/watch?v=tT3i7BpKXOE",
       "imageName":"Prime X Tau.png"
    },
    {
@@ -1181,7 +1181,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Barrier",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=s3-aLseBq-g",
+      "video":"https://www.youtube.com/watch?v=DuS_RDtt3xc",
       "imageName":"Sakura Epsilon.png"
    },
    {
@@ -1196,7 +1196,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Barrier",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=l_ccT3wYeNE",
+      "video":"https://www.youtube.com/watch?v=82i3wc9YNRc",
       "imageName":"Sakura Phi.png"
    },
    {
@@ -1211,7 +1211,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Vorpal Lance",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=O1OZxvfoLMM",
+      "video":"https://www.youtube.com/watch?v=5OTKo_eZNKw",
       "imageName":"Vani Vith Epsilon.png"
    },
    {
@@ -1256,7 +1256,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Point Defense",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=dgF1V1go7TM",
+      "video":"https://www.youtube.com/watch?v=KPAXgLn_AuM",
       "imageName":"Zephyr Epsilon.png"
    },
    {
@@ -1271,7 +1271,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Chrono Field",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=vl8tFQ7rnQs",
+      "video":"https://www.youtube.com/watch?v=LevBjO7MEIc",
       "imageName":"Baqlor Lambda.png"
    },
    {
@@ -1286,7 +1286,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Chrono Field",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=AcCkOs6Ul_0",
+      "video":"https://www.youtube.com/watch?v=xpD9-DXOPAI",
       "imageName":"Baqlor Phi.png"
    },
    {
@@ -1301,7 +1301,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Phalanx",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=eLX9x8Lkrmg",
+      "video":"https://www.youtube.com/watch?v=mAPknaBVs-s",
       "imageName":"502-Q8 Alpha.png"
    },
    {
@@ -1316,7 +1316,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Phalanx",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=ajE1ucDmnkI",
+      "video":"https://www.youtube.com/watch?v=DFQq3pOF7nE",
       "imageName":"502-Q8 Beta.png"
    },
    {
@@ -1331,7 +1331,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Ion Cannon",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=GXnrtenFDSE",
+      "video":"https://www.youtube.com/watch?v=FPkvxzwLVq4",
       "imageName":"Dragonfly Gamma.png"
    },
    {
@@ -1346,7 +1346,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Ion Cannon",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=hzMGxDQaZZ0",
+      "video":"https://www.youtube.com/watch?v=VRJjw4bdaOQ",
       "imageName":"Dragonfly Epsilon.png"
    },
    {
@@ -1361,7 +1361,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Chrono Field",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=boHVW5r56rQ",
+      "video":"https://www.youtube.com/watch?v=CixDY5W0LKk",
       "imageName":"Hime Epsilon.png"
    },
    {
@@ -1376,7 +1376,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Chrono Field",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=I6aiLIZNydc",
+      "video":"https://www.youtube.com/watch?v=owdwMYTWDVQ",
       "imageName":"Hime Lambda.png"
    },
    {
@@ -1391,7 +1391,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Phalanx",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=kK0B54E78GU",
+      "video":"https://www.youtube.com/watch?v=cfbLSY6C8Rs",
       "imageName":"Hunter Alpha.png"
    },
    {
@@ -1406,7 +1406,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Phalanx",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=m5qSjcXpanM",
+      "video":"https://www.youtube.com/watch?v=NEeK8KEA9po",
       "imageName":"Hunter Gamma.png"
    },
    {
@@ -1421,7 +1421,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Vorpal Lance",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=YXjA67zbwr4",
+      "video":"https://www.youtube.com/watch?v=cojhPABqU4E",
       "imageName":"Gladius Gamma.png"
    },
    {
@@ -1436,7 +1436,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Vorpal Lance",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=KQ3eGWyl1aQ",
+      "video":"https://www.youtube.com/watch?v=4qML68jb1Xs",
       "imageName":"Gladius Epsilon.png"
    },
    {
@@ -1451,7 +1451,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Laser Storm",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=L4Ie24TTxmU",
+      "video":"https://www.youtube.com/watch?v=sBMbkTz3MWw",
       "imageName":"Lokie Alpha.png"
    },
    {
@@ -1466,7 +1466,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Laser Storm",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=KvcZbNrhivk",
+      "video":"https://www.youtube.com/watch?v=UtIPpSx0ctI",
       "imageName":"Lokie Delta.png"
    },
    {
@@ -1481,7 +1481,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Ion Cannon",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=2nylGHgKsX0",
+      "video":"https://www.youtube.com/watch?v=Gv8ihZOxMAg",
       "imageName":"Barret Beta.png"
    },
    {
@@ -1496,7 +1496,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Ion Cannon",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=2c-wSS2b_bk",
+      "video":"https://www.youtube.com/watch?v=y-uxjIFOHG0",
       "imageName":"Barret Epsilon.png"
    },
    {
@@ -2726,7 +2726,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Vorpal Lance",
       "zen":"Reflex EMP",
-      "video":"",
+      "video":"https://www.youtube.com/watch?v=O_9bkPFhBdI",
       "imageName":"Jeria Sigma.png"
    },
    {
@@ -2801,7 +2801,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Goliath Missile",
       "zen":"Mega Bomb",
-      "video":"",
+      "video":"https://www.youtube.com/watch?v=DauHSwONBkE",
       "imageName":"Mistral Lambda.png"
    },
    {
@@ -2816,7 +2816,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Goliath Missile",
       "zen":"Mega Bomb",
-      "video":"",
+      "video":"https://www.youtube.com/watch?v=xaZfiQ2Y1aA",
       "imageName":"Mistral Tau.png"
    },
    {
