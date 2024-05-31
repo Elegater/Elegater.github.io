@@ -1,23 +1,30 @@
 specialists = [
     {
-        mapType: "Blight, Sector [3,84] (Armor General/Dart)"
+        theme: "Blight, Sector [3,84] (Armor General/Dart)",
+        ships: "test"
     },
     {
-        mapType: "Arcology CQ-6 (Armor General/Boomerang)"
+        theme: "Arcology CQ-6 (Armor General/Boomerang)"
+        ships: "test"
     },
     {
-        mapType: "Gau Prime (Shield General/Dart)"
+        theme: "Gau Prime (Shield General/Dart)"
+        ships: "test"
     },
     {
-        mapType: "Zhey Auna (Unprotected General/Boomerang)"
+        theme: "Zhey Auna (Unprotected General/Boomerang)"
+        ships: "test"
     },
     {
-        mapType: "Gau Prime (Shield General/Dart)"
+        theme: "Gau Prime (Shield General/Dart)"
+        ships: "test"
     },
     {
-        mapType: "Prometheus Array (Shield General)"
+        theme: "Prometheus Array (Shield General)"
+        ships: "test"
     },
     {
-        mapType: "Ceres Major (Armor General/Boomerang)"
+        theme: "Ceres Major (Armor General/Boomerang)"
+        ships: "test"
     }
 ]
