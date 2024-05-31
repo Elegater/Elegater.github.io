@@ -41,7 +41,7 @@ function updateSpecialistTable(){
     $("#resetTimeDaily").html(resetTime);
 
     // Calculating mission numbers to display
-    var baseMissionNo = 2961;
+    var baseMissionNo = 2921;
     var todayMissionNo = baseMissionNo + daysSinceBase;
 
     for (var i = 0; i < specialists.length; i++) {
