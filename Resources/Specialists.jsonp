@@ -6,93 +6,93 @@ specialists = [
     },
     {
         id: 2,
-        theme: "Arcology CQ-6 (Armor General/Boomerang)"
+        theme: "Arcology CQ-6 (Armor General/Boomerang)",
         ships: "test"
     },
     {
         id: 3,
-        theme: "Gau Prime (Shield General/Dart)"
+        theme: "Gau Prime (Shield General/Dart)",
         ships: "test"
     },
     {
         id: 4,
-        theme: "Zhey Auna (Unprotected General/Boomerang)"
+        theme: "Zhey Auna (Unprotected General/Boomerang)",
         ships: "test"
     },
     {
         id: 5,
-        theme: "Gau Prime (Shield General/Dart)"
+        theme: "Gau Prime (Shield General/Dart)",
         ships: "test"
     },
     {
         id: 6,
-        theme: "Prometheus Array (Shield General)"
+        theme: "Prometheus Array (Shield General)",
         ships: "test"
     },
     {
         id: 7,
-        theme: "Ceres Major (Armor General/Boomerang)"
+        theme: "Ceres Major (Armor General/Boomerang)",
         ships: "test"
     },
     {
         id: 8,
-        theme: "Ceres Major (Armor General/Boomerang)"
+        theme: "Ceres Major (Armor General/Boomerang)",
         ships: "test"
     },
     {
         id: 9,
-        theme: "Ceres Major (Armor General/Boomerang)"
+        theme: "Ceres Major (Armor General/Boomerang)",
         ships: "test"
     }
 ,
     {
         id: 10,
-        theme: "Ceres Major (Armor General/Boomerang)"
+        theme: "Ceres Major (Armor General/Boomerang)",
         ships: "test"
     },
     {
         id: 11,
-        theme: "Ceres Major (Armor General/Boomerang)"
+        theme: "Ceres Major (Armor General/Boomerang)",
         ships: "test"
     },
     {
         id: 12,
-        theme: "Ceres Major (Armor General/Boomerang)"
+        theme: "Ceres Major (Armor General/Boomerang)",
         ships: "test"
     },
     {
         id: 13,
-        theme: "Ceres Major (Armor General/Boomerang)"
+        theme: "Ceres Major (Armor General/Boomerang)",
         ships: "test"
     },
     {
         id: 14,
-        theme: "Ceres Major (Armor General/Boomerang)"
+        theme: "Ceres Major (Armor General/Boomerang)",
         ships: "test"
     },
     {
         id: 15,
-        theme: "Ceres Major (Armor General/Boomerang)"
+        theme: "Ceres Major (Armor General/Boomerang)",
         ships: "test"
     },
     {
         id: 16,
-        theme: "Ceres Major (Armor General/Boomerang)"
+        theme: "Ceres Major (Armor General/Boomerang)",
         ships: "test"
     },
     {
         id: 18,
-        theme: "Ceres Major (Armor General/Boomerang)"
+        theme: "Ceres Major (Armor General/Boomerang)",
         ships: "test"
     },
     {
         id: 19,
-        theme: "Ceres Major (Armor General/Boomerang)"
+        theme: "Ceres Major (Armor General/Boomerang)",
         ships: "test"
     },
     {
         id: 20,
-        theme: "Ceres Major (Armor General/Boomerang)"
+        theme: "Ceres Major (Armor General/Boomerang)",
         ships: "test"
     }
 ]
