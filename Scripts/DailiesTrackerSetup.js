@@ -44,7 +44,7 @@ function updateDailyTable() {
     var baseMissionNo = 2961;
     var todayMissionNo = baseMissionNo + daysSinceBase;
 
-    for (var i = -2; i < dailies.length; i++) {
+    for (var i = 0; i < dailies.length; i++) {
         var row = i + 1;
         var rowDate = moment.utc().startOf("date").local().add(i, "days");
         $("#dailyNo" + row).html("#" + (todayMissionNo + i));
