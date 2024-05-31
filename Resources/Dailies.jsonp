@@ -1,12 +1,12 @@
 dailies = [
     {
         id: 1,
-        mapA:"Arcology CQ-6 | Prometheus Array | (Spec)",
-        typeA:"Shielded, Dart/MIRV | Unprotected, Shuriken/Boomerang | (Spec)",
-        mapB:"t",
-        typeB:"u",
-        mapC:"t",
-        typeC:"u"
+        mapA:"Arcology CQ-6",
+        typeA:"Shielded, Dart/MIRV",
+        mapB:"Prometheus Array",
+        typeB:"Unprotected, Shuriken/Boomerang",
+        mapC:"",
+        typeC:""
     },
     {
         id: 2,
