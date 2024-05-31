@@ -13,7 +13,7 @@ function dailiesTrackerSetup() {
 
     var smallScreen = $(window).width() < 800;
     if(smallScreen){
-        $(".dailyRow>td,.dailyRow>th").css("font-size", "8pt");
+        $(".dailyRow>td,.dailyRow>th").css("font-size", "6pt");
     }
 
     updateDailyTable();
