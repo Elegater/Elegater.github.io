@@ -49,7 +49,11 @@ function updateDailyTable() {
         var rowDate = moment.utc().startOf("date").local().add(i, "days");
         $("#dailyNo" + row).html("#" + (todayMissionNo + i));
         $("#dailyDate" + row).html(rowDate.format("D MMM"));
-        $("#dailyMap" + row).html(dailiesImport[i].map);
-        $("#dailyType" + row).html(dailiesImport[i].type);
+        $("#dailyMapA" + row).html(dailiesImport[i].mapA);
+        $("#dailyTypeA" + row).html(dailiesImport[i].typeA);
+        $("#dailyMapB" + row).html(dailiesImport[i].mapB);
+        $("#dailyTypeB" + row).html(dailiesImport[i].typeB);
+        $("#dailyMapC" + row).html(dailiesImport[i].mapB);
+        $("#dailyTypeC" + row).html(dailiesImport[i].typeB);
     }
 }
