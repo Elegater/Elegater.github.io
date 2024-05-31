@@ -25,7 +25,7 @@ function specialistsTrackerSetup(){
 
 function updateSpecialistTable(){
     // Setting up dailies listing
-    var baseDate = moment.utc([2024, 1, 9, 0]);   // Setting base date on the first element in the dailies array. [y, m, d, h]: only m is zero based;
+    var baseDate = moment.utc([2023, 11, 30, 0]);   // Setting base date on the first element in the dailies array. [y, m, d, h]: only m is zero based;
     
     var currentDateTime = moment.utc();
     var daysSinceBase = currentDateTime.diff(baseDate, "days");
