@@ -32,21 +32,6 @@ apexes =[
    {
       "id":"2",
       "ship":"NC-150",
-      "rank":"Beta",
-      "apexName":"Super Reflect",
-      "type":"Zen",
-      "description":"Split-second shield activation just before laser firing will reflect back with extra force. (5 times the normal reflection damage)",
-      "cost":"10,000",
-      "dps":"34.38",
-      "mainType":"Shield Breaker",
-      "aura":"Stun EMP",
-      "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=fXlh9TlfwBM",
-      "imageName":"NC-150 Beta.png"
-   },
-   {
-      "id":"2",
-      "ship":"NC-150",
       "rank":"Gamma",
       "apexName":"High Damage",
       "type":"Aura",
@@ -58,6 +43,21 @@ apexes =[
       "zen":"Personal Shield",
       "video":"https://www.youtube.com/watch?v=0SvVo1jDSw8",
       "imageName":"NC-150 Gamma.png"
+   },
+   {
+      "id":"2",
+      "ship":"NC-150",
+      "rank":"Beta",
+      "apexName":"Super Reflect",
+      "type":"Zen",
+      "description":"Split-second shield activation just before laser firing will reflect back with extra force. (5 times the normal reflection damage)",
+      "cost":"10,000",
+      "dps":"34.38",
+      "mainType":"Shield Breaker",
+      "aura":"Stun EMP",
+      "zen":"Personal Shield",
+      "video":"https://www.youtube.com/watch?v=fXlh9TlfwBM",
+      "imageName":"NC-150 Beta.png"
    },
    {
       "id":"3",
@@ -122,21 +122,6 @@ apexes =[
    {
       "id":"5",
       "ship":"Krillou",
-      "rank":"Alpha",
-      "apexName":"EMP Core",
-      "type":"Zen",
-      "description":"Fusion Core also destroys enemy bullets.",
-      "cost":"5,000",
-      "dps":"31.25",
-      "mainType":"Armor Piercing",
-      "aura":"Stun EMP",
-      "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=gCSgQkpscBI",
-      "imageName":"Krillou Alpha.png"
-   },
-   {
-      "id":"5",
-      "ship":"Krillou",
       "rank":"Gamma",
       "apexName":"Compressed Blast",
       "type":"Zen",
@@ -148,6 +133,21 @@ apexes =[
       "zen":"Mega Bomb",
       "video":"https://www.youtube.com/watch?v=W_V4vtfdoew",
       "imageName":"Krillou Gamma.png"
+   },
+   {
+      "id":"5",
+      "ship":"Krillou",
+      "rank":"Alpha",
+      "apexName":"EMP Core",
+      "type":"Zen",
+      "description":"Fusion Core also destroys enemy bullets.",
+      "cost":"5,000",
+      "dps":"31.25",
+      "mainType":"Armor Piercing",
+      "aura":"Stun EMP",
+      "zen":"Mega Bomb",
+      "video":"https://www.youtube.com/watch?v=gCSgQkpscBI",
+      "imageName":"Krillou Alpha.png"
    },
    {
       "id":"6",
@@ -242,21 +242,6 @@ apexes =[
    {
       "id":"9",
       "ship":"Tempest",
-      "rank":"Beta",
-      "apexName":"Extended Range",
-      "type":"Aura",
-      "description":"Amplification of frequencies give Bullet EMP more range. (Max radius: 450 → 500)",
-      "cost":"10,000",
-      "dps":"34.38",
-      "mainType":"High Impact",
-      "aura":"Bullet EMP",
-      "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=OMwamShM2NM",
-      "imageName":"Tempest Beta.png"
-   },
-   {
-      "id":"9",
-      "ship":"Tempest",
       "rank":"Delta",
       "apexName":"Focused Beam",
       "type":"Zen",
@@ -268,6 +253,21 @@ apexes =[
       "zen":"Mega Laser",
       "video":"https://www.youtube.com/watch?v=b-QL4PkLdiQ",
       "imageName":"Tempest Delta.png"
+   },
+   {
+      "id":"9",
+      "ship":"Tempest",
+      "rank":"Beta",
+      "apexName":"Extended Range",
+      "type":"Aura",
+      "description":"Amplification of frequencies give Bullet EMP more range. (Max radius: 450 → 500)",
+      "cost":"10,000",
+      "dps":"34.38",
+      "mainType":"High Impact",
+      "aura":"Bullet EMP",
+      "zen":"Mega Laser",
+      "video":"https://www.youtube.com/watch?v=OMwamShM2NM",
+      "imageName":"Tempest Beta.png"
    },
    {
       "id":"10",
@@ -332,21 +332,6 @@ apexes =[
    {
       "id":"12",
       "ship":"Mist Star",
-      "rank":"Gamma",
-      "apexName":"Extended Range",
-      "type":"Aura",
-      "description":"The EMP range is increased by expanding the waveband.",
-      "cost":"15,000",
-      "dps":"25.00",
-      "mainType":"Shield Breaker",
-      "aura":"Stun EMP",
-      "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=IpP5KIvsvFc",
-      "imageName":"Mist Star Gamma.png"
-   },
-   {
-      "id":"12",
-      "ship":"Mist Star",
       "rank":"Lambda",
       "apexName":"Strong Stun",
       "type":"Aura",
@@ -360,19 +345,19 @@ apexes =[
       "imageName":"Mist Star Lambda.png"
    },
    {
-      "id":"13",
-      "ship":"Proxymar",
-      "rank":"Beta",
-      "apexName":"EMP Core",
-      "type":"Zen",
-      "description":"Fusion Core also destroys enemy bullets.",
-      "cost":"10,000",
-      "dps":"21.25",
+      "id":"12",
+      "ship":"Mist Star",
+      "rank":"Gamma",
+      "apexName":"Extended Range",
+      "type":"Aura",
+      "description":"The EMP range is increased by expanding the waveband.",
+      "cost":"15,000",
+      "dps":"25.00",
       "mainType":"Shield Breaker",
-      "aura":"Missile Swarm",
-      "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=EAEdLzMpZnI",
-      "imageName":"Proxymar Beta.png"
+      "aura":"Stun EMP",
+      "zen":"Kappa Drive",
+      "video":"https://www.youtube.com/watch?v=IpP5KIvsvFc",
+      "imageName":"Mist Star Gamma.png"
    },
    {
       "id":"13",
@@ -388,6 +373,21 @@ apexes =[
       "zen":"Mega Bomb",
       "video":"https://www.youtube.com/watch?v=8EE3-wGG15M",
       "imageName":"Proxymar Delta.png"
+   },
+   {
+      "id":"13",
+      "ship":"Proxymar",
+      "rank":"Beta",
+      "apexName":"EMP Core",
+      "type":"Zen",
+      "description":"Fusion Core also destroys enemy bullets.",
+      "cost":"10,000",
+      "dps":"21.25",
+      "mainType":"Shield Breaker",
+      "aura":"Missile Swarm",
+      "zen":"Mega Bomb",
+      "video":"https://www.youtube.com/watch?v=EAEdLzMpZnI",
+      "imageName":"Proxymar Beta.png"
    },
    {
       "id":"14",
@@ -482,21 +482,6 @@ apexes =[
    {
       "id":"17",
       "ship":"Trireme",
-      "rank":"Gamma",
-      "apexName":"Armour Piercing",
-      "type":"Aura",
-      "description":"Reinforced warheads allow these missiles to pierced enemy armour. (Bypass 30% damage reduction from armor)",
-      "cost":"15,000",
-      "dps":"21.25",
-      "mainType":"Shield Breaker",
-      "aura":"Missile Swarm",
-      "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=ITkiSLEUE4c",
-      "imageName":"Trireme Gamma.png"
-   },
-   {
-      "id":"17",
-      "ship":"Trireme",
       "rank":"Tau",
       "apexName":"Double Teleport",
       "type":"Zen",
@@ -508,6 +493,21 @@ apexes =[
       "zen":"Teleport",
       "video":"https://www.youtube.com/watch?v=Ly2ZIv0pxf8",
       "imageName":"Trireme Tau.png"
+   },
+   {
+      "id":"17",
+      "ship":"Trireme",
+      "rank":"Gamma",
+      "apexName":"Armour Piercing",
+      "type":"Aura",
+      "description":"Reinforced warheads allow these missiles to pierced enemy armour. (Bypass 30% damage reduction from armor)",
+      "cost":"15,000",
+      "dps":"21.25",
+      "mainType":"Shield Breaker",
+      "aura":"Missile Swarm",
+      "zen":"Teleport",
+      "video":"https://www.youtube.com/watch?v=n4rLrvpxHG4",
+      "imageName":"Trireme Gamma.png"
    },
    {
       "id":"18",
@@ -542,21 +542,6 @@ apexes =[
    {
       "id":"19",
       "ship":"Phoenix",
-      "rank":"Beta",
-      "apexName":"Supersize",
-      "type":"Zen",
-      "description":"Aegis amplifiers create an extra large Personal Shield. (~50% increase in diameter)",
-      "cost":"10,000",
-      "dps":"31.25",
-      "mainType":"Shield Breaker",
-      "aura":"Bullet EMP",
-      "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=P5ichTPnz2A",
-      "imageName":"Phoenix Beta.png"
-   },
-   {
-      "id":"19",
-      "ship":"Phoenix",
       "rank":"Delta",
       "apexName":"Destructive Wave",
       "type":"Aura",
@@ -570,19 +555,19 @@ apexes =[
       "imageName":"Phoenix Delta.png"
    },
    {
-      "id":"20",
-      "ship":"Buhloo",
-      "rank":"Gamma",
-      "apexName":"Extended Range",
+      "id":"19",
+      "ship":"Phoenix",
+      "rank":"Beta",
+      "apexName":"Supersize",
       "type":"Zen",
-      "description":"More potent energy particles increase the blast range. (Radius: 400 → 500)",
-      "cost":"15,000",
+      "description":"Aegis amplifiers create an extra large Personal Shield. (~50% increase in diameter)",
+      "cost":"10,000",
       "dps":"31.25",
-      "mainType":"High Impact",
-      "aura":"Laser Storm",
-      "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=1OuOoQPXTps",
-      "imageName":"Buhloo Gamma.png"
+      "mainType":"Shield Breaker",
+      "aura":"Bullet EMP",
+      "zen":"Personal Shield",
+      "video":"https://www.youtube.com/watch?v=P5ichTPnz2A",
+      "imageName":"Phoenix Beta.png"
    },
    {
       "id":"20",
@@ -600,19 +585,19 @@ apexes =[
       "imageName":"Buhloo Epsilon.png"
    },
    {
-      "id":"21",
-      "ship":"Czar",
-      "rank":"Delta",
-      "apexName":"Double Teleport",
+      "id":"20",
+      "ship":"Buhloo",
+      "rank":"Gamma",
+      "apexName":"Extended Range",
       "type":"Zen",
-      "description":"Enables an instant charge for a second teleport directly upon arrival.",
-      "cost":"20,000",
-      "dps":"21.25",
-      "mainType":"Shield Breaker",
-      "aura":"Stun EMP",
-      "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=LQQ6MzCxWQM",
-      "imageName":"Czar Delta.png"
+      "description":"More potent energy particles increase the blast range. (Radius: 400 → 500)",
+      "cost":"15,000",
+      "dps":"31.25",
+      "mainType":"High Impact",
+      "aura":"Laser Storm",
+      "zen":"Mega Bomb",
+      "video":"https://www.youtube.com/watch?v=1OuOoQPXTps",
+      "imageName":"Buhloo Gamma.png"
    },
    {
       "id":"21",
@@ -628,6 +613,21 @@ apexes =[
       "zen":"Teleport",
       "video":"https://www.youtube.com/watch?v=h9J-DaJLHz4",
       "imageName":"Czar Lambda.png"
+   },
+   {
+      "id":"21",
+      "ship":"Czar",
+      "rank":"Delta",
+      "apexName":"Double Teleport",
+      "type":"Zen",
+      "description":"Enables an instant charge for a second teleport directly upon arrival.",
+      "cost":"20,000",
+      "dps":"21.25",
+      "mainType":"Shield Breaker",
+      "aura":"Stun EMP",
+      "zen":"Teleport",
+      "video":"https://www.youtube.com/watch?v=LQQ6MzCxWQM",
+      "imageName":"Czar Delta.png"
    },
    {
       "id":"22",
@@ -662,21 +662,6 @@ apexes =[
    {
       "id":"23",
       "ship":"Geist",
-      "rank":"Sigma",
-      "apexName":"High Explosive",
-      "type":"Aura",
-      "description":"Missiles equiped with advanced warheads deal blast damage on impact. (Blast damage is 1, blast radius: 50)",
-      "cost":"35,000",
-      "dps":"37.50",
-      "mainType":"High Impact",
-      "aura":"Missile Swarm",
-      "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=_XJMUN6MXYU",
-      "imageName":"Geist Sigma.png"
-   },
-   {
-      "id":"23",
-      "ship":"Geist",
       "rank":"Phi",
       "apexName":"Ion Warheads",
       "type":"Aura",
@@ -688,6 +673,21 @@ apexes =[
       "zen":"Personal Shield",
       "video":"https://www.youtube.com/watch?v=Gt48tp3zHv4",
       "imageName":"Geist Phi.png"
+   },
+   {
+      "id":"23",
+      "ship":"Geist",
+      "rank":"Sigma",
+      "apexName":"High Explosive",
+      "type":"Aura",
+      "description":"Missiles equiped with advanced warheads deal blast damage on impact. (Blast damage is 1, blast radius: 50)",
+      "cost":"35,000",
+      "dps":"37.50",
+      "mainType":"High Impact",
+      "aura":"Missile Swarm",
+      "zen":"Personal Shield",
+      "video":"https://www.youtube.com/watch?v=_XJMUN6MXYU",
+      "imageName":"Geist Sigma.png"
    },
    {
       "id":"24",
@@ -752,21 +752,6 @@ apexes =[
    {
       "id":"26",
       "ship":"Elyon",
-      "rank":"Beta",
-      "apexName":"High Power",
-      "type":"Aura",
-      "description":"A constellation of Laser Moons outputs all the damage in less time (Max duration: 4.5s → 2.25s)",
-      "cost":"10,000",
-      "dps":"31.25",
-      "mainType":"High Impact",
-      "aura":"Laser Storm",
-      "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=5CXwVSsb5ss",
-      "imageName":"Elyon Beta.png"
-   },
-   {
-      "id":"26",
-      "ship":"Elyon",
       "rank":"Lambda",
       "apexName":"Shield Breaker",
       "type":"Aura",
@@ -778,6 +763,21 @@ apexes =[
       "zen":"Kappa Drive",
       "video":"https://www.youtube.com/watch?v=4wwgK4mTVaU",
       "imageName":"Elyon Lambda.png"
+   },
+   {
+      "id":"26",
+      "ship":"Elyon",
+      "rank":"Beta",
+      "apexName":"High Power",
+      "type":"Aura",
+      "description":"A constellation of Laser Moons outputs all the damage in less time (Max duration: 4.5s → 2.25s)",
+      "cost":"10,000",
+      "dps":"31.25",
+      "mainType":"High Impact",
+      "aura":"Laser Storm",
+      "zen":"Kappa Drive",
+      "video":"https://www.youtube.com/watch?v=5CXwVSsb5ss",
+      "imageName":"Elyon Beta.png"
    },
    {
       "id":"27",
@@ -812,21 +812,6 @@ apexes =[
    {
       "id":"28",
       "ship":"Vuxine",
-      "rank":"Alpha",
-      "apexName":"Antigrav",
-      "type":"Zen",
-      "description":"Ignore energy particle weight and increase passive attraction power. (Effect applies whether or not Kappa Drive is active)",
-      "cost":"5,000",
-      "dps":"25.00",
-      "mainType":"Shield Breaker",
-      "aura":"Point Defense",
-      "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=umuerO4fURE",
-      "imageName":"Vuxine Alpha.png"
-   },
-   {
-      "id":"28",
-      "ship":"Vuxine",
       "rank":"Gamma",
       "apexName":"Sentinel",
       "type":"Aura",
@@ -838,6 +823,21 @@ apexes =[
       "zen":"Kappa Drive",
       "video":"https://www.youtube.com/watch?v=FpXxeJIje_M",
       "imageName":"Vuxine Gamma.png"
+   },
+   {
+      "id":"28",
+      "ship":"Vuxine",
+      "rank":"Alpha",
+      "apexName":"Antigrav",
+      "type":"Zen",
+      "description":"Ignore energy particle weight and increase passive attraction power. (Effect applies whether or not Kappa Drive is active)",
+      "cost":"5,000",
+      "dps":"25.00",
+      "mainType":"Shield Breaker",
+      "aura":"Point Defense",
+      "zen":"Kappa Drive",
+      "video":"https://www.youtube.com/watch?v=umuerO4fURE",
+      "imageName":"Vuxine Alpha.png"
    },
    {
       "id":"29",
@@ -902,21 +902,6 @@ apexes =[
    {
       "id":"31",
       "ship":"Arietis",
-      "rank":"Epsilon",
-      "apexName":"Focused Beam",
-      "type":"Zen",
-      "description":"Mega Laser power is concentrated in a smaller beam and deals more damage. (Damage: 170 → 200)",
-      "cost":"25,000",
-      "dps":"34.38",
-      "mainType":"Shield Breaker",
-      "aura":"Point Defense",
-      "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=BxTB1gVQGkI",
-      "imageName":"Arietis Epsilon.png"
-   },
-   {
-      "id":"31",
-      "ship":"Arietis",
       "rank":"Lambda",
       "apexName":"Bullet Detonator",
       "type":"Aura",
@@ -930,19 +915,19 @@ apexes =[
       "imageName":"Arietis Lambda.png"
    },
    {
-      "id":"32",
-      "ship":"Atlas",
-      "rank":"Alpha",
-      "apexName":"Supersize",
+      "id":"31",
+      "ship":"Arietis",
+      "rank":"Epsilon",
+      "apexName":"Focused Beam",
       "type":"Zen",
-      "description":"Aegis amplifiers create an extra large Personal Shield. (~50% increase in diameter)",
-      "cost":"5,000",
-      "dps":"31.25",
-      "mainType":"Armor Piercing",
-      "aura":"Missile Swarm",
-      "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=KwrdFpKx2Ss",
-      "imageName":"Atlas Alpha.png"
+      "description":"Mega Laser power is concentrated in a smaller beam and deals more damage. (Damage: 170 → 200)",
+      "cost":"25,000",
+      "dps":"34.38",
+      "mainType":"Shield Breaker",
+      "aura":"Point Defense",
+      "zen":"Mega Laser",
+      "video":"https://www.youtube.com/watch?v=BxTB1gVQGkI",
+      "imageName":"Arietis Epsilon.png"
    },
    {
       "id":"32",
@@ -958,6 +943,21 @@ apexes =[
       "zen":"Personal Shield",
       "video":"https://www.youtube.com/watch?v=_76y5yxeJNA",
       "imageName":"Atlas Delta.png"
+   },
+   {
+      "id":"32",
+      "ship":"Atlas",
+      "rank":"Alpha",
+      "apexName":"Supersize",
+      "type":"Zen",
+      "description":"Aegis amplifiers create an extra large Personal Shield. (~50% increase in diameter)",
+      "cost":"5,000",
+      "dps":"31.25",
+      "mainType":"Armor Piercing",
+      "aura":"Missile Swarm",
+      "zen":"Personal Shield",
+      "video":"https://www.youtube.com/watch?v=KwrdFpKx2Ss",
+      "imageName":"Atlas Alpha.png"
    },
    {
       "id":"33",
@@ -1052,21 +1052,6 @@ apexes =[
    {
       "id":"36",
       "ship":"Von Braun",
-      "rank":"Beta",
-      "apexName":"Improved Thrusters",
-      "type":"Weapon",
-      "description":"Daisy Cutters have better homing capabilities",
-      "cost":"10,000",
-      "dps":"37.50",
-      "mainType":"Armor Piercing",
-      "aura":"Missile Swarm",
-      "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=B9CHD4C715A",
-      "imageName":"Von Braun Beta.png"
-   },
-   {
-      "id":"36",
-      "ship":"Von Braun",
       "rank":"Delta",
       "apexName":"Armour Piercing",
       "type":"Aura",
@@ -1080,19 +1065,19 @@ apexes =[
       "imageName":"Von Braun Delta.png"
    },
    {
-      "id":"37",
-      "ship":"Gorthaur",
-      "rank":"Alpha",
-      "apexName":"Focus",
-      "type":"Zen",
-      "description":"Focused interconnects charge Personal Shield faster and recover it more quickly. (Complete Recovery time after 1 usage is about 8s → 4s)",
-      "cost":"5,000",
-      "dps":"34.38",
-      "mainType":"High Impact",
-      "aura":"Barrier",
-      "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=BjyMc-f3ykc",
-      "imageName":"Gorthaur Alpha.png"
+      "id":"36",
+      "ship":"Von Braun",
+      "rank":"Beta",
+      "apexName":"Improved Thrusters",
+      "type":"Weapon",
+      "description":"Daisy Cutters have better homing capabilities",
+      "cost":"10,000",
+      "dps":"37.50",
+      "mainType":"Armor Piercing",
+      "aura":"Missile Swarm",
+      "zen":"Kappa Drive",
+      "video":"https://www.youtube.com/watch?v=B9CHD4C715A",
+      "imageName":"Von Braun Beta.png"
    },
    {
       "id":"37",
@@ -1108,6 +1093,21 @@ apexes =[
       "zen":"Personal Shield",
       "video":"https://www.youtube.com/watch?v=q80_LnJF6DM",
       "imageName":"Gorthaur Beta.png"
+   },
+   {
+      "id":"37",
+      "ship":"Gorthaur",
+      "rank":"Alpha",
+      "apexName":"Focus",
+      "type":"Zen",
+      "description":"Focused interconnects charge Personal Shield faster and recover it more quickly. (Complete Recovery time after 1 usage is about 8s → 4s)",
+      "cost":"5,000",
+      "dps":"34.38",
+      "mainType":"High Impact",
+      "aura":"Barrier",
+      "zen":"Personal Shield",
+      "video":"https://www.youtube.com/watch?v=BjyMc-f3ykc",
+      "imageName":"Gorthaur Alpha.png"
    },
    {
       "id":"38",
@@ -1142,21 +1142,6 @@ apexes =[
    {
       "id":"39",
       "ship":"Prime X",
-      "rank":"Epsilon",
-      "apexName":"Armour Piercing",
-      "type":"Aura",
-      "description":"Reinforced warheads allow these missiles to pierced enemy armour. (Bypass 30% damage reduction from armor)",
-      "cost":"25,000",
-      "dps":"31.25",
-      "mainType":"Armor Piercing",
-      "aura":"Missile Swarm",
-      "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=ltOtiqltdkM",
-      "imageName":"Prime X Epsilon.png"
-   },
-   {
-      "id":"39",
-      "ship":"Prime X",
       "rank":"Tau",
       "apexName":"Extended Clearance",
       "type":"Zen",
@@ -1168,6 +1153,21 @@ apexes =[
       "zen":"Teleport",
       "video":"https://www.youtube.com/watch?v=tT3i7BpKXOE",
       "imageName":"Prime X Tau.png"
+   },
+   {
+      "id":"39",
+      "ship":"Prime X",
+      "rank":"Epsilon",
+      "apexName":"Armour Piercing",
+      "type":"Aura",
+      "description":"Reinforced warheads allow these missiles to pierced enemy armour. (Bypass 30% damage reduction from armor)",
+      "cost":"25,000",
+      "dps":"31.25",
+      "mainType":"Armor Piercing",
+      "aura":"Missile Swarm",
+      "zen":"Teleport",
+      "video":"https://www.youtube.com/watch?v=ltOtiqltdkM",
+      "imageName":"Prime X Epsilon.png"
    },
    {
       "id":"40",
@@ -1292,21 +1292,6 @@ apexes =[
    {
       "id":"44",
       "ship":"502-Q8",
-      "rank":"Alpha",
-      "apexName":"Volatile Plasma",
-      "type":"Weapon",
-      "description":"Projectiles now explode and deal blast damage upon impact.",
-      "cost":"5,000",
-      "dps":"31.25",
-      "mainType":"Shield Breaker",
-      "aura":"Phalanx",
-      "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=mAPknaBVs-s",
-      "imageName":"502-Q8 Alpha.png"
-   },
-   {
-      "id":"44",
-      "ship":"502-Q8",
       "rank":"Beta",
       "apexName":"Double Phalanx",
       "type":"Aura",
@@ -1320,19 +1305,19 @@ apexes =[
       "imageName":"502-Q8 Beta.png"
    },
    {
-      "id":"45",
-      "ship":"Dragonfly",
-      "rank":"Gamma",
-      "apexName":"Overcharge",
-      "type":"Aura",
-      "description":"Overcharged Ion shots explode with a shockwave that stuns nearby enemies.",
-      "cost":"15,000",
+      "id":"44",
+      "ship":"502-Q8",
+      "rank":"Alpha",
+      "apexName":"Volatile Plasma",
+      "type":"Weapon",
+      "description":"Projectiles now explode and deal blast damage upon impact.",
+      "cost":"5,000",
       "dps":"31.25",
-      "mainType":"High Impact",
-      "aura":"Ion Cannon",
-      "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=FPkvxzwLVq4",
-      "imageName":"Dragonfly Gamma.png"
+      "mainType":"Shield Breaker",
+      "aura":"Phalanx",
+      "zen":"Mega Laser",
+      "video":"https://www.youtube.com/watch?v=mAPknaBVs-s",
+      "imageName":"502-Q8 Alpha.png"
    },
    {
       "id":"45",
@@ -1350,19 +1335,19 @@ apexes =[
       "imageName":"Dragonfly Epsilon.png"
    },
    {
-      "id":"46",
-      "ship":"Hime",
-      "rank":"Epsilon",
-      "apexName":"Double Shot",
-      "type":"Zen",
-      "description":"Two separate energy releases create two beams in quick succession. (Total damage: 170 → 200)",
-      "cost":"25,000",
-      "dps":"25.00",
-      "mainType":"Armor Piercing",
-      "aura":"Chrono Field",
-      "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=CixDY5W0LKk",
-      "imageName":"Hime Epsilon.png"
+      "id":"45",
+      "ship":"Dragonfly",
+      "rank":"Gamma",
+      "apexName":"Overcharge",
+      "type":"Aura",
+      "description":"Overcharged Ion shots explode with a shockwave that stuns nearby enemies.",
+      "cost":"15,000",
+      "dps":"31.25",
+      "mainType":"High Impact",
+      "aura":"Ion Cannon",
+      "zen":"Mega Bomb",
+      "video":"https://www.youtube.com/watch?v=FPkvxzwLVq4",
+      "imageName":"Dragonfly Gamma.png"
    },
    {
       "id":"46",
@@ -1378,6 +1363,21 @@ apexes =[
       "zen":"Mega Laser",
       "video":"https://www.youtube.com/watch?v=owdwMYTWDVQ",
       "imageName":"Hime Lambda.png"
+   },
+   {
+      "id":"46",
+      "ship":"Hime",
+      "rank":"Epsilon",
+      "apexName":"Double Shot",
+      "type":"Zen",
+      "description":"Two separate energy releases create two beams in quick succession. (Total damage: 170 → 200)",
+      "cost":"25,000",
+      "dps":"25.00",
+      "mainType":"Armor Piercing",
+      "aura":"Chrono Field",
+      "zen":"Mega Laser",
+      "video":"https://www.youtube.com/watch?v=CixDY5W0LKk",
+      "imageName":"Hime Epsilon.png"
    },
    {
       "id":"47",
@@ -1412,21 +1412,6 @@ apexes =[
    {
       "id":"48",
       "ship":"Gladius",
-      "rank":"Gamma",
-      "apexName":"Antigrav",
-      "type":"Zen",
-      "description":"Ignore energy particle weight and increase passive attraction power. (Effect applies whether or not Kappa Drive is active)",
-      "cost":"15,000",
-      "dps":"25.00",
-      "mainType":"Shield Breaker",
-      "aura":"Vorpal Lance",
-      "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=cojhPABqU4E",
-      "imageName":"Gladius Gamma.png"
-   },
-   {
-      "id":"48",
-      "ship":"Gladius",
       "rank":"Epsilon",
       "apexName":"Twin Lance",
       "type":"Aura",
@@ -1438,6 +1423,21 @@ apexes =[
       "zen":"Kappa Drive",
       "video":"https://www.youtube.com/watch?v=4qML68jb1Xs",
       "imageName":"Gladius Epsilon.png"
+   },
+   {
+      "id":"48",
+      "ship":"Gladius",
+      "rank":"Gamma",
+      "apexName":"Antigrav",
+      "type":"Zen",
+      "description":"Ignore energy particle weight and increase passive attraction power. (Effect applies whether or not Kappa Drive is active)",
+      "cost":"15,000",
+      "dps":"25.00",
+      "mainType":"Shield Breaker",
+      "aura":"Vorpal Lance",
+      "zen":"Kappa Drive",
+      "video":"https://www.youtube.com/watch?v=cojhPABqU4E",
+      "imageName":"Gladius Gamma.png"
    },
    {
       "id":"49",
@@ -1472,21 +1472,6 @@ apexes =[
    {
       "id":"50",
       "ship":"Barret",
-      "rank":"Beta",
-      "apexName":"Blast Amplifier",
-      "type":"Aura",
-      "description":"Blast radius of the Ion Cannon projectiles is increased. (Hidden buff: Damage 10 → 13)",
-      "cost":"10,000",
-      "dps":"31.25",
-      "mainType":"High Impact",
-      "aura":"Ion Cannon",
-      "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=Gv8ihZOxMAg",
-      "imageName":"Barret Beta.png"
-   },
-   {
-      "id":"50",
-      "ship":"Barret",
       "rank":"Epsilon",
       "apexName":"Explosive Arrival",
       "type":"Zen",
@@ -1500,19 +1485,19 @@ apexes =[
       "imageName":"Barret Epsilon.png"
    },
    {
-      "id":"51",
-      "ship":"Saber",
+      "id":"50",
+      "ship":"Barret",
       "rank":"Beta",
-      "apexName":"High Capacity",
+      "apexName":"Blast Amplifier",
       "type":"Aura",
-      "description":"Vorpal Lance can store more energy, adding an additional Counter.",
+      "description":"Blast radius of the Ion Cannon projectiles is increased. (Hidden buff: Damage 10 → 13)",
       "cost":"10,000",
       "dps":"31.25",
-      "mainType":"Armor Piercing",
-      "aura":"Vorpal Lance",
-      "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=EK1C3bxxLQs",
-      "imageName":"Saber Beta.png"
+      "mainType":"High Impact",
+      "aura":"Ion Cannon",
+      "zen":"Teleport",
+      "video":"https://www.youtube.com/watch?v=Gv8ihZOxMAg",
+      "imageName":"Barret Beta.png"
    },
    {
       "id":"51",
@@ -1528,6 +1513,21 @@ apexes =[
       "zen":"Reflex EMP",
       "video":"https://www.youtube.com/watch?v=Verqv_Y_aHc",
       "imageName":"Saber Epsilon.png"
+   },
+   {
+      "id":"51",
+      "ship":"Saber",
+      "rank":"Beta",
+      "apexName":"High Capacity",
+      "type":"Aura",
+      "description":"Vorpal Lance can store more energy, adding an additional Counter.",
+      "cost":"10,000",
+      "dps":"31.25",
+      "mainType":"Armor Piercing",
+      "aura":"Vorpal Lance",
+      "zen":"Reflex EMP",
+      "video":"https://www.youtube.com/watch?v=EK1C3bxxLQs",
+      "imageName":"Saber Beta.png"
    },
    {
       "id":"52",
@@ -1592,21 +1592,6 @@ apexes =[
    {
       "id":"54",
       "ship":"Yigothu",
-      "rank":"Sigma",
-      "apexName":"Deep Field",
-      "type":"Aura",
-      "description":"A slightly larger Chrono Field that also slows down turrets. (+~18% radius, slow turrets down to 30% speed)",
-      "cost":"35,000",
-      "dps":"25.00",
-      "mainType":"Shield Breaker",
-      "aura":"Chrono Field",
-      "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=9QA78ASPFXo",
-      "imageName":"Yigothu Sigma.png"
-   },
-   {
-      "id":"54",
-      "ship":"Yigothu",
       "rank":"Omega",
       "apexName":"Serenity",
       "type":"Zen",
@@ -1620,19 +1605,19 @@ apexes =[
       "imageName":"Yigothu Omega.png"
    },
    {
-      "id":"55",
-      "ship":"Torrent",
-      "rank":"Alpha",
-      "apexName":"Extended Range",
+      "id":"54",
+      "ship":"Yigothu",
+      "rank":"Sigma",
+      "apexName":"Deep Field",
       "type":"Aura",
-      "description":"The EMP range is increased by expanding the waveband.",
-      "cost":"5,000",
-      "dps":"31.25",
-      "mainType":"High Impact",
-      "aura":"Stun EMP",
-      "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=5xitgj4-NGA",
-      "imageName":"Torrent Alpha.png"
+      "description":"A slightly larger Chrono Field that also slows down turrets. (+~18% radius, slow turrets down to 30% speed)",
+      "cost":"35,000",
+      "dps":"25.00",
+      "mainType":"Shield Breaker",
+      "aura":"Chrono Field",
+      "zen":"Reflex EMP",
+      "video":"https://www.youtube.com/watch?v=9QA78ASPFXo",
+      "imageName":"Yigothu Sigma.png"
    },
    {
       "id":"55",
@@ -1648,6 +1633,21 @@ apexes =[
       "zen":"Personal Shield",
       "video":"https://www.youtube.com/watch?v=Q2inwpc-gtk",
       "imageName":"Torrent Beta.png"
+   },
+   {
+      "id":"55",
+      "ship":"Torrent",
+      "rank":"Alpha",
+      "apexName":"Extended Range",
+      "type":"Aura",
+      "description":"The EMP range is increased by expanding the waveband.",
+      "cost":"5,000",
+      "dps":"31.25",
+      "mainType":"High Impact",
+      "aura":"Stun EMP",
+      "zen":"Personal Shield",
+      "video":"https://www.youtube.com/watch?v=5xitgj4-NGA",
+      "imageName":"Torrent Alpha.png"
    },
    {
       "id":"56",
@@ -1712,21 +1712,6 @@ apexes =[
    {
       "id":"58",
       "ship":"Njörun",
-      "rank":"Gamma",
-      "apexName":"Super Reflect",
-      "type":"Zen",
-      "description":"Split-Second shield activation just before laser firing will reflect back with extra force. (5 times the normal reflection damage)",
-      "cost":"15,000",
-      "dps":"31.25",
-      "mainType":"Shield Breaker",
-      "aura":"Chrono Field",
-      "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=JqgZblTAdvk",
-      "imageName":"Njörun Gamma.png"
-   },
-   {
-      "id":"58",
-      "ship":"Njörun",
       "rank":"Lambda",
       "apexName":"Deep Field",
       "type":"Aura",
@@ -1740,19 +1725,19 @@ apexes =[
       "imageName":"Njörun Lambda.png"
    },
    {
-      "id":"59",
-      "ship":"Boxer",
-      "rank":"Alpha",
-      "apexName":"Double Phalanx",
-      "type":"Aura",
-      "description":"A smaller additional Phalanx is placed at the front. (Smaller Phalanx has 50% strength and breaks independently)",
-      "cost":"5,000",
+      "id":"58",
+      "ship":"Njörun",
+      "rank":"Gamma",
+      "apexName":"Super Reflect",
+      "type":"Zen",
+      "description":"Split-Second shield activation just before laser firing will reflect back with extra force. (5 times the normal reflection damage)",
+      "cost":"15,000",
       "dps":"31.25",
-      "mainType":"High Impact",
-      "aura":"Phalanx",
-      "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=PHorHSdT6ig",
-      "imageName":"Boxer Alpha.png"
+      "mainType":"Shield Breaker",
+      "aura":"Chrono Field",
+      "zen":"Personal Shield",
+      "video":"https://www.youtube.com/watch?v=JqgZblTAdvk",
+      "imageName":"Njörun Gamma.png"
    },
    {
       "id":"59",
@@ -1768,6 +1753,21 @@ apexes =[
       "zen":"Reflex EMP",
       "video":"https://www.youtube.com/watch?v=5VmCPHcTti4",
       "imageName":"Boxer Beta.png"
+   },
+   {
+      "id":"59",
+      "ship":"Boxer",
+      "rank":"Alpha",
+      "apexName":"Double Phalanx",
+      "type":"Aura",
+      "description":"A smaller additional Phalanx is placed at the front. (Smaller Phalanx has 50% strength and breaks independently)",
+      "cost":"5,000",
+      "dps":"31.25",
+      "mainType":"High Impact",
+      "aura":"Phalanx",
+      "zen":"Reflex EMP",
+      "video":"https://www.youtube.com/watch?v=PHorHSdT6ig",
+      "imageName":"Boxer Alpha.png"
    },
    {
       "id":"60",
@@ -1832,21 +1832,6 @@ apexes =[
    {
       "id":"62",
       "ship":"Antioch",
-      "rank":"Beta",
-      "apexName":"High Capacity",
-      "type":"Aura",
-      "description":"Vorpal Lance can store more energy, adding an additional Counter.",
-      "cost":"10,000",
-      "dps":"31.25",
-      "mainType":"Armor Piercing",
-      "aura":"Vorpal Lance",
-      "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=Zoh3nB_RajE",
-      "imageName":"Antioch Beta.png"
-   },
-   {
-      "id":"62",
-      "ship":"Antioch",
       "rank":"Delta",
       "apexName":"Twin Lance",
       "type":"Aura",
@@ -1858,6 +1843,21 @@ apexes =[
       "zen":"Personal Shield",
       "video":"https://www.youtube.com/watch?v=9h-WU7Ka7gA",
       "imageName":"Antioch Delta.png"
+   },
+   {
+      "id":"62",
+      "ship":"Antioch",
+      "rank":"Beta",
+      "apexName":"High Capacity",
+      "type":"Aura",
+      "description":"Vorpal Lance can store more energy, adding an additional Counter.",
+      "cost":"10,000",
+      "dps":"31.25",
+      "mainType":"Armor Piercing",
+      "aura":"Vorpal Lance",
+      "zen":"Personal Shield",
+      "video":"https://www.youtube.com/watch?v=Zoh3nB_RajE",
+      "imageName":"Antioch Beta.png"
    },
    {
       "id":"63",
@@ -1892,21 +1892,6 @@ apexes =[
    {
       "id":"64",
       "ship":"Trinity",
-      "rank":"Delta",
-      "apexName":"Darkfire Blast",
-      "type":"Zen",
-      "description":"The Darkfire shot upon Teleport arrival now deals Blast damage",
-      "cost":"20,000",
-      "dps":"31.25",
-      "mainType":"Armor Piercing",
-      "aura":"Chrono Field",
-      "zen":"Trinity Teleport",
-      "video":"https://www.youtube.com/watch?v=3PsJW1Bt4YU",
-      "imageName":"Trinity Delta.png"
-   },
-   {
-      "id":"64",
-      "ship":"Trinity",
       "rank":"Phi",
       "apexName":"Deep Field",
       "type":"Aura",
@@ -1920,19 +1905,19 @@ apexes =[
       "imageName":"Trinity Phi.png"
    },
    {
-      "id":"65",
-      "ship":"Wraith",
-      "rank":"Gamma",
-      "apexName":"High Capacity",
-      "type":"Aura",
-      "description":"Vorpal Lance can store more energy, adding an additional Counter.",
-      "cost":"15,000",
+      "id":"64",
+      "ship":"Trinity",
+      "rank":"Delta",
+      "apexName":"Darkfire Blast",
+      "type":"Zen",
+      "description":"The Darkfire shot upon Teleport arrival now deals Blast damage",
+      "cost":"20,000",
       "dps":"31.25",
-      "mainType":"High Impact",
-      "aura":"Vorpal Lance",
-      "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=MnT0reXNFok",
-      "imageName":"Wraith Gamma.png"
+      "mainType":"Armor Piercing",
+      "aura":"Chrono Field",
+      "zen":"Trinity Teleport",
+      "video":"https://www.youtube.com/watch?v=3PsJW1Bt4YU",
+      "imageName":"Trinity Delta.png"
    },
    {
       "id":"65",
@@ -1948,6 +1933,21 @@ apexes =[
       "zen":"Mega Bomb",
       "video":"https://www.youtube.com/watch?v=8gc3NagM48o",
       "imageName":"Wraith Lambda.png"
+   },
+   {
+      "id":"65",
+      "ship":"Wraith",
+      "rank":"Gamma",
+      "apexName":"High Capacity",
+      "type":"Aura",
+      "description":"Vorpal Lance can store more energy, adding an additional Counter.",
+      "cost":"15,000",
+      "dps":"31.25",
+      "mainType":"High Impact",
+      "aura":"Vorpal Lance",
+      "zen":"Mega Bomb",
+      "video":"https://www.youtube.com/watch?v=MnT0reXNFok",
+      "imageName":"Wraith Gamma.png"
    },
    {
       "id":"66",
@@ -1982,21 +1982,6 @@ apexes =[
    {
       "id":"67",
       "ship":"Scuuxun",
-      "rank":"Delta",
-      "apexName":"Seeker T'kari",
-      "type":"Weapon",
-      "description":"T'kari Spikes now have slight homing capabilities.",
-      "cost":"20,000",
-      "dps":"31.25",
-      "mainType":"Shield Breaker",
-      "aura":"Laser Storm",
-      "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=HweL7C83pXw",
-      "imageName":"Scuuxun Delta.png"
-   },
-   {
-      "id":"67",
-      "ship":"Scuuxun",
       "rank":"Tau",
       "apexName":"Extended Range",
       "type":"Zen",
@@ -2008,6 +1993,21 @@ apexes =[
       "zen":"Reflex EMP",
       "video":"https://www.youtube.com/watch?v=MHo3NjMTQFw",
       "imageName":"Scuuxun Tau.png"
+   },
+   {
+      "id":"67",
+      "ship":"Scuuxun",
+      "rank":"Delta",
+      "apexName":"Seeker T'kari",
+      "type":"Weapon",
+      "description":"T'kari Spikes now have slight homing capabilities.",
+      "cost":"20,000",
+      "dps":"31.25",
+      "mainType":"Shield Breaker",
+      "aura":"Laser Storm",
+      "zen":"Reflex EMP",
+      "video":"https://www.youtube.com/watch?v=HweL7C83pXw",
+      "imageName":"Scuuxun Delta.png"
    },
    {
       "id":"68",
@@ -2072,21 +2072,6 @@ apexes =[
    {
       "id":"70",
       "ship":"Predator",
-      "rank":"Alpha",
-      "apexName":"Reinforced Lining",
-      "type":"Aura",
-      "description":"Increases the strength of Inner Lining.",
-      "cost":"5,000",
-      "dps":"31.25",
-      "mainType":"Armor Piercing",
-      "aura":"Barrier",
-      "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=OqLJ6AJ0_xc",
-      "imageName":"Predator Alpha.png"
-   },
-   {
-      "id":"70",
-      "ship":"Predator",
       "rank":"Delta",
       "apexName":"High Damage",
       "type":"Zen",
@@ -2098,6 +2083,21 @@ apexes =[
       "zen":"Reflex EMP",
       "video":"https://www.youtube.com/watch?v=p5rbwUx1aqo",
       "imageName":"Predator Delta.png"
+   },
+   {
+      "id":"70",
+      "ship":"Predator",
+      "rank":"Alpha",
+      "apexName":"Reinforced Lining",
+      "type":"Aura",
+      "description":"Increases the strength of Inner Lining.",
+      "cost":"5,000",
+      "dps":"31.25",
+      "mainType":"Armor Piercing",
+      "aura":"Barrier",
+      "zen":"Reflex EMP",
+      "video":"https://www.youtube.com/watch?v=OqLJ6AJ0_xc",
+      "imageName":"Predator Alpha.png"
    },
    {
       "id":"71",
@@ -2132,21 +2132,6 @@ apexes =[
    {
       "id":"72",
       "ship":"AB8/Klyn",
-      "rank":"Delta",
-      "apexName":"EMP Laser",
-      "type":"Aura",
-      "description":"Destroyed bullets trigger a small Bullet EMP.",
-      "cost":"20,000",
-      "dps":"37.50",
-      "mainType":"High Impact",
-      "aura":"Point Defense",
-      "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=2eCjNdkxA30",
-      "imageName":"AB8_KLYN Delta.png"
-   },
-   {
-      "id":"72",
-      "ship":"AB8/Klyn",
       "rank":"Sigma",
       "apexName":"High Damage",
       "type":"Zen",
@@ -2160,19 +2145,19 @@ apexes =[
       "imageName":"AB8_KLYN Sigma.png"
    },
    {
-      "id":"73",
-      "ship":"Polaris",
-      "rank":"Beta",
-      "apexName":"Overcharge",
+      "id":"72",
+      "ship":"AB8/Klyn",
+      "rank":"Delta",
+      "apexName":"EMP Laser",
       "type":"Aura",
-      "description":"Overcharged Ion shots explode with a shockwave that stuns nearby enemies.",
-      "cost":"10,000",
-      "dps":"31.25",
-      "mainType":"Shield Breaker",
-      "aura":"Ion Cannon",
-      "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=LchmZYU81KM",
-      "imageName":"Polaris Beta.png"
+      "description":"Destroyed bullets trigger a small Bullet EMP.",
+      "cost":"20,000",
+      "dps":"37.50",
+      "mainType":"High Impact",
+      "aura":"Point Defense",
+      "zen":"Reflex EMP",
+      "video":"https://www.youtube.com/watch?v=2eCjNdkxA30",
+      "imageName":"AB8_KLYN Delta.png"
    },
    {
       "id":"73",
@@ -2188,6 +2173,21 @@ apexes =[
       "zen":"Kappa Drive",
       "video":"https://www.youtube.com/watch?v=DGBU5b5P9Vk",
       "imageName":"Polaris Gamma.png"
+   },
+   {
+      "id":"73",
+      "ship":"Polaris",
+      "rank":"Beta",
+      "apexName":"Overcharge",
+      "type":"Aura",
+      "description":"Overcharged Ion shots explode with a shockwave that stuns nearby enemies.",
+      "cost":"10,000",
+      "dps":"31.25",
+      "mainType":"Shield Breaker",
+      "aura":"Ion Cannon",
+      "zen":"Kappa Drive",
+      "video":"https://www.youtube.com/watch?v=LchmZYU81KM",
+      "imageName":"Polaris Beta.png"
    },
    {
       "id":"74",
@@ -2222,21 +2222,6 @@ apexes =[
    {
       "id":"75",
       "ship":"Mirage",
-      "rank":"Delta",
-      "apexName":"Extended Range",
-      "type":"Aura",
-      "description":"Amplification of frequencies give Bullet EMP more range. (Max radius: 450 → 500)",
-      "cost":"20,000",
-      "dps":"25.00",
-      "mainType":"Shield Breaker",
-      "aura":"Bullet EMP",
-      "zen":"Nightfury",
-      "video":"https://www.youtube.com/watch?v=H-wx18YDppc",
-      "imageName":"Mirage Delta.png"
-   },
-   {
-      "id":"75",
-      "ship":"Mirage",
       "rank":"Omega",
       "apexName":"Increased Stun",
       "type":"Aura",
@@ -2248,6 +2233,21 @@ apexes =[
       "zen":"Nightfury",
       "video":"https://www.youtube.com/watch?v=OOJfAfYNiIs",
       "imageName":"Mirage Omega.png"
+   },
+   {
+      "id":"75",
+      "ship":"Mirage",
+      "rank":"Delta",
+      "apexName":"Extended Range",
+      "type":"Aura",
+      "description":"Amplification of frequencies give Bullet EMP more range. (Max radius: 450 → 500)",
+      "cost":"20,000",
+      "dps":"25.00",
+      "mainType":"Shield Breaker",
+      "aura":"Bullet EMP",
+      "zen":"Nightfury",
+      "video":"https://www.youtube.com/watch?v=H-wx18YDppc",
+      "imageName":"Mirage Delta.png"
    },
    {
       "id":"76",
@@ -2342,21 +2342,6 @@ apexes =[
    {
       "id":"79",
       "ship":"Nimbus",
-      "rank":"Epsilon",
-      "apexName":"Extended Range",
-      "type":"Zen",
-      "description":"Amplified frequencies increase the EMP range. (About 25% radius increase)",
-      "cost":"25,000",
-      "dps":"31.25",
-      "mainType":"High Impact",
-      "aura":"Stun EMP",
-      "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=DvOTwp3MPpY",
-      "imageName":"Nimbus Epsilon.png"
-   },
-   {
-      "id":"79",
-      "ship":"Nimbus",
       "rank":"Sigma",
       "apexName":"High Damage",
       "type":"Aura",
@@ -2368,6 +2353,21 @@ apexes =[
       "zen":"Reflex EMP",
       "video":"https://www.youtube.com/watch?v=2vKnpB6WsT8",
       "imageName":"Nimbus Sigma.png"
+   },
+   {
+      "id":"79",
+      "ship":"Nimbus",
+      "rank":"Epsilon",
+      "apexName":"Extended Range",
+      "type":"Zen",
+      "description":"Amplified frequencies increase the EMP range. (About 25% radius increase)",
+      "cost":"25,000",
+      "dps":"31.25",
+      "mainType":"High Impact",
+      "aura":"Stun EMP",
+      "zen":"Reflex EMP",
+      "video":"https://www.youtube.com/watch?v=DvOTwp3MPpY",
+      "imageName":"Nimbus Epsilon.png"
    },
    {
       "id":"80",
@@ -2402,21 +2402,6 @@ apexes =[
    {
       "id":"81",
       "ship":"Reaper",
-      "rank":"Lambda",
-      "apexName":"Lance Wake",
-      "type":"Zen",
-      "description":"Destroys enemy bullets hit by Focus Lance",
-      "cost":"30,000",
-      "dps":"25.00",
-      "mainType":"High Impact",
-      "aura":"Laser Storm",
-      "zen":"Focus Lance",
-      "video":"https://www.youtube.com/watch?v=wVHD_qgDU5w",
-      "imageName":"Reaper Lambda.png"
-   },
-   {
-      "id":"81",
-      "ship":"Reaper",
       "rank":"Tau",
       "apexName":"Shield Breaker",
       "type":"Aura",
@@ -2428,6 +2413,21 @@ apexes =[
       "zen":"Focus Lance",
       "video":"https://www.youtube.com/watch?v=DFsoN_JWtWQ",
       "imageName":"Reaper Tau.png"
+   },
+   {
+      "id":"81",
+      "ship":"Reaper",
+      "rank":"Lambda",
+      "apexName":"Lance Wake",
+      "type":"Zen",
+      "description":"Destroys enemy bullets hit by Focus Lance",
+      "cost":"30,000",
+      "dps":"25.00",
+      "mainType":"High Impact",
+      "aura":"Laser Storm",
+      "zen":"Focus Lance",
+      "video":"https://www.youtube.com/watch?v=wVHD_qgDU5w",
+      "imageName":"Reaper Lambda.png"
    },
    {
       "id":"82",
@@ -2462,21 +2462,6 @@ apexes =[
    {
       "id":"83",
       "ship":"Zhetass",
-      "rank":"Beta",
-      "apexName":"Focus",
-      "type":"Zen",
-      "description":"Focused interconnects charge Personal Shield faster and recover it more quickly. (Complete Recovery time after 1 usage is about 8s → 4s)",
-      "cost":"10,000",
-      "dps":"31.25",
-      "mainType":"Shield Breaker",
-      "aura":"Phalanx",
-      "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=vYWjeWjNg7s",
-      "imageName":"Zhetass Beta.png"
-   },
-   {
-      "id":"83",
-      "ship":"Zhetass",
       "rank":"Gamma",
       "apexName":"Supersize",
       "type":"Zen",
@@ -2490,19 +2475,19 @@ apexes =[
       "imageName":"Zhetass Gamma.png"
    },
    {
-      "id":"84",
-      "ship":"Neni",
-      "rank":"Delta",
-      "apexName":"Armour Piercing",
+      "id":"83",
+      "ship":"Zhetass",
+      "rank":"Beta",
+      "apexName":"Focus",
       "type":"Zen",
-      "description":"A specialised laser that pierces armour. (Bypass 30% damage reduction from armor)",
-      "cost":"20,000",
+      "description":"Focused interconnects charge Personal Shield faster and recover it more quickly. (Complete Recovery time after 1 usage is about 8s → 4s)",
+      "cost":"10,000",
       "dps":"31.25",
-      "mainType":"Armor Piercing",
-      "aura":"Vorpal Lance",
-      "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=s7e8uEuJml4",
-      "imageName":"Neni Delta.png"
+      "mainType":"Shield Breaker",
+      "aura":"Phalanx",
+      "zen":"Personal Shield",
+      "video":"https://www.youtube.com/watch?v=vYWjeWjNg7s",
+      "imageName":"Zhetass Beta.png"
    },
    {
       "id":"84",
@@ -2518,6 +2503,21 @@ apexes =[
       "zen":"Mega Laser",
       "video":"https://www.youtube.com/watch?v=8xtb2o2syPo",
       "imageName":"Neni Epsilon.png"
+   },
+   {
+      "id":"84",
+      "ship":"Neni",
+      "rank":"Delta",
+      "apexName":"Armour Piercing",
+      "type":"Zen",
+      "description":"A specialised laser that pierces armour. (Bypass 30% damage reduction from armor)",
+      "cost":"20,000",
+      "dps":"31.25",
+      "mainType":"Armor Piercing",
+      "aura":"Vorpal Lance",
+      "zen":"Mega Laser",
+      "video":"https://www.youtube.com/watch?v=s7e8uEuJml4",
+      "imageName":"Neni Delta.png"
    },
    {
       "id":"85",
@@ -2552,21 +2552,6 @@ apexes =[
    {
       "id":"86",
       "ship":"Claymore",
-      "rank":"Delta",
-      "apexName":"Extended Clearance",
-      "type":"Zen",
-      "description":"Energy from the Teleport is released on arrival to extend the range of Arrival EMP. (+30% radius)",
-      "cost":"20,000",
-      "dps":"25.00",
-      "mainType":"High Impact",
-      "aura":"Goliath Missile",
-      "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=cwmL0zq8dJs",
-      "imageName":"Claymore Delta.png"
-   },
-   {
-      "id":"86",
-      "ship":"Claymore",
       "rank":"Lambda",
       "apexName":"Disintegrator Warhead",
       "type":"Aura",
@@ -2580,19 +2565,19 @@ apexes =[
       "imageName":"Claymore Lambda.png"
    },
    {
-      "id":"87",
-      "ship":"Starless",
-      "rank":"Epsilon",
-      "apexName":"High Capacity",
-      "type":"Aura",
-      "description":"Allows the ship to store an additional Goliath Missile",
-      "cost":"25,000",
-      "dps":"31.25",
-      "mainType":"Shield Breaker",
+      "id":"86",
+      "ship":"Claymore",
+      "rank":"Delta",
+      "apexName":"Extended Clearance",
+      "type":"Zen",
+      "description":"Energy from the Teleport is released on arrival to extend the range of Arrival EMP. (+30% radius)",
+      "cost":"20,000",
+      "dps":"25.00",
+      "mainType":"High Impact",
       "aura":"Goliath Missile",
-      "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=9i28DA82KYk",
-      "imageName":"Starless Epsilon.png"
+      "zen":"Teleport",
+      "video":"https://www.youtube.com/watch?v=cwmL0zq8dJs",
+      "imageName":"Claymore Delta.png"
    },
    {
       "id":"87",
@@ -2608,6 +2593,21 @@ apexes =[
       "zen":"Reflex EMP",
       "video":"https://www.youtube.com/watch?v=030orBCjZBg",
       "imageName":"Starless Sigma.png"
+   },
+   {
+      "id":"87",
+      "ship":"Starless",
+      "rank":"Epsilon",
+      "apexName":"High Capacity",
+      "type":"Aura",
+      "description":"Allows the ship to store an additional Goliath Missile",
+      "cost":"25,000",
+      "dps":"31.25",
+      "mainType":"Shield Breaker",
+      "aura":"Goliath Missile",
+      "zen":"Reflex EMP",
+      "video":"https://www.youtube.com/watch?v=9i28DA82KYk",
+      "imageName":"Starless Epsilon.png"
    },
    {
       "id":"88",
@@ -2732,21 +2732,6 @@ apexes =[
    {
       "id":"92",
       "ship":"Centurion",
-      "rank":"Epsilon",
-      "apexName":"Shield Booster",
-      "type":"Zen",
-      "description":"A custom booster extends the protection after the shield expires",
-      "cost":"25,000",
-      "dps":"31.25",
-      "mainType":"High Impact",
-      "aura":"Goliath Missile",
-      "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=PA2NpPVce2s",
-      "imageName":"Centurion Epsilon.png"
-   },
-   {
-      "id":"92",
-      "ship":"Centurion",
       "rank":"Tau",
       "apexName":"Tungsten Warhead",
       "type":"Aura",
@@ -2760,19 +2745,19 @@ apexes =[
       "imageName":"Centurion Tau.png"
    },
    {
-      "id":"93",
-      "ship":"Stinger",
+      "id":"92",
+      "ship":"Centurion",
       "rank":"Epsilon",
-      "apexName":"Reflector",
-      "type":"Aura",
-      "description":"Lasers reflect on the Barrier outer surface.",
+      "apexName":"Shield Booster",
+      "type":"Zen",
+      "description":"A custom booster extends the protection after the shield expires",
       "cost":"25,000",
       "dps":"31.25",
-      "mainType":"Armor Piercing",
-      "aura":"Barrier",
-      "zen":"Focus Lance",
-      "video":"https://www.youtube.com/watch?v=yLAWf_KM7o4",
-      "imageName":"Stinger Epsilon.png"
+      "mainType":"High Impact",
+      "aura":"Goliath Missile",
+      "zen":"Personal Shield",
+      "video":"https://www.youtube.com/watch?v=PA2NpPVce2s",
+      "imageName":"Centurion Epsilon.png"
    },
    {
       "id":"93",
@@ -2790,19 +2775,19 @@ apexes =[
       "imageName":"Stinger Lambda.png"
    },
    {
-      "id":"94",
-      "ship":"Mistral",
-      "rank":"Lambda",
-      "apexName":"Fast Charge",
-      "type":"Zen",
-      "description":"High efficiency charge algorithms charge Mega Bomb more quickly. (Base charge: 2s → 1.75s, Charge time recovery: Average → Fast)",
-      "cost":"30,000",
+      "id":"93",
+      "ship":"Stinger",
+      "rank":"Epsilon",
+      "apexName":"Reflector",
+      "type":"Aura",
+      "description":"Lasers reflect on the Barrier outer surface.",
+      "cost":"25,000",
       "dps":"31.25",
       "mainType":"Armor Piercing",
-      "aura":"Goliath Missile",
-      "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=DauHSwONBkE",
-      "imageName":"Mistral Lambda.png"
+      "aura":"Barrier",
+      "zen":"Focus Lance",
+      "video":"https://www.youtube.com/watch?v=yLAWf_KM7o4",
+      "imageName":"Stinger Epsilon.png"
    },
    {
       "id":"94",
@@ -2818,6 +2803,21 @@ apexes =[
       "zen":"Mega Bomb",
       "video":"https://www.youtube.com/watch?v=xaZfiQ2Y1aA",
       "imageName":"Mistral Tau.png"
+   },
+   {
+      "id":"94",
+      "ship":"Mistral",
+      "rank":"Lambda",
+      "apexName":"Fast Charge",
+      "type":"Zen",
+      "description":"High efficiency charge algorithms charge Mega Bomb more quickly. (Base charge: 2s → 1.75s, Charge time recovery: Average → Fast)",
+      "cost":"30,000",
+      "dps":"31.25",
+      "mainType":"Armor Piercing",
+      "aura":"Goliath Missile",
+      "zen":"Mega Bomb",
+      "video":"https://www.youtube.com/watch?v=DauHSwONBkE",
+      "imageName":"Mistral Lambda.png"
    },
    {
       "id":"95",
