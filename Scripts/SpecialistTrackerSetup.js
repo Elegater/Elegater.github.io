@@ -25,7 +25,7 @@ function specialistsTrackerSetup(){
 
 function updateSpecialistTable(){
     // Setting up dailies listing
-    var baseDate = moment.utc([2024, 1, 8, 0]);   // Setting base date on the first element in the dailies array. [y, m, d, h]: only m is zero based;
+    var baseDate = moment.utc([2024, 3, 20, 0]);   // Setting base date on the first element in the specialists array. [y, m, d, h]: only m is zero based;
     
     var currentDateTime = moment.utc();
     var daysSinceBase = currentDateTime.diff(baseDate, "days");
@@ -41,13 +41,13 @@ function updateSpecialistTable(){
     $("#resetTimeDaily").html(resetTime);
 
     // Calculating mission numbers to display
-    var baseMissionNo = 2920;
-    var todayMissionNo = baseMissionNo + daysSinceBase;
+    var baseSpecMissionNo = 2921;
+    var todaySpecMissionNo = baseSpecMissionNo + daysSinceBase;
 
     for (var i = 0; i < specialists.length; i++) {
         var row = i + 1;
         var rowDate = moment.utc().startOf("date").local().add(i, "days");
-        $("#dailyNo" + row).html("#" + (todayMissionNo + i));
+        $("#dailyNo" + row).html("#" + (todaySpecMissionNo + i));
         $("#dailyDate" + row).html(rowDate.format("D MMM"));
         $("#specialistsTheme" + row).html(specialistsImport[i].theme);
         $("#specialistsShips" + row).html(specialistsImport[i].ships);
