@@ -33,5 +33,66 @@ specialists = [
         id: 7,
         theme: "Ceres Major (Armor General/Boomerang)"
         ships: "test"
+    },
+    {
+        id: 8,
+        theme: "Ceres Major (Armor General/Boomerang)"
+        ships: "test"
+    },
+    {
+        id: 9,
+        theme: "Ceres Major (Armor General/Boomerang)"
+        ships: "test"
+    }
+,
+    {
+        id: 10,
+        theme: "Ceres Major (Armor General/Boomerang)"
+        ships: "test"
+    },
+    {
+        id: 11,
+        theme: "Ceres Major (Armor General/Boomerang)"
+        ships: "test"
+    },
+    {
+        id: 12,
+        theme: "Ceres Major (Armor General/Boomerang)"
+        ships: "test"
+    },
+    {
+        id: 13,
+        theme: "Ceres Major (Armor General/Boomerang)"
+        ships: "test"
+    },
+    {
+        id: 14,
+        theme: "Ceres Major (Armor General/Boomerang)"
+        ships: "test"
+    },
+    {
+        id: 15,
+        theme: "Ceres Major (Armor General/Boomerang)"
+        ships: "test"
+    },
+    {
+        id: 16,
+        theme: "Ceres Major (Armor General/Boomerang)"
+        ships: "test"
+    },
+    {
+        id: 18,
+        theme: "Ceres Major (Armor General/Boomerang)"
+        ships: "test"
+    },
+    {
+        id: 19,
+        theme: "Ceres Major (Armor General/Boomerang)"
+        ships: "test"
+    },
+    {
+        id: 20,
+        theme: "Ceres Major (Armor General/Boomerang)"
+        ships: "test"
     }
 ]
