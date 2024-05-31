@@ -1,102 +1,182 @@
 dailies = [
     {
         id: 1,
-        map:"Arcology CQ-6 | Prometheus Array | (Spec)",
-        type:"Shielded, Dart/MIRV | Unprotected, Shuriken/Boomerang | (Spec)"
+        mapA:"Arcology CQ-6 | Prometheus Array | (Spec)",
+        typeA:"Shielded, Dart/MIRV | Unprotected, Shuriken/Boomerang | (Spec)",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 2,
-        map:"Zhey Auna | (Spec) | Prometheus Array",
-        type:"Armored, Dart/Boomerang/Pellet | (Spec) | Shielded, General/Boomerang"
+        mapA:"Zhey Auna | (Spec) | Prometheus Array",
+        typeA:"Armored, Dart/Boomerang/Pellet | (Spec) | Shielded, General/Boomerang",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 3,
-        map:"Blight, Sector[3,84] | Dovacoon Forge | (Spec)",
-        type:"Arnored, General/Boomerang | Armored, Dart/Boomerang/Pellet | (Spec)"
+        mapA:"Blight, Sector[3,84] | Dovacoon Forge | (Spec)",
+        typeA:"Arnored, General/Boomerang | Armored, Dart/Boomerang/Pellet | (Spec)",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 4,
-        map:"Gau Prime | (Spec) | Dovacoon Forge",
-        type:"Shielded, Dart/Pellet/Laser | (Spec) | Armored, Shuriken/MIRV(B)*"
+        mapA:"Gau Prime | (Spec) | Dovacoon Forge",
+        typeA:"Shielded, Dart/Pellet/Laser | (Spec) | Armored, Shuriken/MIRV(B)*",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 5,
-        map:"Blight, Sector[3,84] | Arcology CQ-6 | (Spec)",
-        type:"Armored, Dart/Boomerang/Laser | Shielded, Dart/Pellet/Laser | (Spec)"
+        mapA:"Blight, Sector[3,84] | Arcology CQ-6 | (Spec)",
+        typeA:"Armored, Dart/Boomerang/Laser | Shielded, Dart/Pellet/Laser | (Spec)",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 6,
-        map:"Zhey Auna | (Spec) | Arcology CQ-6",
-        type:"Unprotected, Shuriken/Boomerang | (Spec) | Shielded, Dart/MIRV"
+        mapA:"Zhey Auna | (Spec) | Arcology CQ-6",
+        typeA:"Unprotected, Shuriken/Boomerang | (Spec) | Shielded, Dart/MIRV",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 7,
-        map:"Gau Prime | Ceres Major | (Spec)",
-        type:"Shielded, Laser/Pellet | Shielded, General | (Spec)"
+        mapA:"Gau Prime | Ceres Major | (Spec)",
+        typeA:"Shielded, Laser/Pellet | Shielded, General | (Spec)",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 8,
-        map:"Ceres Major | (Spec) | Blight, Sector[3,84]",
-        type:"Shielded, Shuriken/Pellet/Laser | (Spec) | Unprotected, General/Boomerang"
+        mapA:"Ceres Major | (Spec) | Blight, Sector[3,84]",
+        typeA:"Shielded, Shuriken/Pellet/Laser | (Spec) | Unprotected, General/Boomerang",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 9,
-        map:"Zhey Auna | Arcology CQ-6 | (Spec)",
-        type:"Unprotected, General - No Lasers | Shielded, Laser/Pellet | (Spec)"
+        mapA:"Zhey Auna | Arcology CQ-6 | (Spec)",
+        typeA:"Unprotected, General - No Lasers | Shielded, Laser/Pellet | (Spec)",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 10,
-        map:"Gau Prime | (Spec) | Ceres Major",
-        type:"Shielded, General | (Spec) | Armored, Dart/Boomerang/Laser"
+        mapA:"Gau Prime | (Spec) | Ceres Major",
+        typeA:"Shielded, General | (Spec) | Armored, Dart/Boomerang/Laser",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 11,
-        map:"Arcology CQ-6 | Blight, Sector[3,84] | (Spec)",
-        type:"Shielded, Lasers Only | Shuriken/MIRV(A) | (Spec)"
+        mapA:"Arcology CQ-6 | Blight, Sector[3,84] | (Spec)",
+        typeA:"Shielded, Lasers Only | Shuriken/MIRV(A) | (Spec)",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 12,
-        map:"Dovacoon Forge | (Spec) | Blight, Sector[3,84]",
-        type:"Armored, Dart/Boomerang/Pellet | (Spec) | Unprotected, Laser/Shuriken"
+        mapA:"Dovacoon Forge | (Spec) | Blight, Sector[3,84]",
+        typeA:"Armored, Dart/Boomerang/Pellet | (Spec) | Unprotected, Laser/Shuriken",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 13,
-        map:"Zhey Auna | Ceres Major | (Spec)",
-        type:"Unprotected, General/Boomerang | Shielded, Laser/Shuriken* | (Spec)"
+        mapA:"Zhey Auna | Ceres Major | (Spec)",
+        typeA:"Unprotected, General/Boomerang | Shielded, Laser/Shuriken* | (Spec)",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 14,
-        map:"Blight, Sector[3,84] | (Spec) | Gau Prime",
-        type:"Armored, Dart/Pellet/Laser | (Spec) | Shielded, Shuriken/MIRV(A)"
+        mapA:"Blight, Sector[3,84] | (Spec) | Gau Prime",
+        typeA:"Armored, Dart/Pellet/Laser | (Spec) | Shielded, Shuriken/MIRV(A)",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 15,
-        map:"Dovacoon Forge | Arcology CQ-6 | (Spec)",
-        type:"Armored, Shuriken/MIRV(A) | Shielded, Dart/Boomerang/Laser | (Spec)"
+        mapA:"Dovacoon Forge | Arcology CQ-6 | (Spec)",
+        typeA:"Armored, Shuriken/MIRV(A) | Shielded, Dart/Boomerang/Laser | (Spec)",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 16,
-        map:"Zhey Auna | (Spec) | Blight, Sector[3,84]",
-        type:"Unprotected, Shuriken/Boomerang | (Spec) | Armored, Laser/Pellet"
+        mapA:"Zhey Auna | (Spec) | Blight, Sector[3,84]",
+        typeA:"Unprotected, Shuriken/Boomerang | (Spec) | Armored, Laser/Pellet",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 17,
-        map:"Gau Prime | Dovacoon Forge | (Spec)",
-        type:"Shielded, Laser/Shuriken | Armored, General/Boomerang | (Spec)"
+        mapA:"Gau Prime | Dovacoon Forge | (Spec)",
+        typeA:"Shielded, Laser/Shuriken | Armored, General/Boomerang | (Spec)",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 18,
-        map:"Blight, Sector[3,84] | (Spec) | Gau Prime",
-        type:"Armored, Laser/Pellet | (Spec) | Shielded, General - No Lasers"
+        mapA:"Blight, Sector[3,84] | (Spec) | Gau Prime",
+        typeA:"Armored, Laser/Pellet | (Spec) | Shielded, General - No Lasers",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 19,
-        map:"Arcology CQ-6 | Ceres Major | (Spec)",
-        type:"Shielded, Shuriken/MIRV(B) | Armored, Dart/MIRV* | (Spec)"
+        mapA:"Arcology CQ-6 | Ceres Major | (Spec)",
+        typeA:"Shielded, Shuriken/MIRV(B) | Armored, Dart/MIRV* | (Spec)",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     },
     {
         id: 20,
-        map:"Gau Prime | (Spec) | Arcology CQ-6",
-        type:"Shielded, General | (Spec) | Armored, Lasers Only"
+        mapA:"Gau Prime | (Spec) | Arcology CQ-6",
+        typeA:"Shielded, General | (Spec) | Armored, Lasers Only",
+        mapB:"t",
+        typeB:"u",
+        mapC:"t",
+        typeC:"u"
     }
 ]
