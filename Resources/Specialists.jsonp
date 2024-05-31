@@ -1,98 +1,1003 @@
 specialists = [
     {
         id: 1,
-        theme: "Blight, Sector [3,84] (Armor General/Dart)",
-        ships: "test"
+        theme: "Solo Challenge",
+        ships: "Neni"
     },
     {
         id: 2,
-        theme: "Arcology CQ-6 (Armor General/Boomerang)",
-        ships: "test"
+        theme: "Solo Challenge",
+        ships: "Aurora"
     },
     {
         id: 3,
-        theme: "Gau Prime (Shield General/Dart)",
-        ships: "test"
+        theme: "Phoenix HD Ships",
+        ships: "Phoenix, Corsair, Trinity, Shogun, Mirage"
     },
     {
         id: 4,
-        theme: "Zhey Auna (Unprotected General/Boomerang)",
-        ships: "test"
+        theme: "Laser Storm Ships",
+        ships: "Elyon, Ogon, Essin, Lokie, Scuuxun"
     },
     {
         id: 5,
-        theme: "Gau Prime (Shield General/Dart)",
-        ships: "test"
+        theme: "Solo Challenge",
+        ships: "Geist"
     },
     {
         id: 6,
-        theme: "Prometheus Array (Shield General)",
-        ships: "test"
+        theme: "Solo Challenge",
+        ships: "Predator"
     },
     {
         id: 7,
-        theme: "Ceres Major (Armor General/Boomerang)",
-        ships: "test"
+        theme: "Mega Laser Ships",
+        ships: "Havoc, Arietis, Ex04239, Exarch, Neni"
     },
     {
         id: 8,
-        theme: "Ceres Major (Armor General/Boomerang)",
-        ships: "test"
+        theme: "Missile Swarm Ships",
+        ships: "Proxymar, Ex04239, Corsair, Kibarrax"
     },
     {
         id: 9,
-        theme: "Ceres Major (Armor General/Boomerang)",
-        ships: "test"
+        theme: "Solo Challenge",
+        ships: "Icarus"
     }
 ,
     {
         id: 10,
-        theme: "Ceres Major (Armor General/Boomerang)",
-        ships: "test"
+        theme: "Solo Challenge",
+        ships: "Krillou"
     },
     {
         id: 11,
-        theme: "Ceres Major (Armor General/Boomerang)",
-        ships: "test"
+        theme: "Point Defence Ships",
+        ships: "Wrackr, Arietis, Proteus, AB8/Klyn, Luna"
     },
     {
         id: 12,
-        theme: "Ceres Major (Armor General/Boomerang)",
-        ships: "test"
+        theme: "Stun EMP Ships",
+        ships: "NC-150, Mist Star, Oran, Czar, Torrent"
     },
     {
         id: 13,
-        theme: "Ceres Major (Armor General/Boomerang)",
-        ships: "test"
+        theme: "Solo Challenge",
+        ships: "Mist Star"
     },
     {
         id: 14,
-        theme: "Ceres Major (Armor General/Boomerang)",
-        ships: "test"
+        theme: "Solo Challenge",
+        ships: "Scuuxun"
     },
     {
         id: 15,
-        theme: "Ceres Major (Armor General/Boomerang)",
-        ships: "test"
+        theme: "Teleporters",
+        ships: "Tillat'Or, Aurora, Vani-Vith, Barret, Claymore"
     },
     {
         id: 16,
-        theme: "Ceres Major (Armor General/Boomerang)",
-        ships: "test"
+        theme: "Vorpal Lance Ships",
+        ships: "Exarch, Wraith, Neni, Naya"
+    },
+    {
+        id: 17,
+        theme: "Solo Challenge",
+        ships: "NC-150"
     },
     {
         id: 18,
-        theme: "Ceres Major (Armor General/Boomerang)",
-        ships: "test"
+        theme: "Solo Challenge",
+        ships: "Vani-Vith"
     },
     {
         id: 19,
-        theme: "Ceres Major (Armor General/Boomerang)",
-        ships: "test"
+        theme: "Barrier Ships",
+        ships: "Jn'Dur, Razor VI, Kada Veni, Qhelqod, Stinger"
     },
     {
         id: 20,
-        theme: "Ceres Major (Armor General/Boomerang)",
-        ships: "test"
+        theme: "Chrono Field Ships",
+        ships: "Baqlor, Hime, Yigothu, Njörun, Trinity"
+    },
+    {
+        id: 21,
+        theme: "Solo Challenge",
+        ships: "Tempest"
+    },
+    {
+        id: 22,
+        theme: "Solo Challenge",
+        ships: "Buhloo"
+    },
+    {
+        id: 23,
+        theme: "Phalanx Ships",
+        ships: "502-Q8, Valkyrie, Lorilou, Esperon"
+    },
+    {
+        id: 24,
+        theme: "Ion Cannon Ships",
+        ships: "Barret, Sonah, NC-271, Polaris"
+    },
+    {
+        id: 25,
+        theme: "Solo Challenge",
+        ships: "Essin"
+    },
+    {
+        id: 26,
+        theme: "Solo Challenge",
+        ships: "Starless"
+    },
+    {
+        id: 27,
+        theme: "Kappa Drive Ships",
+        ships: "Oran, Ogon, Von Braun, Zephyr, Marauder"
+    },
+    {
+        id: 28,
+        theme: "BOOOOM",
+        ships: "Veil, Jn'Dur, Proxymar, Valkyrie"
+    },
+    {
+        id: 29,
+        theme: "Solo Challenge",
+        ships: "Photurius"
+    },
+    {
+        id: 30,
+        theme: "Solo Challenge",
+        ships: "Heechi"
+    },
+    {
+        id: 31,
+        theme: "Reflex EMP Ships",
+        ships: "Yigothu, Scuuxun, Starless, Zimitr, Jeria"
+    },
+    {
+        id: 32,
+        theme: "Shields Up!",
+        ships: "Geist, Gorthaur, Torrent, Centurion"
+    },
+    {
+        id: 33,
+        theme: "Solo Challenge",
+        ships: "Proxymar"
+    },
+    {
+        id: 34,
+        theme: "Solo Challenge",
+        ships: "Boxer"
+    },
+    {
+        id: 35,
+        theme: "Spray & Pray",
+        ships: "Photurius, Arietis, Dragonfly, AB8/Klyn"
+    },
+    {
+        id: 36,
+        theme: "Fire and Forget",
+        ships: "Cinnri, Heechi, Reaper, Claymore"
+    },
+    {
+        id: 37,
+        theme: "Solo Challenge",
+        ships: "AB8/Klyn"
+    },
+    {
+        id: 38,
+        theme: "Solo Challenge",
+        ships: "Polaris"
+    },
+    {
+        id: 39,
+        theme: "Speedy Ships",
+        ships: "Proxymar, Ex04239, Shogun, Kibarrax, Naya"
+    },
+    {
+        id: 40,
+        theme: "Powerful Ships",
+        ships: "Razor VI, Cinnri, Photurius, Aurora"
+    },
+    {
+        id: 41,
+        theme: "Solo Challenge",
+        ships: "Orion"
+    },
+    {
+        id: 42,
+        theme: "Solo Challenge",
+        ships: "Oran"
+    },
+    {
+        id: 43,
+        theme: "BOOOOM",
+        ships: "Krillou, Kada Veni, Juggernaut, Mistral"
+    },
+    {
+        id: 44,
+        theme: "Fire and Forget",
+        ships: "Mist Star, Vuxine, Von Braun, Heechi, Gladius"
+    },
+    {
+        id: 45,
+        theme: "Solo Challenge",
+        ships: "X-81"
+    },
+    {
+        id: 46,
+        theme: "Solo Challenge",
+        ships: "Gorthaur"
+    },
+    {
+        id: 47,
+        theme: "Mega Laser Ships",
+        ships: "Fujin, Tempest, Cinnri, Lorilou"
+    },
+    {
+        id: 48,
+        theme: "Teleporters",
+        ships: "Xaniea, Prime X, Vani-Vith, Icarus, Claymore"
+    },
+    {
+        id: 49,
+        theme: "Solo Challenge",
+        ships: "Disaris"
+    },
+    {
+        id: 50,
+        theme: "Solo Challenge",
+        ships: "Razor VI"
+    },
+    {
+        id: 51,
+        theme: "Vorpal Lance Ships",
+        ships: "Vani-Vith, Saber, Antioch, Icarus, Jeria"
+    },
+    {
+        id: 52,
+        theme: "Kappa Drive Ships",
+        ships: "Shinova, Mist Star, Vuxine, Gladius, Polaris"
+    },
+    {
+        id: 53,
+        theme: "Solo Challenge",
+        ships: "Trireme"
+    },
+    {
+        id: 54,
+        theme: "Solo Challenge",
+        ships: "Warden"
+    },
+    {
+        id: 55,
+        theme: "Missile Swarm Ships",
+        ships: "Geist, Corsair, Uhb, Kibarrax"
+    },
+    {
+        id: 56,
+        theme: "Point Defence Ships",
+        ships: "Wrackr, Orion, AB8/Klyn, Widget, Luna"
+    },
+    {
+        id: 57,
+        theme: "Solo Challenge",
+        ships: "Zimitr"
+    },
+    {
+        id: 58,
+        theme: "Solo Challenge",
+        ships: "Atlas"
+    },
+    {
+        id: 59,
+        theme: "Barrier Ships",
+        ships: "Tillat'Or, Gorthaur, Heechi, Sakura, Predator"
+    },
+    {
+        id: 60,
+        theme: "Reflex EMP Ships",
+        ships: "Saber, Sonah, Shogun, Predator"
+    },
+    {
+        id: 61,
+        theme: "Solo Challenge",
+        ships: "Kibarrax"
+    },
+    {
+        id: 62,
+        theme: "Solo Challenge",
+        ships: "Shogun"
+    },
+    {
+        id: 63,
+        theme: "Shields Up!",
+        ships: "Geist, Atlas, Essin, Antioch, Centurion"
+    },
+    {
+        id: 64,
+        theme: "BOOOOM",
+        ships: "Wrackr, Buhloo, Baqlor, Dragonfly, Qhelqod"
+    },
+    {
+        id: 65,
+        theme: "Solo Challenge",
+        ships: "Monsoon"
+    },
+    {
+        id: 66,
+        theme: "Solo Challenge",
+        ships: "Corsair"
+    },
+    {
+        id: 67,
+        theme: "Bullet EMP Ships",
+        ships: "Veil, Tempest, Phoenix, Juggernaut, Mirage"
+    },
+    {
+        id: 68,
+        theme: "Laser Storm Ships",
+        ships: "Fujin, Buhloo, Havoc, Xaniea, Reaper"
+    },
+    {
+        id: 69,
+        theme: "Solo Challenge",
+        ships: "Proteus"
+    },
+    {
+        id: 70,
+        theme: "Solo Challenge",
+        ships: "Saber"
+    },
+    {
+        id: 71,
+        theme: "Stun EMP Ships",
+        ships: "Krillou, Cinnri, Czar, Photurius, Nimbus"
+    },
+    {
+        id: 72,
+        theme: "Ion Cannon Ships",
+        ships: "Dragonfly, Barret, X-81, Polaris, Xavis"
+    },
+    {
+        id: 73,
+        theme: "Solo Challenge",
+        ships: "Kada Veni"
+    },
+    {
+        id: 74,
+        theme: "Solo Challenge",
+        ships: "Nimbus"
+    },
+    {
+        id: 75,
+        theme: "Fire and Forget",
+        ships: "Von Braun, Gladius, Reaper, Claymore, Banshee"
+    },
+    {
+        id: 76,
+        theme: "Speedy Ships",
+        ships: "Trireme, Exarch, Wraith, Icarus, Centurion"
+    },
+    {
+        id: 77,
+        theme: "Solo Challenge",
+        ships: "Czar"
+    },
+    {
+        id: 78,
+        theme: "Solo Challenge",
+        ships: "Valkyrie"
+    },
+    {
+        id: 79,
+        theme: "Mega Laser Ships",
+        ships: "502-Q8, Hime, Proteus, X-81, Lorilou"
+    },
+    {
+        id: 80,
+        theme: "Teleporters",
+        ships: "Trireme, Aurora, Prime X, Icarus, Claymore"
+    },
+    {
+        id: 81,
+        theme: "Solo Challenge",
+        ships: "Mirage"
+    },
+    {
+        id: 82,
+        theme: "Solo Challenge",
+        ships: "Pandora"
+    },
+    {
+        id: 83,
+        theme: "Vorpal Lance Ships",
+        ships: "Exarch, Wraith, Icarus, Jeria, Naya"
+    },
+    {
+        id: 84,
+        theme: "Kappa Drive Ships",
+        ships: "Mist Star, Oran, Elyon, Ogon, Marauder"
+    },
+    {
+        id: 85,
+        theme: "Solo Challenge",
+        ships: "Juggernaut"
+    },
+    {
+        id: 86,
+        theme: "Solo Challenge",
+        ships: "Jn'Dur"
+    },
+    {
+        id: 87,
+        theme: "BOOOOM",
+        ships: "Proxymar, Buhloo, Wraith, Kibarrax, Mistral"
+    },
+    {
+        id: 88,
+        theme: "Missile Swarm Ships",
+        ships: "Geist, Atlas, Von Braun, Prime X, Uhb"
+    },
+    {
+        id: 89,
+        theme: "Solo Challenge",
+        ships: "Arietis"
+    },
+    {
+        id: 90,
+        theme: "Solo Challenge",
+        ships: "Cinnri"
+    },
+    {
+        id: 91,
+        theme: "Point Defence Ships",
+        ships: "Tar'Cah, Yoth-Hola, Vuxine, Zephyr, Widget"
+    },
+    {
+        id: 92,
+        theme: "Barrier Ships",
+        ships: "Kada Veni, Sakura, Predator, Stinger"
+    },
+    {
+        id: 93,
+        theme: "Solo Challenge",
+        ships: "Ex04239"
+    },
+    {
+        id: 94,
+        theme: "Solo Challenge",
+        ships: "Stinger"
+    },
+    {
+        id: 95,
+        theme: "Chrono Field Ships",
+        ships: "Yigothu, Njörun, Trinity"
+    },
+    {
+        id: 96,
+        theme: "Phalanx Ships",
+        ships: "Hunter, Boxer, Marauder, Zhetass"
+    },
+    {
+        id: 97,
+        theme: "Solo Challenge",
+        ships: "Jeria"
+    },
+    {
+        id: 98,
+        theme: "Solo Challenge",
+        ships: "Ogon"
+    },
+    {
+        id: 99,
+        theme: "Reflex EMP Ships",
+        ships: "Boxer, Uhb, AB8/Klyn, Lyova, Nimbus"
+    },
+    {
+        id: 100,
+        theme: "Shields Up!",
+        ships: "NC-150, Phoenix, Essin, Gorthaur, Njörun"
+    },
+    {
+        id: 101,
+        theme: "Solo Challenge",
+        ships: "Torrent"
+    },
+    {
+        id: 102,
+        theme: "Solo Challenge",
+        ships: "Phoenix"
+    },
+    {
+        id: 103,
+        theme: "Spray & Pray",
+        ships: "Jn'Dur, Xaniea, Gorthaur, Lokie"
+    },
+    {
+        id: 104,
+        theme: "Fire and Forget",
+        ships: "Kada Veni, Cinnri, Hime, X-81, Esperon"
+    },
+    {
+        id: 105,
+        theme: "Solo Challenge",
+        ships: "Exarch"
+    },
+    {
+        id: 106,
+        theme: "Solo Challenge",
+        ships: "Xaniea"
+    },
+    {
+        id: 107,
+        theme: "Powerful Ships",
+        ships: "Phoenix, Aurora, Trinity, AB8/Klyn, Mirage"
+    },
+    {
+        id: 108,
+        theme: "BOOOOM",
+        ships: "Proxymar, Buhloo, Baqlor, Wraith, Kibarrax"
+    },
+    {
+        id: 109,
+        theme: "Solo Challenge",
+        ships: "Baqlor"
+    },
+    {
+        id: 110,
+        theme: "Solo Challenge",
+        ships: "Xavis"
+    },
+    {
+        id: 111,
+        theme: "Mega Laser Ships",
+        ships: "Razor VI, Cinnri, Arietis, Ex04239, Exarch"
+    },
+    {
+        id: 112,
+        theme: "Teleporters",
+        ships: "Tillat'Or, Aurora, Sakura, Hunter, Trinity"
+    },
+    {
+        id: 113,
+        theme: "Solo Challenge",
+        ships: "Gladius"
+    },
+    {
+        id: 114,
+        theme: "Solo Challenge",
+        ships: "Wraith"
+    },
+    {
+        id: 115,
+        theme: "Vorpal Lance Ships",
+        ships: "Saber, Antioch, Icarus, Neni"
+    },
+    {
+        id: 116,
+        theme: "Kappa Drive Ships",
+        ships: "Vuxine, Heechi, Zephyr, Gladius, Polaris"
+    },
+    {
+        id: 117,
+        theme: "Solo Challenge",
+        ships: "Widget"
+    },
+    {
+        id: 118,
+        theme: "Solo Challenge",
+        ships: "NC-271"
+    },
+    {
+        id: 119,
+        theme: "Bullet EMP Ships",
+        ships: "Shinova, Veil, Phoenix, Mirage"
+    },
+    {
+        id: 120,
+        theme: "Laser Storm Ships",
+        ships: "Fujin, Buhloo, Elyon, Ogon"
+    },
+    {
+        id: 121,
+        theme: "Solo Challenge",
+        ships: "Banshee"
+    },
+    {
+        id: 122,
+        theme: "Solo Challenge",
+        ships: "Uhb"
+    },
+    {
+        id: 123,
+        theme: "Stun EMP Ships",
+        ships: "NC-150, Torrent, Nimbus, Zimitr"
+    },
+    {
+        id: 124,
+        theme: "Ion Cannon Ships",
+        ships: "Dragonfly, Barret, X-81, Polaris, Xavis"
+    },
+    {
+        id: 125,
+        theme: "Solo Challenge",
+        ships: "Lorilou"
+    },
+    {
+        id: 126,
+        theme: "Solo Challenge",
+        ships: "Jericho"
+    },
+    {
+        id: 127,
+        theme: "Fire and Forget",
+        ships: "Yoth-Hola, Mist Star, Orion, Sonah, Claymore"
+    },
+    {
+        id: 128,
+        theme: "Speedy Ships",
+        ships: "Buhloo, Baqlor, Corsair, Qhelqod, Nimbus"
+    },
+    {
+        id: 129,
+        theme: "Solo Challenge",
+        ships: "Claymore"
+    },
+    {
+        id: 130,
+        theme: "Solo Challenge",
+        ships: "Dragonfly"
+    },
+    {
+        id: 131,
+        theme: "BOOOOM",
+        ships: "Veil, Krillou, Jn'Dur, Juggernaut, Valkyrie"
+    },
+    {
+        id: 132,
+        theme: "Missile Swarm Ships",
+        ships: "Trireme, Geist, Von Braun, Prime X, Corsair"
+    },
+    {
+        id: 133,
+        theme: "Solo Challenge",
+        ships: "Prime X"
+    },
+    {
+        id: 134,
+        theme: "Solo Challenge",
+        ships: "Naya"
+    },
+    {
+        id: 135,
+        theme: "Point Defence Ships",
+        ships: "Tar'Cah, Zephyr, AB8/Klyn, Widget, Luna"
+    },
+    {
+        id: 136,
+        theme: "Barrier Ships",
+        ships: "Razor VI, Sakura, Predator, Qhelqod, Stinger"
+    },
+    {
+        id: 137,
+        theme: "Solo Challenge",
+        ships: "Lokie"
+    },
+    {
+        id: 138,
+        theme: "Solo Challenge",
+        ships: "Tillat'Or"
+    },
+    {
+        id: 139,
+        theme: "Reflex EMP Ships",
+        ships: "Uhb, Shogun, Nimbus, Starless, Jeria"
+    },
+    {
+        id: 140,
+        theme: "Shields Up!",
+        ships: "Jericho, Yoth-Hola, Gorthaur, Widget, Zhetass"
+    },
+    {
+        id: 141,
+        theme: "Solo Challenge",
+        ships: "Vuxine"
+    },
+    {
+        id: 142,
+        theme: "Solo Challenge",
+        ships: "Shinova"
+    },
+    {
+        id: 143,
+        theme: "Mega Laser Ships",
+        ships: "Fujin, Tempest, Havoc, Photurius, Neni"
+    },
+    {
+        id: 144,
+        theme: "Teleporters",
+        ships: "Sakura, Hunter, Barret, Trinity, Luna"
+    },
+    {
+        id: 145,
+        theme: "Solo Challenge",
+        ships: "Sonah"
+    },
+    {
+        id: 146,
+        theme: "Solo Challenge",
+        ships: "Antioch"
+    },
+    {
+        id: 147,
+        theme: "Vorpal Lance Ships",
+        ships: "Vani-Vith, Gladius, Saber, Antioch, Neni"
+    },
+    {
+        id: 148,
+        theme: "Kappa Drive Ships",
+        ships: "Tar'Cah, Ogon, Von Braun, Zephyr, Gladius"
+    },
+    {
+        id: 149,
+        theme: "Solo Challenge",
+        ships: "Centurion"
+    },
+    {
+        id: 150,
+        theme: "Solo Challenge",
+        ships: "Luna"
+    },
+    {
+        id: 151,
+        theme: "Fire and Forget",
+        ships: "Jericho, Vuxine, Heechi, Yigothu, Marauder"
+    },
+    {
+        id: 152,
+        theme: "BOOOOM",
+        ships: "Kada Veni, Baqlor, Dragonfly, Valkyrie, Mistral"
+    },
+    {
+        id: 153,
+        theme: "Solo Challenge",
+        ships: "Mistral"
+    },
+    {
+        id: 154,
+        theme: "Solo Challenge",
+        ships: "Von Braun"
+    },
+    {
+        id: 155,
+        theme: "Spray & Pray",
+        ships: "Jn'Dur, Xaniea, Gorthaur, Lokie"
+    },
+    {
+        id: 156,
+        theme: "BOOOOM",
+        ships: "Kada Veni, Baqlor, Dragonfly, Valkyrie, Mistral"
+    },
+    {
+        id: 157,
+        theme: "Solo Challenge",
+        ships: "Yoth-Hola"
+    },
+    {
+        id: 158,
+        theme: "Solo Challenge",
+        ships: "Qhelqod"
+    },
+    {
+        id: 159,
+        theme: "Teleporters",
+        ships: "Trireme, Aurora, Prime X, Icarus, Claymore"
+    },
+    {
+        id: 160,
+        theme: "Speedy Ships",
+        ships: "Proxymar, Ex04239, Shogun, Kibarrax, Naya"
+    },
+    {
+        id: 161,
+        theme: "Solo Challenge",
+        ships: "Hime"
+    },
+    {
+        id: 162,
+        theme: "Solo Challenge",
+        ships: "Reaper"
+    },
+    {
+        id: 163,
+        theme: "Shields Up!",
+        ships: "Geist, Gorthaur, Torrent, Centurion"
+    },
+    {
+        id: 164,
+        theme: "BOOOOM",
+        ships: "Veil, Jn'Dur, Proxymar, Valkyrie"
+    },
+    {
+        id: 165,
+        theme: "Solo Challenge",
+        ships: "Lyova"
+    },
+    {
+        id: 166,
+        theme: "Solo Challenge",
+        ships: "Zhetass"
+    },
+    {
+        id: 167,
+        theme: "Fire and Forget",
+        ships: "Von Braun, Gladius, Reaper, Claymore, Banshee"
+    },
+    {
+        id: 168,
+        theme: "Mega Laser Ships",
+        ships: "Havoc, Arietis, Ex04239, Exarch, Neni"
+    },
+    {
+        id: 169,
+        theme: "Solo Challenge",
+        ships: "Wrackr"
+    },
+    {
+        id: 170,
+        theme: "Solo Challenge",
+        ships: "502-Q8"
+    },
+    {
+        id: 171,
+        theme: "Powerful Ships",
+        ships: "Razor VI, Cinnri, Photurius, Aurora"
+    },
+    {
+        id: 172,
+        theme: "Speedy Ships",
+        ships: "Buhloo, Baqlor, Corsair, Qhelqod, Nimbus"
+    },
+    {
+        id: 173,
+        theme: "Solo Challenge",
+        ships: "Esperon"
+    },
+    {
+        id: 174,
+        theme: "Solo Challenge",
+        ships: "Sakura"
+    },
+    {
+        id: 175,
+        theme: "Reflex EMP Ships",
+        ships: "Boxer, Uhb, AB8/Klyn, Lyova, Nimbus"
+    },
+    {
+        id: 176,
+        theme: "Shields Up!",
+        ships: "Geist, Atlas, Essin, Antioch, Centurion"
+    },
+    {
+        id: 177,
+        theme: "Solo Challenge",
+        ships: "Elyon"
+    },
+    {
+        id: 178,
+        theme: "Solo Challenge",
+        ships: "Havoc"
+    },
+    {
+        id: 179,
+        theme: "Teleporters",
+        ships: "Xaniea, Prime X, Vani-Vith, Icarus, Claymore"
+    },
+    {
+        id: 180,
+        theme: "Fire and Forget",
+        ships: "Cinnri, Heechi, Reaper, Claymore"
+    },
+    {
+        id: 181,
+        theme: "Solo Challenge",
+        ships: "Fujin"
+    },
+    {
+        id: 182,
+        theme: "Solo Challenge",
+        ships: "Tar'Cah"
+    },
+    {
+        id: 183,
+        theme: "BOOOOM",
+        ships: "Proxymar, Buhloo, Baqlor, Wraith, Kibarrax"
+    },
+    {
+        id: 184,
+        theme: "Powerful Ships",
+        ships: "Phoenix, Aurora, Trinity, AB8/Klyn, Mirage"
+    },
+    {
+        id: 185,
+        theme: "Solo Challenge",
+        ships: "Marauder"
+    },
+    {
+        id: 186,
+        theme: "Solo Challenge",
+        ships: "Trinity"
+    },
+    {
+        id: 187,
+        theme: "Reflex EMP Ships",
+        ships: "Uhb, Shogun, Nimbus, Starless, Jeria"
+    },
+    {
+        id: 188,
+        theme: "Ion Cannon Ships",
+        ships: "Dragonfly, Sonah, X-81, NC-271, Xavis"
+    },
+    {
+        id: 189,
+        theme: "Solo Challenge",
+        ships: "Veil"
+    },
+    {
+        id: 190,
+        theme: "Solo Challenge",
+        ships: "Zephyr"
+    },
+    {
+        id: 191,
+        theme: "Kappa Drive Ships",
+        ships: "Mist Star, Oran, Elyon, Ogon, Marauder"
+    },
+    {
+        id: 192,
+        theme: "Ion Cannon Ships",
+        ships: "Dragonfly, Sonah, X-81, NC-271, Xavis"
+    },
+    {
+        id: 193,
+        theme: "Solo Challenge",
+        ships: "Barret"
+    },
+    {
+        id: 194,
+        theme: "Solo Challenge",
+        ships: "Yigothu"
+    },
+    {
+        id: 195,
+        theme: "Teleporters",
+        ships: "Tillat'Or, Aurora, Sakura, Hunter, Trinity"
+    },
+    {
+        id: 196,
+        theme: "BOOOOM",
+        ships: "Proxymar, Buhloo, Baqlor, Wraith, Kibarrax"
+    },
+    {
+        id: 197,
+        theme: "Solo Challenge",
+        ships: "Hunter"
+    },
+    {
+        id: 198,
+        theme: "Solo Challenge",
+        ships: "Njörun"
+    },
+    {
+        id: 199,
+        theme: "Barrier Ships",
+        ships: "Razor VI, Sakura, Predator, Qhelqod, Stinger"
+    },
+    {
+        id: 200,
+        theme: "Bullet EMP Ships",
+        ships: "Shinova, Jericho, Phoenix, Aurora, Lyova"
     }
 ]
