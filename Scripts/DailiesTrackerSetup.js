@@ -53,7 +53,7 @@ function updateDailyTable() {
         $("#dailyTypeA" + row).html(dailiesImport[i].typeA);
         $("#dailyMapB" + row).html(dailiesImport[i].mapB);
         $("#dailyTypeB" + row).html(dailiesImport[i].typeB);
-        $("#dailyMapC" + row).html(dailiesImport[i].mapB);
-        $("#dailyTypeC" + row).html(dailiesImport[i].typeB);
+        $("#dailyMapC" + row).html(dailiesImport[i].mapC);
+        $("#dailyTypeC" + row).html(dailiesImport[i].typeC);
     }
 }
