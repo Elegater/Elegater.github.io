@@ -1,29 +1,36 @@
 specialists = [
     {
+        id: 1,
         theme: "Blight, Sector [3,84] (Armor General/Dart)",
         ships: "test"
     },
     {
+        id: 2,
         theme: "Arcology CQ-6 (Armor General/Boomerang)"
         ships: "test"
     },
     {
+        id: 3,
         theme: "Gau Prime (Shield General/Dart)"
         ships: "test"
     },
     {
+        id: 4,
         theme: "Zhey Auna (Unprotected General/Boomerang)"
         ships: "test"
     },
     {
+        id: 5,
         theme: "Gau Prime (Shield General/Dart)"
         ships: "test"
     },
     {
+        id: 6,
         theme: "Prometheus Array (Shield General)"
         ships: "test"
     },
     {
+        id: 7,
         theme: "Ceres Major (Armor General/Boomerang)"
         ships: "test"
     }
