@@ -13,7 +13,7 @@ function dailiesTrackerSetup() {
 
     var smallScreen = $(window).width() < 800;
     if(smallScreen){
-        $(".dailyRow>td,.dailyRow>th").css("font-size", "6pt", "max-width", "70px");
+        $(".dailyRow>td,.dailyRow>th").css("font-size":"6pt", "max-width":"70px");
     }
 
     updateDailyTable();
@@ -46,13 +46,13 @@ function updateDailyTable() {
 
     var firstDate = moment.utc().startOf("date").local().add(-1, "days");
     $("#dailyNo1").html("#" + (todayMissionNo - 1));
-        $("#dailyDate1").html(firstDate.format("D MMM"));
-        $("#dailyMapA1").html(dailiesImport[dailies.length - 1].mapA);
-        $("#dailyTypeA1").html(dailiesImport[dailies.length - 1].typeA);
-        $("#dailyMapB1").html(dailiesImport[dailies.length - 1].mapB);
-        $("#dailyTypeB1").html(dailiesImport[dailies.length - 1].typeB);
-        $("#dailyMapC1").html(dailiesImport[dailies.length - 1].mapC);
-        $("#dailyTypeC1").html(dailiesImport[dailies.length - 1].typeC);
+    $("#dailyDate1").html(firstDate.format("D MMM"));
+    $("#dailyMapA1").html(dailiesImport[dailies.length - 1].mapA);
+    $("#dailyTypeA1").html(dailiesImport[dailies.length - 1].typeA);
+    $("#dailyMapB1").html(dailiesImport[dailies.length - 1].mapB);
+    $("#dailyTypeB1").html(dailiesImport[dailies.length - 1].typeB);
+    $("#dailyMapC1").html(dailiesImport[dailies.length - 1].mapC);
+    $("#dailyTypeC1").html(dailiesImport[dailies.length - 1].typeC);
 
     for (var i = 0; i < dailies.length; i++) {
         var row = i + 2;
