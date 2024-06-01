@@ -45,16 +45,16 @@ function updateSpecialistTable(){
     var todaySpecMissionNo = baseSpecMissionNo + daysSinceBase;
 
     var firstDate = moment.utc().startOf("date").local().add(-1, "days");
-    $("#dailyNo1").html("#" + (todaySpecMissionNo - 1));
-    $("#dailyDate1").html(firstDate.format("D MMM"));
+    $("#specNo1").html("#" + (todaySpecMissionNo - 1));
+    $("#specDate1").html(firstDate.format("D MMM"));
     $("#specialistsTheme1").html(specialistsImport[specialists.length - 1].theme);
     $("#specialistsShips1").html(specialistsImport[specialists.length - 1].ships);
 
     for (var i = 0; i < specialists.length; i++) {
         var row = i + 2;
         var rowDate = moment.utc().startOf("date").local().add(i, "days");
-        $("#dailyNo" + row).html("#" + (todaySpecMissionNo + i));
-        $("#dailyDate" + row).html(rowDate.format("D MMM"));
+        $("#specNo" + row).html("#" + (todaySpecMissionNo + i));
+        $("#specDate" + row).html(rowDate.format("D MMM"));
         $("#specialistsTheme" + row).html(specialistsImport[i].theme);
         $("#specialistsShips" + row).html(specialistsImport[i].ships);
     }
