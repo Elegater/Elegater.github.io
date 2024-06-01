@@ -41,7 +41,7 @@ function updateSpecialistTable(){
     $("#resetTimeDaily").html(resetTime);
 
     // Calculating mission numbers to display
-    var baseSpecMissionNo = 2921;
+    var baseSpecMissionNo = 3001;
     var todaySpecMissionNo = baseSpecMissionNo + daysSinceBase;
 
     var firstDate = moment.utc().startOf("date").local().add(-1, "days");
