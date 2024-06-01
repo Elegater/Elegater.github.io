@@ -44,8 +44,14 @@ function updateSpecialistTable(){
     var baseSpecMissionNo = 2921;
     var todaySpecMissionNo = baseSpecMissionNo + daysSinceBase;
 
+    var firstDate = moment.utc().startOf("date").local().add(-1, "days");
+    $("#dailyNo1").html("#" + (todaySpecMissionNo - 1));
+    $("#dailyDate1").html(firstDate.format("D MMM"));
+    $("#specialistsTheme1").html(specialistsImport[specialists.length - 1].theme);
+    $("#specialistsShips1").html(specialistsImport[specialists.length - 1].ships);
+
     for (var i = 0; i < specialists.length; i++) {
-        var row = i + 1;
+        var row = i + 2;
         var rowDate = moment.utc().startOf("date").local().add(i, "days");
         $("#dailyNo" + row).html("#" + (todaySpecMissionNo + i));
         $("#dailyDate" + row).html(rowDate.format("D MMM"));
