@@ -13,8 +13,7 @@ function dailiesTrackerSetup() {
 
     var smallScreen = $(window).width() < 800;
     if(smallScreen){
-        $(".dailyRow>td,.dailyRow>th").css("font-size", "6pt");
-        $(".dailyRow>td,.dailyRow>th").css("max-width", "70px");
+        $(".dailyRow>td,.dailyRow>th").css("font-size", "6pt", "max-width", "70px");
     }
 
     updateDailyTable();
@@ -30,10 +29,10 @@ function updateDailyTable() {
     
     var currentDateTime = moment.utc();
     var daysSinceBase = currentDateTime.diff(baseDate, "days");
-    var dayToPick = (daysSinceBase - 1) % dailies.length;      // The index in dailies array corresponding to the mission from yesterday    
+    var dayToPick = daysSinceBase % dailies.length;      // The index in dailies array corresponding to the mission from yesterday    
     var dailiesImport = dailies.slice(0);
 
-    for (var j = 0; j < dayToPick + 1; j++) {                    // Import yesterday's mission together with today's + all other mission ahead in cycle
+    for (var j = 0; j < dayToPick; j++) {                    // Import yesterday's mission together with today's + all other mission ahead in cycle
         dailiesImport.push(dailiesImport.shift());
     }
 
@@ -45,16 +44,26 @@ function updateDailyTable() {
     var baseMissionNo = 2961;
     var todayMissionNo = baseMissionNo + daysSinceBase;
 
-    for (var i = 0; i < dailies.length + 1; i++) {
+    var firstDate = moment.utc().startOf("date").local().add(i, "days") - 1;
+    $("#dailyNo1").html("#" + (todayMissionNo - 1));
+        $("#dailyDate1").html(firstDate.format("D MMM"));
+        $("#dailyMapA1").html(dailiesImport[dailies.length - 1].mapA);
+        $("#dailyTypeA1").html(dailiesImport[dailies.length - 1].typeA);
+        $("#dailyMapB1").html(dailiesImport[dailies.length - 1].mapB);
+        $("#dailyTypeB1").html(dailiesImport[dailies.length - 1].typeB);
+        $("#dailyMapC1").html(dailiesImport[dailies.length - 1].mapC);
+        $("#dailyTypeC1").html(dailiesImport[dailies.length - 1].typeC);
+
+    for (var i = 1; i < dailies.length + 1; i++) {
         var row = i + 1;
         var rowDate = moment.utc().startOf("date").local().add(i, "days");
         $("#dailyNo" + row).html("#" + (todayMissionNo + i));
         $("#dailyDate" + row).html(rowDate.format("D MMM"));
-        $("#dailyMapA" + row).html(dailiesImport[i].mapA);
-        $("#dailyTypeA" + row).html(dailiesImport[i].typeA);
-        $("#dailyMapB" + row).html(dailiesImport[i].mapB);
-        $("#dailyTypeB" + row).html(dailiesImport[i].typeB);
-        $("#dailyMapC" + row).html(dailiesImport[i].mapC);
-        $("#dailyTypeC" + row).html(dailiesImport[i].typeC);
+        $("#dailyMapA" + row).html(dailiesImport[i % dailies.length].mapA);
+        $("#dailyTypeA" + row).html(dailiesImport[i % dailies.length].typeA);
+        $("#dailyMapB" + row).html(dailiesImport[i % dailies.length].mapB);
+        $("#dailyTypeB" + row).html(dailiesImport[i % dailies.length].typeB);
+        $("#dailyMapC" + row).html(dailiesImport[i % dailies.length].mapC);
+        $("#dailyTypeC" + row).html(dailiesImport[i % dailies.length].typeC);
     }
 }
