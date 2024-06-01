@@ -54,16 +54,16 @@ function updateDailyTable() {
         $("#dailyMapC1").html(dailiesImport[dailies.length - 1].mapC);
         $("#dailyTypeC1").html(dailiesImport[dailies.length - 1].typeC);
 
-    for (var i = 1; i < dailies.length + 1; i++) {
-        var row = i + 1;
+    for (var i = 0; i < dailies.length; i++) {
+        var row = i + 2;
         var rowDate = moment.utc().startOf("date").local().add(i, "days");
         $("#dailyNo" + row).html("#" + (todayMissionNo + i));
         $("#dailyDate" + row).html(rowDate.format("D MMM"));
-        $("#dailyMapA" + row).html(dailiesImport[i % dailies.length].mapA);
-        $("#dailyTypeA" + row).html(dailiesImport[i % dailies.length].typeA);
-        $("#dailyMapB" + row).html(dailiesImport[i % dailies.length].mapB);
-        $("#dailyTypeB" + row).html(dailiesImport[i % dailies.length].typeB);
-        $("#dailyMapC" + row).html(dailiesImport[i % dailies.length].mapC);
-        $("#dailyTypeC" + row).html(dailiesImport[i % dailies.length].typeC);
+        $("#dailyMapA" + row).html(dailiesImport[i].mapA);
+        $("#dailyTypeA" + row).html(dailiesImport[i].typeA);
+        $("#dailyMapB" + row).html(dailiesImport[i].mapB);
+        $("#dailyTypeB" + row).html(dailiesImport[i].typeB);
+        $("#dailyMapC" + row).html(dailiesImport[i].mapC);
+        $("#dailyTypeC" + row).html(dailiesImport[i].typeC);
     }
 }
