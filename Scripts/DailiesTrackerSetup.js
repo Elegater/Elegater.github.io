@@ -14,6 +14,7 @@ function dailiesTrackerSetup() {
     var smallScreen = $(window).width() < 800;
     if(smallScreen){
         $(".dailyRow>td,.dailyRow>th").css("font-size", "6pt");
+        $(".dailyRow>td,.dailyRow>th").css("max-width", "70px");
     }
 
     updateDailyTable();
@@ -29,10 +30,10 @@ function updateDailyTable() {
     
     var currentDateTime = moment.utc();
     var daysSinceBase = currentDateTime.diff(baseDate, "days");
-    var dayToPick = daysSinceBase % dailies.length;      // The index in dailies array corresponding to current mission    
+    var dayToPick = (daysSinceBase - 1) % dailies.length;      // The index in dailies array corresponding to the mission from yesterday    
     var dailiesImport = dailies.slice(0);
 
-    for (var j = 0; j < dayToPick; j++) {
+    for (var j = 0; j < dayToPick + 1; j++) {                    // Import yesterday's mission together with today's + all other mission ahead in cycle
         dailiesImport.push(dailiesImport.shift());
     }
 
@@ -44,7 +45,7 @@ function updateDailyTable() {
     var baseMissionNo = 2961;
     var todayMissionNo = baseMissionNo + daysSinceBase;
 
-    for (var i = 0; i < dailies.length; i++) {
+    for (var i = 0; i < dailies.length + 1; i++) {
         var row = i + 1;
         var rowDate = moment.utc().startOf("date").local().add(i, "days");
         $("#dailyNo" + row).html("#" + (todayMissionNo + i));
