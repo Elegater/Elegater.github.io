@@ -11,7 +11,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Bullet EMP",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=PyvFBWZM-_8",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#alpha-bemp-extended-range-c5000",
       "imageName":"Shinova Alpha.png"
    },
    {
@@ -26,7 +26,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Bullet EMP",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=lD8b7m_yPPU",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#delta-bemp-destructive-wave-c20000",
       "imageName":"Shinova Delta.png"
    },
    {
@@ -41,7 +41,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Stun EMP",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=0SvVo1jDSw8",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#gamma-semp-high-damage-15000c",
       "imageName":"NC-150 Gamma.png"
    },
    {
@@ -56,7 +56,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Stun EMP",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=fXlh9TlfwBM",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#beta-ps-super-reflect-c10000",
       "imageName":"NC-150 Beta.png"
    },
    {
@@ -71,7 +71,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Point Defense",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=ny2y6jm8L9M",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#delta-pd-emp-laser-c20000",
       "imageName":"Tar'cah Delta.png"
    },
    {
@@ -86,7 +86,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Point Defense",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=H-gwnH6YcBA",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#lambda-pd-bullet-detonator-c30000",
       "imageName":"Tar'cah Lambda.png"
    },
    {
@@ -101,7 +101,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Bullet EMP",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=jmjmMtT_7cM",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#beta-mb-emp-core-c10000",
       "imageName":"Veil Beta.png"
    },
    {
@@ -116,7 +116,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Bullet EMP",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=0dvZWKuUpwM",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#sigma-mb-shield-breaker-c35000",
       "imageName":"Veil Sigma.png"
    },
    {
@@ -131,7 +131,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Stun EMP",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=W_V4vtfdoew",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#gamma-mb-compressed-blast-c15000",
       "imageName":"Krillou Gamma.png"
    },
    {
@@ -146,7 +146,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Stun EMP",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=gCSgQkpscBI",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#alpha-mb-emp-core-c5000",
       "imageName":"Krillou Alpha.png"
    },
    {
@@ -161,7 +161,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Bullet EMP",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=H7yhh6dmbc8",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#alpha-main-weapon-radar-upgrade-c5000",
       "imageName":"Jericho Alpha.png"
    },
    {
@@ -176,7 +176,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Bullet EMP",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=WrCRcv4Q5Nw",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#gamma-ps-focus-c15000",
       "imageName":"Jericho Gamma.png"
    },
    {
@@ -191,7 +191,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Laser Storm",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=qUypw5dp8eY",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#epsilon-ml-double-shot-c25000",
       "imageName":"Fujin Epsilon.png"
    },
    {
@@ -206,7 +206,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Laser Storm",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=QBz_a_V2qc0",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#sigma-ls-high-power-c35000",
       "imageName":"Fujin Sigma.png"
    },
    {
@@ -221,7 +221,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Barrier",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=dVO3-DI47aw",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#gamma-mb-fast-charge-c15000",
       "imageName":"Jn'dur Gamma.png"
    },
    {
@@ -236,7 +236,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Barrier",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=CzV44yXjGhc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#epsilon-mb-extended-range-c25000",
       "imageName":"Jn'dur Epsilon.png"
    },
    {
@@ -251,7 +251,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Bullet EMP",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=b-QL4PkLdiQ",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#delta-ml-focused-beam-c20000",
       "imageName":"Tempest Delta.png"
    },
    {
@@ -266,7 +266,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Bullet EMP",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=OMwamShM2NM",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#beta-bemp-extended-range-c10000",
       "imageName":"Tempest Beta.png"
    },
    {
@@ -281,7 +281,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Point Defense",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=RB5GPfZ0KJc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#beta-main-weapon-laser-expansion-c10000",
       "imageName":"Yoth-hola Beta.png"
    },
    {
@@ -296,7 +296,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Point Defense",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=eFoEBpifL5Q",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-1#epsilon-pd-sentinel-c25000",
       "imageName":"Yoth-hola Epsilon.png"
    },
    {
@@ -311,7 +311,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Barrier",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=XX-F3uqVbqk",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#beta-barrier-reinforced-lining-c10000",
       "imageName":"Razor VI Beta.png"
    },
    {
@@ -326,7 +326,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Barrier",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=ynj7ul3b8oc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#sigma-ml-focused-beam-c35000",
       "imageName":"Razor VI Sigma.png"
    },
    {
@@ -341,7 +341,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Stun EMP",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=AB1ULRrZMzY",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#lambda-semp-strong-stun-c30000",
       "imageName":"Mist Star Lambda.png"
    },
    {
@@ -356,7 +356,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Stun EMP",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=IpP5KIvsvFc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#gamma-semp-extended-range-c15000",
       "imageName":"Mist Star Gamma.png"
    },
    {
@@ -371,7 +371,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Missile Swarm",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=8EE3-wGG15M",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#delta-mb-extended-range-c20000",
       "imageName":"Proxymar Delta.png"
    },
    {
@@ -386,7 +386,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Missile Swarm",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=EAEdLzMpZnI",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#beta-mb-core-emp-c10000",
       "imageName":"Proxymar Beta.png"
    },
    {
@@ -401,7 +401,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Stun EMP",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=_6HYpHGNkIo",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#beta-kappa-antigrav-c10000",
       "imageName":"Oran Beta.png"
    },
    {
@@ -416,7 +416,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Stun EMP",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=Huxoz1YN2BY",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#delta-main-weapon-meson-controller-c20000",
       "imageName":"Oran Delta.png"
    },
    {
@@ -431,7 +431,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Barrier",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=SusX2pi76uw",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#alpha-main-weapon-launcher-upgrade-c5000",
       "imageName":"Kada Veni Alpha.png"
    },
    {
@@ -446,7 +446,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Barrier",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=UPYFsJvGSYc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#gamma-mb-compressed-blast-c15000",
       "imageName":"Kada Veni Gamma.png"
    },
    {
@@ -461,7 +461,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Point Defense",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=lhnkuFmKKQg",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#alpha-main-weapon-laser-upgrade-c5000",
       "imageName":"Wrackr Alpha.png"
    },
    {
@@ -476,7 +476,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Point Defense",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=i-AT1Db-5Cs",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#epsilon-pd-bullet-detonator-c25000",
       "imageName":"Wrackr Epsilon.png"
    },
    {
@@ -491,7 +491,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Missile Swarm",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=Ly2ZIv0pxf8",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#tau-double-teleport-c40000",
       "imageName":"Trireme Tau.png"
    },
    {
@@ -506,7 +506,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Missile Swarm",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=n4rLrvpxHG4",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#gamma-ms-armor-piercing-c15000",
       "imageName":"Trireme Gamma.png"
    },
    {
@@ -521,7 +521,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Stun EMP",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=7oLvmMv_3eM",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#lambda-ml-armor-piercing-c30000",
       "imageName":"Cinnri Lambda.png"
    },
    {
@@ -536,7 +536,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Stun EMP",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=ZMr9kP7Re7Y",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#tau-semp-high-damage-c40000",
       "imageName":"Cinnri Tau.png"
    },
    {
@@ -551,7 +551,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Bullet EMP",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=1Owy3CCoOLc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#delta-bemp-destructive-wave-c20000",
       "imageName":"Phoenix Delta.png"
    },
    {
@@ -566,7 +566,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Bullet EMP",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=P5ichTPnz2A",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#beta-ps-supersize-c10000",
       "imageName":"Phoenix Beta.png"
    },
    {
@@ -581,7 +581,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Laser Storm",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=Tff1elVwYGQ",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#epsilon-ls-high-power-c25000",
       "imageName":"Buhloo Epsilon.png"
    },
    {
@@ -596,7 +596,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Laser Storm",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=1OuOoQPXTps",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-2#gamma-mb-extended-range-c15000",
       "imageName":"Buhloo Gamma.png"
    },
    {
@@ -611,7 +611,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Stun EMP",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=h9J-DaJLHz4",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#lambda-teleport-explosive-arrival-c30000",
       "imageName":"Czar Lambda.png"
    },
    {
@@ -626,7 +626,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Stun EMP",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=LQQ6MzCxWQM",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#delta-double-teleport-c20000",
       "imageName":"Czar Delta.png"
    },
    {
@@ -641,7 +641,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Laser Storm",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=jfmoJQpJ9x0",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#alpha-main-weapon-volatile-mass-c5000",
       "imageName":"Havoc Alpha.png"
    },
    {
@@ -656,7 +656,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Laser Storm",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=rYvy8UEsooA",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#gamma-ls-tac-moons-c15000",
       "imageName":"Havoc Gamma.png"
    },
    {
@@ -671,7 +671,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Missile Swarm",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=Gt48tp3zHv4",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#phi-ms-ion-warheads-c45000",
       "imageName":"Geist Phi.png"
    },
    {
@@ -686,7 +686,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Missile Swarm",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=_XJMUN6MXYU",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#sigma-ms-high-explosive-c35000",
       "imageName":"Geist Sigma.png"
    },
    {
@@ -701,7 +701,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Bullet EMP",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=F6ZKG5H2-DI",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#delta-mb-fast-charge-c20000",
       "imageName":"Juggernaut Delta.png"
    },
    {
@@ -716,7 +716,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Bullet EMP",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=z2999DhKRdY",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#lambda-bemp-destructive-wave-c30000",
       "imageName":"Juggernaut Lambda.png"
    },
    {
@@ -731,7 +731,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Barrier",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=0H_ypEVcflw",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#gamma-barrier-reflector-c15000",
       "imageName":"Tillat'Or Gamma.png"
    },
    {
@@ -746,7 +746,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Barrier",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=NlrcowV2Jl8",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#epsilon-teleport-extended-clearance-c25000",
       "imageName":"Tillat'Or Epsilon.png"
    },
    {
@@ -761,7 +761,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Laser Storm",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=4wwgK4mTVaU",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#lambda-ls-shield-breaker-c30000",
       "imageName":"Elyon Lambda.png"
    },
    {
@@ -776,7 +776,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Laser Storm",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=5CXwVSsb5ss",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#beta-ls-high-power-c10000",
       "imageName":"Elyon Beta.png"
    },
    {
@@ -791,7 +791,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Laser Storm",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=Ce7gRtJjVgE",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#beta-ls-tac-moons-c10000",
       "imageName":"Ogon Beta.png"
    },
    {
@@ -806,7 +806,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Laser Storm",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=4CnxbrtZcK8",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#phi-main-weapon-photon-array-mk3-c45000",
       "imageName":"Ogon Phi.png"
    },
    {
@@ -821,7 +821,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Point Defense",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=FpXxeJIje_M",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#gamma-pd-sentinel-c15000",
       "imageName":"Vuxine Gamma.png"
    },
    {
@@ -836,7 +836,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Point Defense",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=umuerO4fURE",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#alpha-kappa-antigrav-c5000",
       "imageName":"Vuxine Alpha.png"
    },
    {
@@ -851,7 +851,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Stun EMP",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=GUkQV5b17Es",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#lambda-ml-double-shot-c30000",
       "imageName":"Photurius Lambda.png"
    },
    {
@@ -866,7 +866,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Stun EMP",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=FmJuCoU0Uks",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#tau-semp-high-damage-c40000",
       "imageName":"Photurius Tau.png"
    },
    {
@@ -881,7 +881,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Laser Storm",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=VLldPxZL7dM",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#lambda-tp-explosive-arrival-c30000",
       "imageName":"Xaniea Lambda.png"
    },
    {
@@ -896,7 +896,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Laser Storm",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=_HRWvzX3sPI",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-3#tau-ls-shield-breaker-c40000",
       "imageName":"Xaniea Tau.png"
    },
    {
@@ -911,7 +911,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Point Defense",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=_Uq2R-pCAZg",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#lambda-pd-bullet-detonator-c30000",
       "imageName":"Arietis Lambda.png"
    },
    {
@@ -926,7 +926,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Point Defense",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=BxTB1gVQGkI",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#epsilon-ml-focused-beam-c25000",
       "imageName":"Arietis Epsilon.png"
    },
    {
@@ -941,7 +941,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Missile Swarm",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=_76y5yxeJNA",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#delta-ms-high-explosive-c20000",
       "imageName":"Atlas Delta.png"
    },
    {
@@ -956,7 +956,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Missile Swarm",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=KwrdFpKx2Ss",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#alpha-ps-supersize-c5000",
       "imageName":"Atlas Alpha.png"
    },
    {
@@ -971,7 +971,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Laser Storm",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=aDtDZniwqlg",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#alpha-main-weapon-improved-optics-c5000",
       "imageName":"Essin Alpha.png"
    },
    {
@@ -986,7 +986,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Laser Storm",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=RkLSs_OnrXY",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#gamma-ps-super-reflect-c15000",
       "imageName":"Essin Gamma.png"
    },
    {
@@ -1001,7 +1001,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Missile Swarm",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=H6e1X1G3Sts",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#sigma-ms-ion-warheads-c35000",
       "imageName":"EX04239 Sigma.png"
    },
    {
@@ -1016,7 +1016,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Missile Swarm",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=HJVx_62psCM",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#phi-ml-twin-laser-c45000",
       "imageName":"EX04239 Phi.png"
    },
    {
@@ -1031,7 +1031,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Bullet EMP",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=9PhD9aBrozg",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#lambda-teleport-extended-clearance-c30000",
       "imageName":"Aurora Lambda.png"
    },
    {
@@ -1046,7 +1046,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Bullet EMP",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=X86oBvTPObk",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#tau-main-weapon-homing-module-c40000",
       "imageName":"Aurora Tau.png"
    },
    {
@@ -1061,7 +1061,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Missile Swarm",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=SC_Y8tTTKMw",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#delta-ms-armor-piercing-c20000",
       "imageName":"Von Braun Delta.png"
    },
    {
@@ -1076,7 +1076,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Missile Swarm",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=B9CHD4C715A",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#beta-main-weapon-improved-thrusters-c10000",
       "imageName":"Von Braun Beta.png"
    },
    {
@@ -1091,7 +1091,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Barrier",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=q80_LnJF6DM",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#beta-barrier-reflector-c10000",
       "imageName":"Gorthaur Beta.png"
    },
    {
@@ -1106,7 +1106,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Barrier",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=BjyMc-f3ykc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#alpha-ps-focus-c5000",
       "imageName":"Gorthaur Alpha.png"
    },
    {
@@ -1121,7 +1121,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Barrier",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=UwYL45QKmjg",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#beta-main-weapon-quick-charge-c10000",
       "imageName":"Heechi Beta.png"
    },
    {
@@ -1136,7 +1136,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Barrier",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=nN5HW3A7vkc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#delta-barrier-reflector-c20000",
       "imageName":"Heechi Delta.png"
    },
    {
@@ -1151,7 +1151,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Missile Swarm",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=tT3i7BpKXOE",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#tau-teleport-extended-clearance-c40000",
       "imageName":"Prime X Tau.png"
    },
    {
@@ -1166,7 +1166,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Missile Swarm",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=ltOtiqltdkM",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#epsilon-ms-armor-piercing-c25000",
       "imageName":"Prime X Epsilon.png"
    },
    {
@@ -1181,7 +1181,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Barrier",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=DuS_RDtt3xc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#epsilon-double-teleport-c25000",
       "imageName":"Sakura Epsilon.png"
    },
    {
@@ -1196,7 +1196,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Barrier",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=82i3wc9YNRc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-4#phi-teleport-explosive-arrival-c45000",
       "imageName":"Sakura Phi.png"
    },
    {
@@ -1211,7 +1211,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Vorpal Lance",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=5OTKo_eZNKw",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#epsilon-vorpal-lance-twin-lance-c25000",
       "imageName":"Vani Vith Epsilon.png"
    },
    {
@@ -1226,7 +1226,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Vorpal Lance",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=e6JuSGo7LkE",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#sigma-teleport-extended-clearance-c35000",
       "imageName":"Vani Vith Sigma.png"
    },
    {
@@ -1241,7 +1241,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Point Defense",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=znca3xHnYxc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#beta-kappa-antigrav-c10000",
       "imageName":"Zephyr Beta.png"
    },
    {
@@ -1256,7 +1256,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Point Defense",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=KPAXgLn_AuM",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#epsilon-pd-bullet-detonator-c25000",
       "imageName":"Zephyr Epsilon.png"
    },
    {
@@ -1271,7 +1271,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Chrono Field",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=LevBjO7MEIc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#lambda-mb-fast-charge-c30000",
       "imageName":"Baqlor Lambda.png"
    },
    {
@@ -1286,7 +1286,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Chrono Field",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=xpD9-DXOPAI",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#phi-mb-shield-breaker-c45000",
       "imageName":"Baqlor Phi.png"
    },
    {
@@ -1301,7 +1301,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Phalanx",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=DFQq3pOF7nE",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#beta-double-phalanx-c10000",
       "imageName":"502-Q8 Beta.png"
    },
    {
@@ -1316,7 +1316,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Phalanx",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=mAPknaBVs-s",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#alpha-main-weapon-volatile-plasma-c5000",
       "imageName":"502-Q8 Alpha.png"
    },
    {
@@ -1331,7 +1331,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Ion Cannon",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=VRJjw4bdaOQ",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#epsilon-ic-blast-amplifier-c25000",
       "imageName":"Dragonfly Epsilon.png"
    },
    {
@@ -1346,7 +1346,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Ion Cannon",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=FPkvxzwLVq4",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#gamma-ic-overcharge-c15000",
       "imageName":"Dragonfly Gamma.png"
    },
    {
@@ -1361,7 +1361,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Chrono Field",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=owdwMYTWDVQ",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#lambda-ml-armor-piercing-c30000",
       "imageName":"Hime Lambda.png"
    },
    {
@@ -1376,7 +1376,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Chrono Field",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=CixDY5W0LKk",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#epsilon-ml-double-shot-c25000",
       "imageName":"Hime Epsilon.png"
    },
    {
@@ -1391,7 +1391,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Phalanx",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=cfbLSY6C8Rs",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#alpha-teleport-departure-emp-c5000",
       "imageName":"Hunter Alpha.png"
    },
    {
@@ -1406,7 +1406,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Phalanx",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=NEeK8KEA9po",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#gamma-double-phalanx-c15000",
       "imageName":"Hunter Gamma.png"
    },
    {
@@ -1421,7 +1421,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Vorpal Lance",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=4qML68jb1Xs",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#epsilon-vl-twin-lance-c25000",
       "imageName":"Gladius Epsilon.png"
    },
    {
@@ -1436,7 +1436,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Vorpal Lance",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=cojhPABqU4E",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#gamma-kappa-antigrav-c15000",
       "imageName":"Gladius Gamma.png"
    },
    {
@@ -1451,7 +1451,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Laser Storm",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=sBMbkTz3MWw",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#alpha-ps-supersize-c5000",
       "imageName":"Lokie Alpha.png"
    },
    {
@@ -1466,7 +1466,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Laser Storm",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=UtIPpSx0ctI",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#delta-ls-high-power-c20000",
       "imageName":"Lokie Delta.png"
    },
    {
@@ -1481,7 +1481,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Ion Cannon",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=y-uxjIFOHG0",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#epsilon-teleport-explosive-arrival-c25000",
       "imageName":"Barret Epsilon.png"
    },
    {
@@ -1496,7 +1496,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Ion Cannon",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=Gv8ihZOxMAg",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-5#beta-ic-blast-amplifier-c10000",
       "imageName":"Barret Beta.png"
    },
    {
@@ -1511,7 +1511,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Vorpal Lance",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=Verqv_Y_aHc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#epsilon-remp-extended-range-c25000",
       "imageName":"Saber Epsilon.png"
    },
    {
@@ -1526,7 +1526,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Vorpal Lance",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=EK1C3bxxLQs",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#beta-vl-high-capacity-c10000",
       "imageName":"Saber Beta.png"
    },
    {
@@ -1541,7 +1541,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Phalanx",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=U9GsVGh5AHQ",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#gamma-phalanx-reflector-c15000",
       "imageName":"Valkyrie Gamma.png"
    },
    {
@@ -1556,7 +1556,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Phalanx",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=cQG1vt-uw8E",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#delta-mb-compressed-blast-c20000",
       "imageName":"Valkyrie Delta.png"
    },
    {
@@ -1571,7 +1571,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Point Defense",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=3Nz5IWwOemA",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#beta-pd-sentinel-c10000",
       "imageName":"Proteus Beta.png"
    },
    {
@@ -1586,7 +1586,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Point Defense",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=Pcbk9NDOiNE",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#gamma-main-weapon-unstable-photons-c15000",
       "imageName":"Proteus Gamma.png"
    },
    {
@@ -1601,7 +1601,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Chrono Field",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=cvHoMbMr_Cc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#omega-remp-serenity-c50000",
       "imageName":"Yigothu Omega.png"
    },
    {
@@ -1616,7 +1616,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Chrono Field",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=9QA78ASPFXo",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#sigma-chrono-deep-field-c35000",
       "imageName":"Yigothu Sigma.png"
    },
    {
@@ -1631,7 +1631,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Stun EMP",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=Q2inwpc-gtk",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#beta-ps-super-reflect-c10000",
       "imageName":"Torrent Beta.png"
    },
    {
@@ -1646,7 +1646,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Stun EMP",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=5xitgj4-NGA",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#alpha-semp-extended-range-c5000",
       "imageName":"Torrent Alpha.png"
    },
    {
@@ -1661,7 +1661,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Point Defense",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=6pXGqcBA8ms",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#delta-pd-emp-laser-c20000",
       "imageName":"Orion Delta.png"
    },
    {
@@ -1676,7 +1676,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Point Defense",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=YaO-jNfFRtA",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#lambda-teleport-extended-clearance-c30000",
       "imageName":"Orion Lambda.png"
    },
    {
@@ -1691,7 +1691,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Vorpal Lance",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=442AuQCr3jc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#epsilon-vl-high-capacity-c25000",
       "imageName":"Exarch Epsilon.png"
    },
    {
@@ -1706,7 +1706,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Vorpal Lance",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=nCwennNeAN8",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#omega-main-weapon-phase-refraction-c50000",
       "imageName":"Exarch Omega.png"
    },
    {
@@ -1721,7 +1721,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Chrono Field",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=rcQ75B06p3U",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#lambda-chrono-deep-field-c30000",
       "imageName":"Njörun Lambda.png"
    },
    {
@@ -1736,7 +1736,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Chrono Field",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=JqgZblTAdvk",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#gamma-ps-super-reflect-c15000",
       "imageName":"Njörun Gamma.png"
    },
    {
@@ -1751,7 +1751,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Phalanx",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=5VmCPHcTti4",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#beta-main-weapon-smart-fire-c10000",
       "imageName":"Boxer Beta.png"
    },
    {
@@ -1766,7 +1766,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Phalanx",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=PHorHSdT6ig",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#alpha-double-phalanx-c5000",
       "imageName":"Boxer Alpha.png"
    },
    {
@@ -1781,7 +1781,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Ion Cannon",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=qX1TPrjAPnw",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#alpha-main-weapon-firestorm-spec-b-c5000",
       "imageName":"Sonah Alpha.png"
    },
    {
@@ -1796,7 +1796,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Ion Cannon",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=uOQ06gvSAJ8",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-6#gamma-ic-blast-amplifier-c15000",
       "imageName":"Sonah Gamma.png"
    },
    {
@@ -1811,7 +1811,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Missile Swarm",
       "zen":"Tracking Minigun",
-      "video":"https://www.youtube.com/watch?v=0LcpDgYYZy8",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#sigma-railgun-c35000",
       "imageName":"Corsair Sigma.png"
    },
    {
@@ -1826,7 +1826,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Missile Swarm",
       "zen":"Tracking Minigun",
-      "video":"https://www.youtube.com/watch?v=iMeI2AxTs7k",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#tau-ms-high-explosive-c40000",
       "imageName":"Corsair Tau.png"
    },
    {
@@ -1841,7 +1841,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Vorpal Lance",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=9h-WU7Ka7gA",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#delta-vl-twin-lance-c20000",
       "imageName":"Antioch Delta.png"
    },
    {
@@ -1856,7 +1856,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Vorpal Lance",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=Zoh3nB_RajE",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#beta-vl-high-capacity-c10000",
       "imageName":"Antioch Beta.png"
    },
    {
@@ -1871,7 +1871,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Missile Swarm",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=CBkVoCopr9E",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#delta-ms-high-explosive-c20000",
       "imageName":"UHB Delta.png"
    },
    {
@@ -1886,7 +1886,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Missile Swarm",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=r92Ka2q1lcY",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#epsilon-remp-extended-range-c25000",
       "imageName":"UHB Epsilon.png"
    },
    {
@@ -1901,7 +1901,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Chrono Field",
       "zen":"Trinity Teleport",
-      "video":"https://www.youtube.com/watch?v=Hkjhm3Y8vsA",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#phi-chrono-deep-field-c45000",
       "imageName":"Trinity Phi.png"
    },
    {
@@ -1916,7 +1916,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Chrono Field",
       "zen":"Trinity Teleport",
-      "video":"https://www.youtube.com/watch?v=3PsJW1Bt4YU",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#delta-trinity-teleport-darkfire-blast-c20000",
       "imageName":"Trinity Delta.png"
    },
    {
@@ -1931,7 +1931,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Vorpal Lance",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=8gc3NagM48o",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#lambda-mb-extended-range-c30000",
       "imageName":"Wraith Lambda.png"
    },
    {
@@ -1946,7 +1946,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Vorpal Lance",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=MnT0reXNFok",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#gamma-vl-high-capacity-c15000",
       "imageName":"Wraith Gamma.png"
    },
    {
@@ -1961,7 +1961,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Ion Cannon",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=--QIBJgbsok",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#beta-main-weapon-twin-launchers-c10000",
       "imageName":"X-81 Beta.png"
    },
    {
@@ -1976,7 +1976,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Ion Cannon",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=-zlz156iltg",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#gamma-ic-overcharge-c15000",
       "imageName":"X-81 Gamma.png"
    },
    {
@@ -1991,7 +1991,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Laser Storm",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=MHo3NjMTQFw",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#tau-remp-extended-range-c40000",
       "imageName":"Scuuxun Tau.png"
    },
    {
@@ -2006,7 +2006,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Laser Storm",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=HweL7C83pXw",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#delta-main-weapon-seeker-tkari-c20000",
       "imageName":"Scuuxun Delta.png"
    },
    {
@@ -2021,7 +2021,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Blade Storm",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=F48MVqkNAJQ",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#epsilon-graze-c25000",
       "imageName":"Shogun Epsilon.png"
    },
    {
@@ -2036,7 +2036,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Blade Storm",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=uJXhYaGcd7I",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#sigma-remp-high-damage-c35000",
       "imageName":"Shogun Sigma.png"
    },
    {
@@ -2051,7 +2051,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Ion Cannon",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=NAZBFBX06a4",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#beta-ps-supersize-c10000",
       "imageName":"NC-271 Beta.png"
    },
    {
@@ -2066,7 +2066,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Ion Cannon",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=SSI1NmhVlBk",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#delta-ic-blast-amplifier-c20000",
       "imageName":"NC-271 Delta.png"
    },
    {
@@ -2081,7 +2081,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Barrier",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=p5rbwUx1aqo",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#delta-remp-high-damage-c20000",
       "imageName":"Predator Delta.png"
    },
    {
@@ -2096,7 +2096,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Barrier",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=OqLJ6AJ0_xc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-7#alpha-barrier-reinforced-lining-c5000",
       "imageName":"Predator Alpha.png"
    },
    {
@@ -2111,7 +2111,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Phalanx",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=RulnosruAiY",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#gamma-double-phalanx-c15000",
       "imageName":"Lorilou Gamma.png"
    },
    {
@@ -2126,7 +2126,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Phalanx",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=kIRGP0rDLnQ",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#epsilon-ml-focused-beam-c25000",
       "imageName":"Lorilou Epsilon.png"
    },
    {
@@ -2141,7 +2141,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Point Defense",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=Z13j7q16ytQ",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#sigma-remp-high-damage-c35000",
       "imageName":"AB8_KLYN Sigma.png"
    },
    {
@@ -2156,7 +2156,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Point Defense",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=2eCjNdkxA30",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#delta-pd-emp-laser-c20000",
       "imageName":"AB8_KLYN Delta.png"
    },
    {
@@ -2171,7 +2171,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Ion Cannon",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=DGBU5b5P9Vk",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#gamma-ic-blast-amplifier-c15000",
       "imageName":"Polaris Gamma.png"
    },
    {
@@ -2186,7 +2186,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Ion Cannon",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=LchmZYU81KM",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#beta-ic-overcharge-c10000",
       "imageName":"Polaris Beta.png"
    },
    {
@@ -2201,7 +2201,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Vorpal Lance",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=FSvOKsdEJyQ",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#delta-vl-high-capacity-c20000",
       "imageName":"Icarus Delta.png"
    },
    {
@@ -2216,7 +2216,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Vorpal Lance",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=j5TQ9xRPad8",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#sigma-teleport-explosive-arrival-c35000",
       "imageName":"Icarus Sigma.png"
    },
    {
@@ -2231,7 +2231,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Bullet EMP",
       "zen":"Nightfury",
-      "video":"https://www.youtube.com/watch?v=OOJfAfYNiIs",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#omega-bemp-increased-stun-c50000",
       "imageName":"Mirage Omega.png"
    },
    {
@@ -2246,7 +2246,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Bullet EMP",
       "zen":"Nightfury",
-      "video":"https://www.youtube.com/watch?v=H-wx18YDppc",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#delta-bemp-extended-range-c20000",
       "imageName":"Mirage Delta.png"
    },
    {
@@ -2261,7 +2261,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Phalanx",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=95Fp3mLUemU",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#alpha-kappa-antigrav-c5000",
       "imageName":"Marauder Alpha.png"
    },
    {
@@ -2276,7 +2276,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Phalanx",
       "zen":"Kappa Drive",
-      "video":"https://www.youtube.com/watch?v=CW9guhylft8",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#beta-phalanx-reflector-c10000",
       "imageName":"Marauder Beta.png"
    },
    {
@@ -2291,7 +2291,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Bullet EMP",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=eCSZxBtgkCw",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#lambda-remp-high-damage-c30000",
       "imageName":"Lyova Lambda.png"
    },
    {
@@ -2306,7 +2306,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Bullet EMP",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=wRj3zek5B5o",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#tau-bemp-destructive-wave-c40000",
       "imageName":"Lyova Tau.png"
    },
    {
@@ -2321,7 +2321,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Barrier",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=VwGzbw-XqEw",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#beta-mb-emp-core-c10000",
       "imageName":"Qhelqod Beta.png"
    },
    {
@@ -2336,7 +2336,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Barrier",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=JI6SmicY1EA",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#gamma-barrier-reflector-c15000",
       "imageName":"Qhelqod Gamma.png"
    },
    {
@@ -2351,7 +2351,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Stun EMP",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=2vKnpB6WsT8",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#sigma-semp-high-damage-c35000",
       "imageName":"Nimbus Sigma.png"
    },
    {
@@ -2366,7 +2366,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Stun EMP",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=DvOTwp3MPpY",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#epsilon-remp-extended-range-c25000",
       "imageName":"Nimbus Epsilon.png"
    },
    {
@@ -2381,7 +2381,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Point Defense",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=_-8Y3G3udz4",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#delta-ps-super-reflect-c20000",
       "imageName":"Widget Delta.png"
    },
    {
@@ -2396,7 +2396,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Point Defense",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=mzAwhobsJl4",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-8#tau-pd-bullet-detonator-c40000",
       "imageName":"Widget Tau.png"
    },
    {
@@ -2411,7 +2411,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Laser Storm",
       "zen":"Focus Lance",
-      "video":"https://www.youtube.com/watch?v=DFsoN_JWtWQ",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#tau-ls-shield-breaker-c40000",
       "imageName":"Reaper Tau.png"
    },
    {
@@ -2426,7 +2426,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Laser Storm",
       "zen":"Focus Lance",
-      "video":"https://www.youtube.com/watch?v=wVHD_qgDU5w",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#lambda-fl-lance-wake-c30000",
       "imageName":"Reaper Lambda.png"
    },
    {
@@ -2441,7 +2441,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Point Defense",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=pCsaM9yfF2w",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#tau-pd-bullet-detonator-c40000",
       "imageName":"Luna Tau.png"
    },
    {
@@ -2456,7 +2456,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Point Defense",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=LVlNoYkCnQg",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#omega-teleport-explosive-arrival-c50000",
       "imageName":"Luna Omega.png"
    },
    {
@@ -2471,7 +2471,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Phalanx",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=fu_gfC5n4jw",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#gamma-ps-supersize-c15000",
       "imageName":"Zhetass Gamma.png"
    },
    {
@@ -2486,7 +2486,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Phalanx",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=vYWjeWjNg7s",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#beta-ps-focus-c10000",
       "imageName":"Zhetass Beta.png"
    },
    {
@@ -2501,7 +2501,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Vorpal Lance",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=8xtb2o2syPo",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#epsilon-vl-twin-lance-c25000",
       "imageName":"Neni Epsilon.png"
    },
    {
@@ -2516,7 +2516,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Vorpal Lance",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=s7e8uEuJml4",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#delta-ml-armor-piercing-c20000",
       "imageName":"Neni Delta.png"
    },
    {
@@ -2531,7 +2531,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Ion Cannon",
       "zen":"Focus Lance",
-      "video":"https://www.youtube.com/watch?v=sFuID4owEu4",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#alpha-ic-overcharge-c5000",
       "imageName":"Xavis Alpha.png"
    },
    {
@@ -2546,7 +2546,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Ion Cannon",
       "zen":"Focus Lance",
-      "video":"https://www.youtube.com/watch?v=sFZWeJ42M4c",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#gamma-ic-blast-amplifier-c15000",
       "imageName":"Xavis Gamma.png"
    },
    {
@@ -2561,7 +2561,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Goliath Missile",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=PdZSVFC1lZo",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#lambda-gm-disintegrator-warhead-c30000",
       "imageName":"Claymore Lambda.png"
    },
    {
@@ -2576,7 +2576,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Goliath Missile",
       "zen":"Teleport",
-      "video":"https://www.youtube.com/watch?v=cwmL0zq8dJs",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#delta-tp-extended-clearance-c20000",
       "imageName":"Claymore Delta.png"
    },
    {
@@ -2591,7 +2591,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Goliath Missile",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=030orBCjZBg",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#sigma-remp-high-damage-c35000",
       "imageName":"Starless Sigma.png"
    },
    {
@@ -2606,7 +2606,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Goliath Missile",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=9i28DA82KYk",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#epsilon-gm-high-capacity-c25000",
       "imageName":"Starless Epsilon.png"
    },
    {
@@ -2621,7 +2621,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Missile Swarm",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=D3bzwJjBTP0",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#epsilon-mb-extended-range-c25000",
       "imageName":"Kibarrax Epsilon.png"
    },
    {
@@ -2636,7 +2636,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Missile Swarm",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=k0us8dtZHiQ",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#lambda-ms-armor-piercing-c30000",
       "imageName":"Kibarrax Lambda.png"
    },
    {
@@ -2651,7 +2651,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Goliath Missile",
       "zen":"Focus Lance",
-      "video":"https://www.youtube.com/watch?v=pT1ODpRyF1g",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#sigma-fl-expert-focus-c35000",
       "imageName":"Banshee Sigma.png"
    },
    {
@@ -2666,7 +2666,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Goliath Missile",
       "zen":"Focus Lance",
-      "video":"https://www.youtube.com/watch?v=251yDRKYACA",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#phi-gm-disintegrator-warhead-c45000",
       "imageName":"Banshee Phi.png"
    },
    {
@@ -2681,7 +2681,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Stun EMP",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=qIN2K3rQ5ck",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#delta-semp-high-damage-c20000",
       "imageName":"Zimitr Delta.png"
    },
    {
@@ -2696,7 +2696,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Stun EMP",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=hbusFduFrbo",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-9#epsilon-remp-extended-range-c25000",
       "imageName":"Zimitr Epsilon.png"
    },
    {
@@ -2711,7 +2711,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Vorpal Lance",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=ipC4FIA_RdA",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#epsilon-vl-twin-lance-c25000",
       "imageName":"Jeria Epsilon.png"
    },
    {
@@ -2726,7 +2726,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Vorpal Lance",
       "zen":"Reflex EMP",
-      "video":"https://www.youtube.com/watch?v=O_9bkPFhBdI",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#sigma-remp-high-damage-c35000",
       "imageName":"Jeria Sigma.png"
    },
    {
@@ -2741,7 +2741,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Goliath Missile",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=zqtQIvRc3vs",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#tau-gm-tungsten-warhead-c40000",
       "imageName":"Centurion Tau.png"
    },
    {
@@ -2756,7 +2756,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Goliath Missile",
       "zen":"Personal Shield",
-      "video":"https://www.youtube.com/watch?v=PA2NpPVce2s",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#epsilon-ps-shield-booster-c25000",
       "imageName":"Centurion Epsilon.png"
    },
    {
@@ -2771,7 +2771,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Barrier",
       "zen":"Focus Lance",
-      "video":"https://www.youtube.com/watch?v=wzCtqPu3apw",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#lambda-fl-expert-focus-c30000",
       "imageName":"Stinger Lambda.png"
    },
    {
@@ -2786,7 +2786,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Barrier",
       "zen":"Focus Lance",
-      "video":"https://www.youtube.com/watch?v=yLAWf_KM7o4",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#epsilon-barrier-reflector-c25000",
       "imageName":"Stinger Epsilon.png"
    },
    {
@@ -2801,7 +2801,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Goliath Missile",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=xaZfiQ2Y1aA",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#tau-gm-disintegrator-warhead-c40000",
       "imageName":"Mistral Tau.png"
    },
    {
@@ -2816,7 +2816,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Goliath Missile",
       "zen":"Mega Bomb",
-      "video":"https://www.youtube.com/watch?v=DauHSwONBkE",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#lambda-mb-fast-charge-c30000",
       "imageName":"Mistral Lambda.png"
    },
    {
@@ -2831,7 +2831,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Phalanx",
       "zen":"Clover ATS",
-      "video":"https://www.youtube.com/watch?v=D6TVWHuhlQo",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#epsilon-phalanx-crisis-emp-c25000",
       "imageName":"Esperon Epsilon.png"
    },
    {
@@ -2846,7 +2846,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Phalanx",
       "zen":"Clover ATS",
-      "video":"https://www.youtube.com/watch?v=XstxXpWGiOU",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#sigma-cats-ion-warheads-c35000",
       "imageName":"Esperon Sigma.png"
    },
    {
@@ -2861,7 +2861,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Vorpal Lance",
       "zen":"Clover ATS",
-      "video":"https://www.youtube.com/watch?v=G9FLp-RmCPw",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#tau-vl-trident-c40000",
       "imageName":"Naya Tau.png"
    },
    {
@@ -2876,7 +2876,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Vorpal Lance",
       "zen":"Clover ATS",
-      "video":"https://www.youtube.com/watch?v=hb0kkuFMhUg",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#phi-cats-shield-breaker-c45000",
       "imageName":"Naya Phi.png"
    },
    {
@@ -2891,7 +2891,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Point Defence",
       "zen":"Clover ATS",
-      "video":"https://www.youtube.com/watch?v=QdwH8yfXvrI",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#lambda-cats-double-clover-c30000",
       "imageName":"Pandora Lambda.png"
    },
    {
@@ -2906,7 +2906,7 @@ apexes =[
       "mainType":"High Impact",
       "aura":"Point Defence",
       "zen":"Clover ATS",
-      "video":"https://www.youtube.com/watch?v=pECQXSUakes",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#tau-pd-emp-laser-c40000",
       "imageName":"Pandora Tau.png"
    },
    {
@@ -2921,7 +2921,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Goliath Missile",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=3zXkrKArRVg",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#gamma-gm-proximity-detonator-c15000",
       "imageName":"Monsoon Gamma.png"
    },
    {
@@ -2936,7 +2936,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Goliath Missile",
       "zen":"Mega Laser",
-      "video":"https://www.youtube.com/watch?v=4s0BIkniTpQ",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#epsilon-ml-double-shot-c25000",
       "imageName":"Monsoon Epsilon.png"
    },
    {
@@ -2951,7 +2951,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Vorpal Lance",
       "zen":"Focus Lance",
-      "video":"https://www.youtube.com/watch?v=rwtn2hk_-74",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#sigma-fl-ftl-c35000",
       "imageName":"Warden Sigma.png"
    },
    {
@@ -2966,7 +2966,7 @@ apexes =[
       "mainType":"Shield Breaker",
       "aura":"Vorpal Lance",
       "zen":"Focus Lance",
-      "video":"https://www.youtube.com/watch?v=26z6JpoZFKs",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#phi-vl-trident-c45000",
       "imageName":"Warden Phi.png"
    },
    {
@@ -2981,7 +2981,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Bullet EMP",
       "zen":"Focus Lance",
-      "video":"https://www.youtube.com/watch?v=PXbZ4vIHRB0",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#sigma-fl-high-voltage-c35000",
       "imageName":"Disaris Sigma.png"
    },
    {
@@ -2996,7 +2996,7 @@ apexes =[
       "mainType":"Armor Piercing",
       "aura":"Bullet EMP",
       "zen":"Focus Lance",
-      "video":"https://www.youtube.com/watch?v=qEdGw7Fk6M0",
+      "video":"https://gamefaqs.gamespot.com/iphone/193681-phoenix-ii/faqs/76704/ship-details-part-10#omega-bemp-bullet-detonator-c50000",
       "imageName":"Disaris Omega.png"
    }
 ]
