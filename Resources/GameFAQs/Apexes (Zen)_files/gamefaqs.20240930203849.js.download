@@ -1009,9 +1009,9 @@ function forum_embed_media( str )
 	{
 		return '<div class="embed_frame"><iframe src="https://giphy.com/embed/'+matcha[1]+'" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>';
 	}
-	else if (matcha = str.match(/(?:https?:\/\/)(?:www\.|mobile\.|i\.)?twitter\.com\/([a-z0-9_\-]{1,60})\/status\/([0-9]{10,60})/i))
+	else if (matcha = str.match(/(?:https?:\/\/)(?:www\.|mobile\.|i\.)?(?:twitter\.|x\.)com\/([a-z0-9_\-]{1,60})\/status\/([0-9]{10,60})/i))
 	{
-		return '<div class="embed_frame"><blockquote class="twitter-tweet"><a href="//twitter.com/'+matcha[1]+'/status/'+matcha[2]+'">via Twitter</a></blockquote><scr'+'ipt async src="https://platform.twitter.com/widgets.js"" charset="utf-8"></sc'+'ript></div>';
+		return '<div class="embed_frame"><blockquote class="twitter-tweet"><a href="//twitter.com/'+matcha[1]+'/status/'+matcha[2]+'">via X/Twitter</a></blockquote><scr'+'ipt async src="https://platform.twitter.com/widgets.js"" charset="utf-8"></sc'+'ript></div>';
 	}
 	else if (matcha = str.match(/(?:https?:\/\/)(?:www\.)?twitch.tv\/videos\/([0-9]{5,60})/i))
 	{
@@ -1041,7 +1041,7 @@ function forum_click_to_embed( str )
 		embed = true;
 	else if (str.match(/(?:https?:\/\/)giphy\.com\/(?:gifs\/|.*-)([a-zA-Z0-9_\-]{5,60})/i))
 		embed = true;
-	else if (str.match(/(?:https?:\/\/)(?:www\.|mobile\.|i\.)?twitter\.com\/([a-z0-9_\-]{1,60})\/status\/([0-9]{10,60})/i))
+	else if (str.match(/(?:https?:\/\/)(?:www\.|mobile\.|i\.)?(?:twitter\.|x\.)com\/([a-z0-9_\-]{1,60})\/status\/([0-9]{10,60})/i))
 		embed = true;
 	else if (str.match(/(?:https?:\/\/)(?:www\.)?twitch.tv\/videos\/([0-9]{5,60})/i))
 		embed = true;

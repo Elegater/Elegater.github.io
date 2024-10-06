@@ -4,12 +4,12 @@
     
     const GDPR_APPLIES = false;
     
-    const NEED_GDPR_FLAGS = ['apn', 'ttd', 'rub', 'smart', 'son', 'index'];
+    const NEED_GDPR_FLAGS = ['apn', 'ttd', 'rub', 'smart', 'son', 'index', 'onetag'];
     const NEED_HADRON_MATCH = ['index'];
     const ID_MATCH_VENDORS = {
         "apn": 32, "ttd": 21, "adx": 755, "ado": 565, "pub": 76, "son": 104, "goo": 561, "rub": 52,
-        "impr": 253, "smart": 45, "ppnt": 81, "unruly": 36, "openx": 69, "ip": 561,
-        "tapad": 89, "index": 10
+        "impr": 253, "smart": 45, "ppnt": 81, "unruly": 36, "openx": 69,
+        "tapad": 89, "index": 10, "onetag": 241
     }
     const AU_1D_KEY = '1d';
 
@@ -96,7 +96,7 @@
     };
 
     function randomString(length) {
-        let chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZ'.split('');
+        let chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
         if (!length) {
             length = Math.floor(Math.random() * chars.length);
@@ -168,13 +168,17 @@
         }
     }
 
-    function setupCookieSync(w, d, au1d, hadronId, tcdata) {
-        const pixels = [["apn", "https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=[AU1D]&adnxs_id=$UID"], ["ttd", "https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=[AU1D]"], ["pub", "https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3D[AU1D]"], ["adx", "https://cm.g.doubleclick.net/pixel?google_nid=audigent_w_appnexus_3985&google_cm&google_sc&google_ula=450542624&id=[AU1D]"], ["rub", "https://token.rubiconproject.com/token?pid=50242&puid=[AU1D]"], ["tapad", "https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=[AU1D]&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3D[AU1D]%26tapad_id%3D%24%7BTA_DEVICE_ID%7D"], ["goo", "https://ids.ad.gt/api/v1/g_hosted?id=[AU1D]"], ["ip", "https://ids.ad.gt/api/v1/ip_match?id=[AU1D]"], ["son", "https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=[AU1D]&uid=[UID]"], ["index", "https://ssum-sec.casalemedia.com/ium?sourceid=15&uid=[HID]"], ["amo", "https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!{TURN_UUID}%26id%3D[AU1D]"], ["openx", "https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3D[AU1D]%26auid%3D[AU1D]"], ["colossus", "https://sync.colossusssp.com/ebfa23da174faa55634171c5e49d0152.gif?puid=[AU1D]&redir=http%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fcolossus%3Fcls_id%3D%5BUID%5D%26id%3D[AU1D]"], ["ado", "https://dpm.demdex.net/ibs:dpid=348447&dpuuid=[AU1D]&redir=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fadb_match%3Fadb%3D%24%7BDD_UUID%7D%26id%3D[AU1D]"], ["unruly", "https://sync.1rx.io/usersync/audigent/0?dspret=1&redir=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Funruly%3Fid%3D[AU1D]%26unruly_id%3D%5BRX_UUID%5D"]];
-        let pixelCount = 0;
+    function setupIdentitySync(w, d, au1d) {
+        const pixelHref = "https://ids.ad.gt/api/v1/ip_match?id=" + au1d;
+        const img = imgSrcToElement(pixelHref, d);
+        d.body.appendChild(img);
+    }
 
+    function setupCookieSync(w, d, au1d, hadronId, tcdata) {
+        const pixels = [["apn", "https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=[AU1D]&adnxs_id=$UID"], ["ttd", "https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=[AU1D]"], ["pub", "https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3D[AU1D]"], ["adx", "https://cm.g.doubleclick.net/pixel?google_nid=audigent_w_appnexus_3985&google_cm&google_sc&google_ula=450542624&id=[AU1D]"], ["rub", "https://token.rubiconproject.com/token?pid=50242&puid=[AU1D]"], ["tapad", "https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=[AU1D]&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3D[AU1D]%26tapad_id%3D%24%7BTA_DEVICE_ID%7D"], ["goo", "https://ids.ad.gt/api/v1/g_hosted?id=[AU1D]"], ["ado", "https://dpm.demdex.net/ibs:dpid=348447&dpuuid=[AU1D]&redir=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fadb_match%3Fadb%3D%24%7BDD_UUID%7D%26id%3D[AU1D]"], ["unruly", "https://sync.1rx.io/usersync/audigent/0?dspret=1&redir=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Funruly%3Fid%3D[AU1D]%26unruly_id%3D%5BRX_UUID%5D"], ["amo", "https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!{TURN_UUID}%26id%3D[AU1D]"], ["openx", "https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3D[AU1D]%26auid%3D[AU1D]"], ["colossus", "https://sync.colossusssp.com/ebfa23da174faa55634171c5e49d0152.gif?puid=[AU1D]&redir=http%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fcolossus%3Fcls_id%3D%5BUID%5D%26id%3D[AU1D]"], ["index", "https://ssum-sec.casalemedia.com/ium?sourceid=15&uid=[HID]"], ["son", "https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=[AU1D]&uid=[UID]"], ["onetag", "https://onetag-sys.com/match/?int_id=180&uid=[AU1D]"]];
+        let pixelCount = 0;
         const hasLS = hasLocalStorage(w);
         const lastSeenPixels = getLastSeenPixels(w, d, hasLS) || {};
-
         for (const pixelInfo of pixels) {
             if (pixelCount > 9)
                 break;
@@ -218,12 +222,11 @@
                 const img = imgSrcToElement(pixelHref, d);
                 d.body.appendChild(img);
 
-                if (pixelType !== 'ip') {
-                    lastSeenPixels[pixelType] = CURRENT_SECONDS
-                }
+                lastSeenPixels[pixelType] = CURRENT_SECONDS;
                 pixelCount += 1;
             }
         }
+        setCookie(d, "last_seen_pixels", "", 0); // cleanup legacy
         setLastSeenPixels(w, d, hasLS, lastSeenPixels);
     }
 
@@ -273,6 +276,7 @@
         w.auvars['158'].disable_ecommerce = true;
         
 
+        setupIdentitySync(w, d, au1d);
         setupCookieSync(w, d, au1d, hadronId, tcdata);
 
         var a = d.createElement(t);
