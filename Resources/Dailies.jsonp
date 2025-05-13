@@ -20,7 +20,7 @@ dailies = [
     {
         id: 3,
         mapA:"Blight, Sector[3,84]",
-        typeA:"Arnored, General/Boomerang",
+        typeA:"Armored, General - No Pellets",
         mapB:"Dovacoon Forge",
         typeB:"Armored, Dart/Boomerang/Pellet",
         mapC:"",
