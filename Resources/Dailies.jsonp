@@ -4,7 +4,7 @@ dailies = [
         mapA:"Arcology CQ-6",
         typeA:"Shielded, Dart/MIRV",
         mapB:"Prometheus Array",
-        typeB:"Unprotected, Shuriken/Boomerang",
+        typeB:"Unprotected, Shuriken/Boomerang/MIRV",
         mapC:"",
         typeC:""
     },
@@ -15,7 +15,7 @@ dailies = [
         mapB:"",
         typeB:"",
         mapC:"Prometheus Array",
-        typeC:"Shielded, General/Boomerang"
+        typeC:"Shielded, General - No Pellets"
     },
     {
         id: 3,
@@ -47,7 +47,7 @@ dailies = [
     {
         id: 6,
         mapA:"Zhey Auna",
-        typeA:"Unprotected, Shuriken/Boomerang",
+        typeA:"Unprotected, Shuriken/Boomerang/MIRV",
         mapB:"",
         typeB:"",
         mapC:"Arcology CQ-6",
@@ -58,18 +58,18 @@ dailies = [
         mapA:"Gau Prime",
         typeA:"Shielded, Laser/Pellet",
         mapB:"Ceres Major",
-        typeB:"Shielded, General",
+        typeB:"Shielded, General - No Rangs",
         mapC:"",
         typeC:""
     },
     {
         id: 8,
         mapA:"Ceres Major",
-        typeA:"Shielded, Shuriken/Pellet/Laser",
+        typeA:"Shielded, Laser/Shuriken/Pellet",
         mapB:"",
         typeB:"",
         mapC:"Blight, Sector[3,84]",
-        typeC:"Unprotected, General/Boomerang"
+        typeC:"Unprotected, General - No Pellets"
     },
     {
         id: 9,
@@ -83,7 +83,7 @@ dailies = [
     {
         id: 10,
         mapA:"Gau Prime",
-        typeA:"Shielded, General",
+        typeA:"Shielded, General - No Rangs",
         mapB:"",
         typeB:"",
         mapC:"Ceres Major",
@@ -110,7 +110,7 @@ dailies = [
     {
         id: 13,
         mapA:"Zhey Auna",
-        typeA:"Unprotected, General/Boomerang",
+        typeA:"Unprotected, General - No Pellets",
         mapB:"Ceres Major",
         typeB:"Shielded, Laser/Shuriken*",
         mapC:"",
@@ -137,7 +137,7 @@ dailies = [
     {
         id: 16,
         mapA:"Zhey Auna",
-        typeA:"Unprotected, Shuriken/Boomerang",
+        typeA:"Unprotected, Shuriken/Boomerang/MIRV",
         mapB:"",
         typeB:"",
         mapC:"Blight, Sector[3,84]",
@@ -148,7 +148,7 @@ dailies = [
         mapA:"Gau Prime",
         typeA:"Shielded, Laser/Shuriken",
         mapB:"Dovacoon Forge",
-        typeB:"Armored, General/Boomerang",
+        typeB:"Armored, General - No Pellets",
         mapC:"",
         typeC:""
     },
@@ -173,7 +173,7 @@ dailies = [
     {
         id: 20,
         mapA:"Gau Prime",
-        typeA:"Shielded, General",
+        typeA:"Shielded, General - No Rangs",
         mapB:"",
         typeB:"",
         mapC:"Arcology CQ-6",
