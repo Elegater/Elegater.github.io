@@ -15,12 +15,12 @@ dailies = [
         mapB:"",
         typeB:"",
         mapC:"Prometheus Array",
-        typeC:"Shielded, General - No Pellets"
+        typeC:"Shielded, General (−Pellets)"
     },
     {
         id: 3,
         mapA:"Blight, Sector[3,84]",
-        typeA:"Armored, General - No Pellets",
+        typeA:"Armored, General (−Pellets)",
         mapB:"Dovacoon Forge",
         typeB:"Armored, Dart/Boomerang/Pellet",
         mapC:"",
@@ -33,7 +33,7 @@ dailies = [
         mapB:"",
         typeB:"",
         mapC:"Dovacoon Forge",
-        typeC:"Armored, Shuriken/MIRV(B)*"
+        typeC:"Armored, Shuriken/MIRV_B¤"
     },
     {
         id: 5,
@@ -58,7 +58,7 @@ dailies = [
         mapA:"Gau Prime",
         typeA:"Shielded, Laser/Pellet",
         mapB:"Ceres Major",
-        typeB:"Shielded, General - No Rangs",
+        typeB:"Shielded, General (−Boomerangs)",
         mapC:"",
         typeC:""
     },
@@ -69,12 +69,12 @@ dailies = [
         mapB:"",
         typeB:"",
         mapC:"Blight, Sector[3,84]",
-        typeC:"Unprotected, General - No Pellets"
+        typeC:"Unprotected, General (−Pellets)"
     },
     {
         id: 9,
         mapA:"Zhey Auna",
-        typeA:"Unprotected, General - No Lasers",
+        typeA:"Unprotected, General (−Lasers)",
         mapB:"Arcology CQ-6",
         typeB:"Shielded, Laser/Pellet",
         mapC:"",
@@ -83,7 +83,7 @@ dailies = [
     {
         id: 10,
         mapA:"Gau Prime",
-        typeA:"Shielded, General - No Rangs",
+        typeA:"Shielded, General (−Boomerangs)",
         mapB:"",
         typeB:"",
         mapC:"Ceres Major",
@@ -94,7 +94,7 @@ dailies = [
         mapA:"Arcology CQ-6",
         typeA:"Shielded, Lasers Only",
         mapB:"Blight, Sector[3,84]",
-        typeB:"Shuriken/MIRV(A)",
+        typeB:"Shuriken/MIRV_A",
         mapC:"",
         typeC:""
     },
@@ -110,9 +110,9 @@ dailies = [
     {
         id: 13,
         mapA:"Zhey Auna",
-        typeA:"Unprotected, General - No Pellets",
+        typeA:"Unprotected, General (−Pellets)",
         mapB:"Ceres Major",
-        typeB:"Shielded, Laser/Shuriken*",
+        typeB:"Shielded, Laser/Shuriken¤",
         mapC:"",
         typeC:""
     },
@@ -123,12 +123,12 @@ dailies = [
         mapB:"",
         typeB:"",
         mapC:"Gau Prime",
-        typeC:"Shielded, Shuriken/MIRV(A)"
+        typeC:"Shielded, Shuriken/MIRV_A"
     },
     {
         id: 15,
         mapA:"Dovacoon Forge",
-        typeA:"Armored, Shuriken/MIRV(A)",
+        typeA:"Armored, Shuriken/MIRV_A",
         mapB:"Arcology CQ-6",
         typeB:"Shielded, Dart/Boomerang/Laser",
         mapC:"",
@@ -148,7 +148,7 @@ dailies = [
         mapA:"Gau Prime",
         typeA:"Shielded, Laser/Shuriken",
         mapB:"Dovacoon Forge",
-        typeB:"Armored, General - No Pellets",
+        typeB:"Armored, General (−Pellets)",
         mapC:"",
         typeC:""
     },
@@ -159,21 +159,21 @@ dailies = [
         mapB:"",
         typeB:"",
         mapC:"Gau Prime",
-        typeC:"Shielded, General - No Lasers"
+        typeC:"Shielded, General (−Lasers)"
     },
     {
         id: 19,
         mapA:"Arcology CQ-6",
-        typeA:"Shielded, Shuriken/MIRV(B)",
+        typeA:"Shielded, Shuriken/MIRV_B",
         mapB:"Ceres Major",
-        typeB:"Armored, Dart/MIRV*",
+        typeB:"Armored, Dart/MIRV¤",
         mapC:"",
         typeC:""
     },
     {
         id: 20,
         mapA:"Gau Prime",
-        typeA:"Shielded, General - No Rangs",
+        typeA:"Shielded, General (−Boomerangs)",
         mapB:"",
         typeB:"",
         mapC:"Arcology CQ-6",
